@@ -12,6 +12,9 @@ $('#box-left img').click(function() {
 		$('img.t1').click();
 
 
+
+
+
 		$('#mobile-btn button').click(function() {
 			var thisClass = this.className.slice(0,2);
 			$('div.b1').hide();
@@ -123,7 +126,7 @@ $(document).ready(function() {
 	$('.right-1').click(function() {
 		var currentText = $('.slider-text.active');
 		var currentTextIndex = $('.slider-text.active').index();
-		var prevTextIndex = currentTextIndex - 1;
+		var prevTextIndex = currentTextIndex + 1;
 		var prevText = $('.slider-text').eq(prevTextIndex);
 
 		currentText.fadeOut(1000);
