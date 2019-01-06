@@ -52,6 +52,7 @@ body {
 
 .icons img {
 	margin-right: 201px;
+	cursor: pointer;
 }
 
 .wrapper {
@@ -184,11 +185,6 @@ ul.menu li {
 	transition: .6s;
 }
 
-main {
-	margin-bottom: 0px;
-	overflow: hidden;
-}
-
 .main {
 	display: flex;
 	justify-content: center;
@@ -197,6 +193,8 @@ main {
 	background-image: url(../images/pomb-down.png);
 	background-repeat: no-repeat;
 	background: #e6f1fa;
+	overflow: hidden;
+	margin-bottom: 0px;
 }
 
 .main-photo {
@@ -397,6 +395,13 @@ button.mbl:hover, button.tiny:hover {
 	font-size: 30px;
 	margin: 27px 0;
 	text-align: center;
+}
+
+.test p span {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Brutal Type-ExtraLight, sans-serif;
+
 }
 
 .mobile-version h4 {
@@ -1020,21 +1025,21 @@ footer a {
 		background-position: 55px 10px;
 		transition: .6s;
 	}
-	.submenu button.btn-1:hover {
+	.submenu a.btn-1:hover {
 		background: #384E80;
 		background-image: url(../images/centre.png);
 		background-repeat: no-repeat;
 		background-position: 55px 10px;
 		transition: .6s;
 	}
-	.submenu button.btn-2 {
+	.submenu a.btn-2 {
 		background-image: url(../images/services.png);
 		background-repeat: no-repeat;
 		background-position: 45px 10px;
 		transition: .6s;
 
 	}
-	.submenu button.btn-2:hover {
+	.submenu a.btn-2:hover {
 		background: #384E80;
 		background-image: url(../images/services.png);
 		background-repeat: no-repeat;
@@ -1046,9 +1051,10 @@ footer a {
 		background-repeat: no-repeat;
 		background-position: 72px 10px;
 		transition: .6s;
+		height: 100px;
 
 	}
-	.submenu button.btn-3:hover {
+	.submenu a.btn-3:hover {
 		background: #384E80;
 		background-image: url(../images/team.png);
 		background-repeat: no-repeat;
@@ -1062,7 +1068,7 @@ footer a {
 		transition: .6s;
 
 	}
-	.submenu button.btn-4:hover {
+	.submenu a.btn-4:hover {
 		background: #384E80;
 		background-image: url(../images/contact.png);
 		background-repeat: no-repeat;
@@ -1070,7 +1076,7 @@ footer a {
 		transition: .6s;
 	}
 	
-	.submenu button {
+	.submenu a {
 		color: #fff;
 		padding: 50px 40px 14px 40px;
 		margin-right: 10px;
@@ -1079,7 +1085,7 @@ footer a {
 		border: none;
 		border-radius: 8px;
 		cursor: pointer;
-		height: 90%;
+		height: 100px;
 	}
 	
 	.article-header {
@@ -1203,7 +1209,7 @@ footer a {
 }
 
 @media only screen and (max-width: 629px) {
-	.submenu button {
+	.submenu a {
 		color: #fff;
 		padding: 40px 20px 14px 30px;
 		margin-right: 6px;
@@ -1363,14 +1369,14 @@ footer a {
 		margin-top: 80px;
 	}
 
-	.submenu button.btn-3 {
-		padding: 30px 15px 10px 25px;
+	.submenu a.btn-3 {
+		padding: 45px 15px 10px 25px;
 		background-position: 52px 10px;
 	}
 }
 
 @media only screen and (max-width: 452px) {
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-position: 45px 10px;
 	}
 }
@@ -1446,24 +1452,24 @@ footer a {
 		align-items: center;
 	}
 
-	.submenu button {
+	.submenu a {
 		font-size: 12px;
 		padding-top: 20px;
 	}
 
-	.submenu button.btn-1 {
+	.submenu a.btn-1 {
 		background-position: 35px 5px;
 	}
 
-	.submenu button.btn-2 {
+	.submenu a.btn-2 {
 		background-position: 20px 5px;
 	}
 
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-position: 100px 20px;
 	}
 
-	.submenu button.btn-4 {
+	.submenu a.btn-4 {
 		background-position: 35px 10px;
 	}
 
@@ -1482,15 +1488,32 @@ footer a {
 		background-position: 12px 10px;
 	}
 
-	.submenu button {
-		padding: 40px 13px 14px 15px;
-		margin-right: 3px;
-	}
-
 	/*.submenu {
 		margin-top: 40%;
 	}*/
 }
+
+
+@media only screen and (max-width: 421px) {
+	.submenu a {
+		padding: 40px 13px 14px 15px;
+		margin-right: 3px;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.submenu a {
+		padding: 25px 2px 2px 15px;
+	}
+
+	.submenu a.btn-1{
+		height: 70%;
+	}
+
+	.submenu a.btn-3 {
+	}
+}
+
 
 @media only screen and (max-width: 379px) {
 	.input-mobile input {
@@ -1505,12 +1528,18 @@ footer a {
 	/*.submenu {
 		margin-top: 40%;
 	}*/
+
+	.submenu a {
+		padding: 40px 7px 7px 15px;
+	}
 }
 @media only screen and (max-width: 933px) {
 	.submenu {
 			margin-left: 150px;
 	}
 }
+
+
 @media only screen and (max-width: 855px) {
 	.submenu {
 			margin-left: 120px;
@@ -1529,6 +1558,12 @@ footer a {
 @media only screen and (max-width: 554px) {
 	.submenu {
 			margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 451px) {
+	.submenu {
+			margin-left: 2px;
 	}
 }
 
@@ -1575,7 +1610,7 @@ footer a {
 		background-position: 40px 10px;
 	}
 
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-image: url(../images/team.png);
 		background-repeat: no-repeat;
 		background-position: 45px 10px;
@@ -1597,11 +1632,11 @@ footer a {
 }
 
 @media only screen and (max-width: 390px) {
-	.submenu button.btn-1 {
+	.submenu a.btn-1 {
 		background-position: 30px 7px;
 	}
 
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-position: 45px 7px;
 	}
 }
@@ -1646,33 +1681,94 @@ footer a {
 
 @media only screen and (max-width: 493px) {
 
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-position: 55px 6px;
 	}
 
 }
 
 @media only screen and (max-width: 470px) {
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-position: 45px 6px;
 	}
 }
 
 @media only screen and (max-width: 447px) {
-	.submenu button.btn-3 {
+	.submenu a.btn-3 {
 		background-position: 35px 6px;
 	}
 }
 
 @media only screen and (max-width: 629px) {
-	.submenu button.btn-2 {
+	.submenu a.btn-2 {
 		background-position: 45px 3px;
 	}
 }
 
 @media only screen and (max-width: 390px) {
-	.submenu button.btn-2 {
+	.submenu a.btn-2 {
 		background-position: 25px 3px;
+	}
+}
+
+@media only screen and (max-width: 344px) {
+	.submenu a{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 404px) {
+	.submenu a.btn-2 {
+		background-position: 30px 4px;
+	}
+
+	.submenu a.btn-3 {
+		background-position: 50px 3px;
+	}
+}
+
+@media only screen and (max-width: 339px) {
+	.submenu a{
+		width: 80%;
+	}
+
+	.submenu a.btn-1 {
+		background-position: 20px 3px;
+	}
+
+	.submenu a.btn-2 {
+		background-position: 16px 3px;
+	}
+
+	.submenu a.btn-3 {
+		background-position: 25px 4px;
+	}
+
+	.submenu a.btn-4 {
+		background-position: 25px 6px;
+	}
+}
+
+@media only screen and (max-width: 522px) {
+	.submenu a {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.submenu a.btn-1 {
+		padding-top: 60px;
+	}
+
+	.submenu a {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+}
+
+@media only screen and (max-width: 344px) {
+	.submenu a.btn-1 {
+		padding-top: 75px;
 	}
 }
 
