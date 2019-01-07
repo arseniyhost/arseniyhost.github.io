@@ -100,7 +100,7 @@ body {
   position: absolute;
   right: -300px;
   bottom: -265px;
-  z-index: 5;
+  z-index: 1;
 }
 
 .article-header {
@@ -684,6 +684,8 @@ button.mbl:hover, button.tiny:hover {
 .box-right {
   padding: 51px 0;
   padding-left: 77px;
+  position: relative;
+  z-index: 3;
 }
 
 .box-right.t1, .box-right.t2, .box-right.t3 {
@@ -802,6 +804,8 @@ button.mbl:hover, button.tiny:hover {
 
 .fa-chevron-right {
   margin-left: 500px;
+  position: relative;
+  z-index: 5;
 }
 
 .card {
