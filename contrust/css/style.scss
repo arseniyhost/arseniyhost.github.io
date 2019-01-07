@@ -1490,8 +1490,8 @@ footer a {
 
 @media only screen and (max-width: 419px) {
 	.mobile img {
-		width: 40%;
-		height: 23%;
+		width: 80%;
+		height: 70%;
 	}
 
 	.mobile button {
@@ -1501,6 +1501,13 @@ footer a {
 	/*.submenu {
 		margin-top: 40%;
 	}*/
+}
+
+@media only screen and (max-width: 340px) {
+	.mobile img {
+		width: 70%;
+		height: 60%;
+	}
 }
 
 
