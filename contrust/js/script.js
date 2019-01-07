@@ -1,32 +1,34 @@
-$('#box-left span').click(function() {
-			var thisClass = this.className.slice(0,2);
-			$('div.t1').hide();
-			$('div.t2').hide();
-			$('div.t3').hide();
-			$('div.' + thisClass).fadeIn(500);
-			$('#box-left span').removeClass('active');
-			$(this).addClass('active');
-			return false;
-		});
+$(document).ready(function() {
 
-		$('span.t1').click();
+	$('#box-left span').click(function() {
+				var thisClass = this.className.slice(0,2);
+				$('div.t1').hide();
+				$('div.t2').hide();
+				$('div.t3').hide();
+				$('div.' + thisClass).fadeIn(500);
+				$('#box-left span').removeClass('active');
+				$(this).addClass('active');
+				return false;
+			});
+
+			$('span.t1').click();
 
 
 
 
 
-		$('#mobile-btn button').click(function() {
-			var thisClass = this.className.slice(0,2);
-			$('div.b1').hide();
-			$('div.b2').hide();
-			$('div.b3').hide();
-			$('div.' + thisClass).fadeIn(500);
-			$('#mobile-btn img').removeClass('active');
-			$(this).addClass('active');
-			return false;
-		});
+			$('#mobile-btn button').click(function() {
+				var thisClass = this.className.slice(0,2);
+				$('div.b1').hide();
+				$('div.b2').hide();
+				$('div.b3').hide();
+				$('div.' + thisClass).fadeIn(500);
+				$('#mobile-btn img').removeClass('active');
+				$(this).addClass('active');
+				return false;
+			});
 
-		$('button.b1').click();
+			$('button.b1').click();
 
 
 
@@ -42,6 +44,8 @@ $('#box-left span').click(function() {
         }, function(){
             $(this).find('ul').slideUp('fast');
         });
+	});
+
 });
 
 		$(document).ready(function() {
@@ -54,9 +58,8 @@ $('#box-left span').click(function() {
 				$('body,html').animate( {
 					scrollTop: top}, 1500);
 			});
-		});
 
-		$(document).ready(function() {
+
 			$('.submenu').on('click', 'a', function(event) {
 				event.preventDefault();
 
@@ -66,9 +69,7 @@ $('#box-left span').click(function() {
 				$('body,html').animate( {
 					scrollTop: top}, 1500);
 			});
-		});
 
-		$(document).ready(function() {
 			$('.footer-menu').on('click', 'a', function(event) {
 				event.preventDefault();
 
@@ -78,9 +79,7 @@ $('#box-left span').click(function() {
 				$('body,html').animate( {
 					scrollTop: top}, 1500);
 			});
-		});
 
-		$(document).ready(function() {
 			$('.footer-box ul').on('click', 'a', function(event) {
 				event.preventDefault();
 
