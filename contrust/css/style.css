@@ -381,9 +381,25 @@ button.mbl:hover, button.tiny:hover {
   margin-left: -26px;
 }
 
-.tab img {
-  padding-bottom: 10px;
+.tab span {
   cursor: pointer;
+  width: 28px;
+  height: 28px;
+  display: block;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: relative;
+  border: 3px solid #384E80;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 10px 5px;
+}
+
+.tab span.active {
+  background-color: #384E80;
 }
 
 .menusub {
