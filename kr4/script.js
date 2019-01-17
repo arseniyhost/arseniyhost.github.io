@@ -155,5 +155,5 @@ if(js == "EcmaScript")
 else
 	alert('Не знаете? "EcmaScript"!');
 
-
+/*qwerty*/
 
