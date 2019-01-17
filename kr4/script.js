@@ -1,4 +1,4 @@
-document.write("<h2>Tast 1</h1>");
+document.write("<h1>Tast 1</h1>");
 
 var days = 365;
 var name = "Земля";
