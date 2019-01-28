@@ -59,7 +59,6 @@ document.getElementById('text').innerHTML = hour + ":" + minutes + ":" + seconds
 
 // txt = document.write(hour + ":" + minutes + ":" + seconds);
 
-////////////////////////////////////////TASK 4////////////////////////////////////
 
 var days = ["Воскресенье","Понедельник","Вторник","Среда","Четверк","Пятница","Суббота"];
 var months = ["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"];
@@ -100,7 +99,7 @@ task4.onclick = function()  {
 	}
 }
 
-////////////////////////////////////////TASK 4////////////////////////////////////
+
 
 	
 
@@ -108,8 +107,12 @@ var task5 = document.getElementById('btn5');
 
 
 var forTesting = "8 пингвинов и 9 карасей";
-
+var ttt = "00000";
 task5.onclick = function () {
+	string(forTesting);
+}
+
+function string(forTesting) {
 	var number = /\d/;
 
 	var result = forTesting.search(number);
@@ -150,44 +153,67 @@ find(tel,sign);
 
 var task8 = document.getElementById('btn8');
 
-task8.onclick = function qwerty(str) {
+task8.onclick = function()  {
 	var str = prompt("Введите любое слово",'');
-
-	var top = (str.length > 10) ? alert(str + " больше 10") : (str.length == 10) ? alert(str + " равно 10") : alert(str + " меньше 10");
-
-	return str.length;
-
 	qwerty(str);
 }
 
+function qwerty(str) {
+	var top = (str.length > 10) ? alert(str + " больше 10") : (str.length == 10) ? alert(str + " равно 10") : alert(str + " меньше 10");
 
-
-
-document.write('<br>');
-for(var i = 1; i < 8; i++) {
-	document.write(i + " = " + i*i + "<br>");
+	return str.length;
 }
 
 
-var task9 = document.getElementById('btn9');
 
-task9.onclick = function summ() {
-	var first = prompt("Введите любое число",3);
-	var second = prompt("Введите еще число",1);
 
-	var sum;
+var btn9 = document.getElementById('btn9');
 
-	sum = first + second;
-
-	alert(sum);
+btn9.onclick = function() {
+	task9();
+	document.getElementById('tiny').innerHTML = head;
+	
 }
 
 
-// var i = 0;
-// while(i < 3) {
-// 	alert("номер " + i + " !");
-// 	i++;
+function task9() {
+		for(var i = 1; i < 8; i++) {
+		console.log(i + " = " + i*i);
+	}
+}
+
+var head = 'Смотрите в console.log'; 
+
+
+
+
+
+// var task9 = document.getElementById('btn9');
+
+// task9.onclick = function summ() {
+// 	var first = prompt("Введите любое число",3);
+// 	var second = prompt("Введите еще число",1);
+
+// 	var sum;
+
+// 	sum = first + second;
+
+// 	alert(sum);
 // }
+
+var last = document.getElementById('btn10');
+
+last.onclick = function() {
+		var i = 0;
+
+		while(i < 3) {
+		alert("номер " + i + " !");
+		i++;
+	}
+}
+
+
+
 
 
 
