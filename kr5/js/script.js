@@ -188,18 +188,18 @@ var head = 'Смотрите в console.log';
 
 
 
-// var task9 = document.getElementById('btn9');
+var task9 = document.getElementById('btn9');
 
-// task9.onclick = function summ() {
-// 	var first = prompt("Введите любое число",3);
-// 	var second = prompt("Введите еще число",1);
+task9.onclick = function summ() {
+	var first = prompt("Введите любое число",3);
+	var second = prompt("Введите еще число",1);
 
-// 	var sum;
+	var sum;
 
-// 	sum = first + second;
+	sum = Number(first) + Number(second);
 
-// 	alert(sum);
-// }
+	alert(sum);
+}
 
 var last = document.getElementById('btn10');
 
