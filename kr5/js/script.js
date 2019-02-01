@@ -167,16 +167,9 @@ function qwerty(str) {
 
 
 
-var btn9 = document.getElementById('btn9');
-
-btn9.onclick = function() {
-	task9();
-	document.getElementById('tiny').innerHTML = head;
-	
-}
 
 
-function task9() {
+function task99() {
 		for(var i = 1; i < 8; i++) {
 		console.log(i + " = " + i*i);
 	}
@@ -199,6 +192,9 @@ task9.onclick = function summ() {
 	sum = Number(first) + Number(second);
 
 	alert(sum);
+
+	task99();
+	document.getElementById('tiny').innerHTML = head;
 }
 
 var last = document.getElementById('btn10');
