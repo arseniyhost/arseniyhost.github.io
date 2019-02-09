@@ -577,7 +577,7 @@ main {
   display: -moz-box;
   display: flex; }
 
-.menu-left ul li, .menu-left ul img {
+.menu-left ul li, .menu-left ul li img {
   margin-right: 30px;
   font-family: 'Uduntu Regular', sans-serif; }
 
@@ -588,6 +588,9 @@ main {
 .menu-left ul li {
   margin-bottom: 0px;
   margin-top: 5px; }
+
+.menu-left ul li:first-child {
+  margin-top: 0px; }
 
 .menu-left ul .none {
   margin: 0;
@@ -1509,8 +1512,7 @@ img.slide {
   -moz-box-shadow: 0px 0px 8px 0px #c0c0c0;
   box-shadow: 0px 0px 8px 0px #c0c0c0; }
 
-/* Style the buttons inside the tab */
-.tab button {
+.tab div {
   background-color: inherit;
   float: left;
   border: none;
@@ -1525,15 +1527,12 @@ img.slide {
   width: 360px;
   height: 92px; }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
+.tab div:hover {
   background-color: #F1F3F4; }
 
-/* Create an active/current tablink class */
-.tab button.active {
+.tab div.active {
   background-color: #E7EAED; }
 
-/* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
@@ -1562,7 +1561,6 @@ img.slide {
 .tablinks {
   text-align: left; }
 
-/* Fade in tabs */
 @-webkit-keyframes fadeEffect {
   from {
     opacity: 0; }
@@ -2589,9 +2587,7 @@ img.slide {
     display: -moz-box;
     display: flex; }
     .main-love .love-information .box-ul ul {
-      -webkit-padding-start: 0px;
-      -moz-padding-start: 0px;
-      padding-inline-start: 0px; }
+      padding: 0px; }
       .main-love .love-information .box-ul ul li {
         list-style: none;
         margin-bottom: 10px;

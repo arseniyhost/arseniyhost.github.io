@@ -89,7 +89,7 @@ main {
 	display: flex;
 }
 
-.menu-left ul li, .menu-left ul img {
+.menu-left ul li, .menu-left ul li img {
 	margin-right: 30px;
 	font-family: 'Uduntu Regular', sans-serif;
 }
@@ -102,6 +102,10 @@ main {
 .menu-left ul li {
 	margin-bottom: 0px;
 	margin-top: 5px;
+}
+
+.menu-left ul li:first-child {
+	margin-top: 0px;
 }
 
 .menu-left ul .none {

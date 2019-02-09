@@ -33,8 +33,7 @@
     display: -ms-flexbox;
     display: flex; }
     .main-love .love-information .box-ul ul {
-      -webkit-padding-start: 0px;
-      padding-inline-start: 0px; }
+      padding: 0px; }
       .main-love .love-information .box-ul ul li {
         list-style: none;
         margin-bottom: 10px;
