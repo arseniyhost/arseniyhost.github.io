@@ -1,0 +1,303 @@
+@media screen and (max-width: 1174px) {
+	footer {
+		.footer-under {
+			.container {
+				display: flex;
+				justify-content: space-around;
+				.box {
+					margin-right: 0px;
+				}
+
+				.icons {
+					margin-left: 120px;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 717px) {
+	footer {
+		.footer-under {
+			.container {
+				flex-direction: column;
+				align-items: center;
+
+				.icons {
+					margin-top: 30px;
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 423px) {
+	footer {
+		.footer-under {
+			.container {
+				.icons {
+					flex-wrap: wrap;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 406px) {
+	footer {
+		.footer-under {
+			.container {
+				.icons {
+					a:last-child {
+						margin-top: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 382px) {
+	footer {
+		.footer-under {
+			.container {
+				.icons {
+					a:nth-child(8) {
+						margin-top: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 337px) {
+	footer {
+		.footer-under {
+			.container {
+				.icons {
+					a:nth-child(7) {
+						margin-top: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 292px) {
+	footer {
+		.footer-under {
+			.container {
+				.icons {
+					a:nth-child(6) {
+						margin-top: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	footer {
+		.footer-full {
+			flex-direction: column;
+			.footer-btn {
+				margin-left: 0px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 790px) {
+	footer {
+		.footer-full {
+			.full-text {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1557px) {
+	footer {
+		.footer-info {
+			.container {
+				.box {
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1456px) {
+	footer {
+		.footer-info {
+			.container {
+				justify-content: space-between;
+				.box {
+					
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	footer {
+		.footer-info {
+			.container {
+				flex-direction: column;
+				.box {
+					border-bottom: 1px solid #2d2d2d;
+					border-right: none;
+					margin-bottom: 40px;
+				}
+
+				.box:last-child {
+					margin-bottom: 0px;
+				}
+				
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+	footer {
+		.footer-info {
+			.container {
+				width: 100%;
+				flex-direction: column;
+				.box {
+					padding: 0px 50px;
+				}	
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1034px) {
+	footer {
+		.forms-footer {
+
+			.form {
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				p {
+					margin-left: 0px;
+				}		
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 688px) {
+	footer {
+		.forms-footer {
+			.form {
+				form {
+					
+					align-items: center;
+					.name {
+						flex-direction: column;
+						align-items: center;
+						margin: 0 auto;
+						input[type=text], input[type=email] {
+							width: 450px;
+							padding: 14px 8px;
+							font-size: 14px;
+						}
+						input[type=text] {
+							margin-right: 0px;
+							margin-bottom: 15px;
+							margin-left: 0px;
+
+						}
+					}
+
+					.subj {
+						text-align: center;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 100%;
+						input[type=text] {
+							width: 450px;
+							padding: 14px 8px;
+							font-size: 14px;
+						}
+ 					}
+
+ 					textarea {
+						width: 450px;
+						padding: 14px 8px;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 487px) {
+	footer {
+		.forms-footer {
+			.form {
+				form {
+					.name {
+						input[type=text], input[type=email] {
+							width: 350px;
+						}
+					}
+
+					.subj {
+						input[type=text] {
+							width: 350px;
+						}
+					}
+
+					textarea {
+						width: 350px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 388px) {
+	footer {
+		.forms-footer {
+			.form {
+				form {
+					.name {
+						input[type=text], input[type=email] {
+							width: 250px;
+						}
+					}
+
+					.subj {
+						input[type=text] {
+							width: 250px;
+						}
+					}
+
+					textarea {
+						width: 250px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+}
+
