@@ -1,0 +1,74 @@
+.main-slider .slider {
+  background: #A5A5A5;
+  padding: 103px 0 84px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 16px; }
+  .main-slider .slider .slider-box {
+    display: none; }
+    .main-slider .slider .slider-box .avatar {
+      margin-bottom: 43px; }
+    .main-slider .slider .slider-box .stars {
+      margin-bottom: 43px; }
+    .main-slider .slider .slider-box p {
+      font-family: 'Uduntu Regular', sans-serif;
+      line-height: 1.5; }
+    .main-slider .slider .slider-box .p-twitter {
+      font-family: 'Ubuntu Bold', sans-serif;
+      font-weight: 600;
+      margin-top: 43px; }
+      .main-slider .slider .slider-box .p-twitter img {
+        margin-right: 6px; }
+  .main-slider .slider .dots {
+    margin-top: 80px; }
+    .main-slider .slider .dots .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #000;
+      border-radius: 50%;
+      display: inline-block;
+      -webkit-transition: background-color 0.6s ease;
+      -o-transition: background-color 0.6s ease;
+      transition: background-color 0.6s ease;
+      margin-right: 25px; }
+    .main-slider .slider .dots .dot:last-child {
+      margin-right: 0px; }
+    .main-slider .slider .dots .active, .main-slider .slider .dots .dot:hover {
+      background-color: #1ABC9C; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+/*@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}*/
+@-webkit-keyframes fade {
+  0% {
+    opacity: .2; }
+  100% {
+    opacity: 1; } }
+@keyframes fade {
+  0% {
+    opacity: .2; }
+  100% {
+    opacity: 1; } }

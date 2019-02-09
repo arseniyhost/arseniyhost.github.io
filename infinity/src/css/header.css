@@ -1,0 +1,80 @@
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background: #7A7A7A;
+  color: #fff;
+  padding: 60px 0 60px 0; }
+  header .header-preview h4 {
+    font-family: 'Ubuntu Bold', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 38px; }
+  header .header-preview h1 {
+    font-family: 'Uduntu Regular', sans-serif;
+    font-size: 56px;
+    font-weight: normal;
+    margin-bottom: 36px; }
+  header .header-preview h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 76px; }
+  header input {
+    padding: 17px 0px 18px 36px;
+    border: 1px solid #E3E3E3; }
+  header input[type=button] {
+    color: #fff;
+    border: 1px solid #1ABC9C;
+    background: #1ABC9C;
+    padding-right: 36px; }
+  header span {
+    color: #1ABC9C; }
+
+.forms, .header-preview h3, .header-below p {
+  font-family: "Uduntu Light", sans-serif; }
+
+.btn-push button {
+  background: none;
+  border: none;
+  margin-bottom: 89px; }
+
+.forms {
+  margin-bottom: 48px;
+  font-size: 18px; }
+
+.header-below p:first-child {
+  margin-bottom: 12px;
+  font-size: 16px; }
+
+@media screen and (max-width: 700px) {
+  header .forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    header .forms input {
+      margin-bottom: 20px; }
+    header .forms input:last-child {
+      margin-bottom: 0px; } }
