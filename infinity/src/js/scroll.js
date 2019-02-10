@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-			$('.menu-left').on('click', 'a', function(event) {
+			$('.wrapper').on('click', 'a', function(event) {
 				event.preventDefault();
 
 				var id = $(this).attr('href'),

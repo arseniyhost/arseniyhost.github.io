@@ -524,8 +524,8 @@ img.slide {
 .main-features {
 	text-align: center;
 	padding: 100px 0 140px 0;
-			img {
-				margin-bottom: 15px;
+				img {
+					margin-bottom: 15px;
 				}
 
 				h4 {
@@ -549,6 +549,8 @@ img.slide {
 					color: $green_all;
 				}
 }
+
+
 
 .tab-buttons button {
 	border: none;
@@ -1082,4 +1084,43 @@ img.slide {
 	  width: 130%;
 	}
 }
+
+@media screen and (max-width: 644px) {
+	.vimeo {
+		iframe {
+			width: 500px;
+		}
+	}
+
+	.tab-buttons {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.vimeo {
+		iframe {
+			width: 400px;
+
+		}
+	}
+
+	.content {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.vimeo {
+		iframe {
+			width: 100%;
+		}
+	}
+
+	.tab-buttons {
+		margin-bottom: 0px;
+	}
+}
+
+
 
