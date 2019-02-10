@@ -34,7 +34,7 @@ $(window).on('scroll',function() {
                 $(this).prop('Counter',0).animate({
                     Counter: $(this).text()
                 }, {
-                    duration: 4000,
+                    duration: 8000,
                     easing: 'swing',
                     step: function (now) {
                         $(this).text(Math.ceil(now));

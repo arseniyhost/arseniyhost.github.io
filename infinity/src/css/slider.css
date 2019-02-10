@@ -73,4 +73,8 @@
 
 @media screen and (max-width: 387px) {
   .main-slider .slider {
-    padding-bottom: 250px; } }
+    padding-bottom: 250px; }
+    .main-slider .slider .nav {
+      left: 30%; }
+  .main-slider .slider p {
+    font-size: 14px; } }

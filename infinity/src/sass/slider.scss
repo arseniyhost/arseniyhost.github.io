@@ -99,6 +99,24 @@ width: 300%;
 	.main-slider {
 		.slider {
 			padding-bottom: 250px;
+			.nav {
+				left: 30%;
+			}
 		}
 	}
+
+	.main-slider {
+		.slider {
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.slider .nav {
+		
+		
+ 	}
 }
