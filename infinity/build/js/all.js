@@ -152,7 +152,23 @@ $(document).on("click", ".slider .nav span", function(e) { // slider click navig
  sliderJS(index, slider);
 });
 
+let popup = document.getElementById('mypopup'),
+  popupToggle = document.getElementById('myBtn'),
+  popupClose = document.querySelector('.close');
 
+  popupToggle.onclick = function() {
+    popup.style.display = "block";
+  };
+
+  popupClose.onclick = function() {
+    popup.style.display = "none";
+  }
+
+  window.onclick = function(e) {
+    if(e.target == popup) {
+      popup.style.display = "none";
+    }
+  }
 function openTab(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("work-content");
