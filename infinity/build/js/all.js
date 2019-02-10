@@ -64,36 +64,67 @@ $('.number').each(function () {
 // }
 
 
-var slideIndex = 1;
-showSlides(slideIndex);
+$(document).ready(function() {
+  $(".slider").each(function() {
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+ var repeats = 5, // кількість повторювань автоматичного прокручування
+ interval = 1, // інтервал в секундах
+ repeat = true, // чи треба автоматично прокручувати (true/false)
+ slider = $(this),
+ repeatCount = 0,
+ elements = $(slider).find("li").length;
+
+ $(slider)
+ .append("<div class='nav'></div>")
+ .find("li").each(function() {
+ $(slider).find(".nav").append("<span data-slide='"+$(this).index()+"'></span>");
+ $(this).attr("data-slide", $(this).index());
+ })
+ .end()
+ .find("span").first().addClass("on");
+
+ // add timeout
+
+ if (repeat) {
+ repeat = setInterval(function() {
+ if (repeatCount >= repeats - 1) {
+ window.clearInterval(repeat);
+ }
+
+ var index = $(slider).find('.on').data("slide"),
+ nextIndex = index + 1 < elements ? index + 1 : 0;
+
+ sliderJS(nextIndex, slider);
+
+ repeatCount += 1;
+ }, interval * 5000);
+ }
+
+ });
+ });
+
+function sliderJS(index, slider) { // slide
+ var ul = $(slider).find("ul"),
+ bl = $(slider).find("li[data-slide=" + index + "]"),
+ step = $(bl).width();
+
+ $(slider)
+ .find("span").removeClass("on")
+ .end()
+ .find("span[data-slide=" + index + "]").addClass("on");
+
+ $(ul).animate({
+ marginLeft: "-" + step * index
+ }, 2000);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+$(document).on("click", ".slider .nav span", function(e) { // slider click navigate
+ e.preventDefault();
+ var slider = $(this).closest(".slider"),
+ index = $(this).data("slide");
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slider-box");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slideIndex++;
-  if(slideIndex > slides.length) {slideIndex = 1};
-  slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 4000);
-  dots[slideIndex-1].className += " active";
-
-}
+ sliderJS(index, slider);
+});
 
 
 function openTab(evt, cityName) {
@@ -134,7 +165,7 @@ var frame = document.querySelector('.banners')
 frame.innerHTML = `<div class="banners">${frame.innerHTML + frame.innerHTML}</div>`
 $(document).ready(function() {
 
-			$('.wrapper').on('click', 'a', function(event) {
+			$('.menu-left').on('click', 'a', function(event) {
 				event.preventDefault();
 
 				var id = $(this).attr('href'),
@@ -145,3 +176,11 @@ $(document).ready(function() {
 			});
 			
 		});
+
+function provForm() {
+	var obj_form = document.getElementsByClassName('forms');
+	var obj_form_head = document.getElementsByClassName('formshead');
+
+	obj_form.submit();
+	obj_form_head.submit();
+}

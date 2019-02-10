@@ -41,7 +41,7 @@ header {
   header input {
     padding: 17px 0px 18px 36px;
     border: 1px solid #E3E3E3; }
-  header input[type=button] {
+  header input[type=submit] {
     color: #fff;
     border: 1px solid #1ABC9C;
     background: #1ABC9C;

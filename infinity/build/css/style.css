@@ -408,7 +408,7 @@ header {
   header input {
     padding: 17px 0px 18px 36px;
     border: 1px solid #E3E3E3; }
-  header input[type=button] {
+  header input[type=submit] {
     color: #fff;
     border: 1px solid #1ABC9C;
     background: #1ABC9C;
@@ -2993,92 +2993,82 @@ img.slide {
     width: 100%; } }
 
 .main-slider .slider {
+  position: relative;
   background: #A5A5A5;
-  padding: 103px 0 84px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
-  align-items: center;
-  text-align: center;
+  padding: 103px 0 230px 0px;
+  z-index: 9;
   width: 100%;
-  color: #fff;
-  font-size: 16px; }
-  .main-slider .slider .slider-box {
-    display: none; }
-    .main-slider .slider .slider-box .avatar {
-      margin-bottom: 43px; }
-    .main-slider .slider .slider-box .stars {
-      margin-bottom: 43px; }
-    .main-slider .slider .slider-box p {
-      font-family: 'Uduntu Regular', sans-serif;
-      line-height: 1.5; }
-    .main-slider .slider .slider-box .p-twitter {
-      font-family: 'Ubuntu Bold', sans-serif;
-      font-weight: 600;
-      margin-top: 43px; }
-      .main-slider .slider .slider-box .p-twitter img {
-        margin-right: 6px; }
-  .main-slider .slider .dots {
-    margin-top: 80px; }
-    .main-slider .slider .dots .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #000;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      display: inline-block;
-      -webkit-transition: background-color 0.6s ease;
-      -o-transition: background-color 0.6s ease;
-      -moz-transition: background-color 0.6s ease;
-      transition: background-color 0.6s ease;
-      margin-right: 25px; }
-    .main-slider .slider .dots .dot:last-child {
-      margin-right: 0px; }
-    .main-slider .slider .dots .active, .main-slider .slider .dots .dot:hover {
-      background-color: #1ABC9C; }
+  height: 290px;
+  overflow: hidden;
+  margin: 0 0 7px;
+  position: relative;
+  text-align: center;
+  color: #fff; }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-name: fade;
-  animation-name: fade;
-  -moz-animation-duration: 1.5s;
-  animation-duration: 1.5s; }
+.main-slider .slider ul,
+.main-slider .slider li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
 
-/*@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}*/
-@-webkit-keyframes fade {
-  0% {
-    opacity: .2; }
-  100% {
-    opacity: 1; } }
-@keyframes fade {
-  0% {
-    opacity: .2; }
-  100% {
-    opacity: 1; } }
+.main-slider .slider ul {
+  width: 300%; }
+
+.main-slider .slider ul li {
+  list-style-type: none;
+  float: left;
+  width: 33%;
+  height: 290px; }
+
+.main-slider .slider .nav {
+  position: absolute;
+  left: 46%;
+  bottom: 10%; }
+
+.main-slider .slider .nav span {
+  opacity: 0.9;
+  background: #000;
+  margin: 0 30px 0 0;
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+  float: left; }
+
+.main-slider .slider .nav span.on {
+  background: #1ABC9C; }
+
+.main-slider .slider-box .avatar {
+  margin-bottom: 43px; }
+
+.main-slider .slider-box .stars {
+  margin-bottom: 43px; }
+
+.main-slider .slider-box p {
+  font-family: 'Uduntu Regular', sans-serif;
+  line-height: 1.5; }
+
+.main-slider .slider-box .p-twitter {
+  font-family: 'Ubuntu Bold', sans-serif;
+  font-weight: 600;
+  margin-top: 43px; }
+  .main-slider .slider-box .p-twitter img {
+    margin-right: 6px; }
+
+@media screen and (max-width: 570px) {
+  .slider .nav {
+    left: 40%; } }
+
+@media screen and (max-width: 425px) {
+  .slider .nav {
+    left: 37%; } }
+
+@media screen and (max-width: 387px) {
+  .main-slider .slider {
+    padding-bottom: 250px; } }
 
 .forms-footer {
   padding: 119px 0 56px 0;

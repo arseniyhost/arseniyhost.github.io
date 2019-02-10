@@ -39,7 +39,8 @@ const jsFiles = [
 	'./src/js/main-works.js',
 	'./src/js/mobilemenu.js',
 	'./src/js/banners.js',
-	'./src/js/scroll.js'
+	'./src/js/scroll.js',
+	'./src/js/forms.js'
 ];
 
 function styles() {
