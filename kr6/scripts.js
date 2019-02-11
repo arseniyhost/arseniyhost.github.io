@@ -71,14 +71,14 @@ $(document).ready(function(e) {
 
 	/*calc second button*/	
 
-		var firstNumber = $("#fth");
-		var secondNumber = $("#sth");
+		var firstNumb = $("#fth");
+		var secondNum = $("#sth");
 
 	$("input[type='radio']#sum2").click(function(e) {
 		
-		$('#resul').val(Number(firstNumber.val()) + Number(secondNumber.val()));
+		$('#resul').val(Number(firstNumb.val()) + Number(secondNum.val()));
 
-		if(secondNumber.val() == '' || firstNumber.val() == '') {
+		if(secondNum.val() == '' || firstNumb.val() == '') {
 			alert('Введите число!');
 		}
 
@@ -86,9 +86,9 @@ $(document).ready(function(e) {
 
 	$("input[type='radio']#min2").change(function(e) {
 
-		$('#resul').val(Number(firstNumber.val()) - Number(secondNumber.val()));
+		$('#resul').val(Number(firstNumb.val()) - Number(secondNum.val()));
 
-		if(secondNumber.val() == '' || firstNumber.val() == '') {
+		if(secondNum.val() == '' || firstNumb.val() == '') {
 			alert('Введите число!');
 		}
 
@@ -96,9 +96,9 @@ $(document).ready(function(e) {
 
 	$("input[type='radio']#umnog2").change(function(e) {
 		
-		$('#resul').val(Number(firstNumber.val()) * Number(secondNumber.val()));
+		$('#resul').val(Number(firstNumb.val()) * Number(secondNum.val()));
 
-		if(secondNumber.val() == '' || firstNumber.val() == '') {
+		if(secondNum.val() == '' || firstNumb.val() == '') {
 			alert('Введите число!');
 		}
 
@@ -106,9 +106,9 @@ $(document).ready(function(e) {
 
 	$("input[type='radio']#del2").change(function(e) {
 		
-		$('#resul').val(Number(firstNumber.val()) / Number(secondNumber.val()));
+		$('#resul').val(Number(firstNumb.val()) / Number(secondNum.val()));
 
-		if(secondNumber.val() == '' || firstNumber.val() == '') {
+		if(secondNum.val() == '' || firstNumb.val() == '') {
 			alert('Введите число!');
 		}
 
@@ -117,8 +117,8 @@ $(document).ready(function(e) {
 
 	$("input[type='radio']#clear2").change(function(e) {
 		$('#resul').val('');
-		firstNumber.val('');
-		secondNumber.val('');
+		firstNumb.val('');
+		secondNum.val('');
 
 
 	});
