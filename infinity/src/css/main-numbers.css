@@ -16,6 +16,15 @@
   align-items: center;
   color: #f9f9f9;
   font-family: 'Uduntu Regular', sans-serif; }
+  .main-numbers #anchor {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 999;
+    opacity: 0; }
   .main-numbers h3 {
     font-size: 27px;
     margin-bottom: 43px;
