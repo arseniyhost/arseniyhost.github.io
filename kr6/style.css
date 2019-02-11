@@ -151,8 +151,9 @@ input.btn:hover {
 	font-size: 20px;
 }
 
-.uppercase .upper {
+.uppercase #upper {
 	padding: 10px;
 	border-radius: 6px;
 	border: none;
+	font-size: 18px;
 }

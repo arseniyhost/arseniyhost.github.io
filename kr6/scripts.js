@@ -49,25 +49,12 @@ $(document).ready(function(e) {
 	});
 
 
-	$('.btn-case').click(function(e) {
-		if($('.upper').val() == '') { 
-			alert("Вы не ввели буквы!")
-		}
+	var button = document.getElementById("btn-case");
+        button.addEventListener("click", () => {
+            var place = document.getElementById("upper");
+            place.value = place.value.toUpperCase();
+        })
 
-		else
-			$('.upper').css("font-size", "200%");
-
-	});
-
-	$('.upperClear').click(function(e) {
-		if($('.upper').val() == '') { 
-			alert("Вы не ввели буквы!")
-		}
-
-		else
-			$('.upper').css("font-size", "100%");
-
-	});
 
 	/*calc second button*/	
 
