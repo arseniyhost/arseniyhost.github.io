@@ -230,14 +230,4 @@ $(document).ready(function(e) {
 	});
 
 
-
-	
-
-
-	// $('.btn-case').click(function(e) {
-	// 	$('#lorem').val() = $('#lorem').val.toUpperCase();
-	// });
-
-
-
 });
