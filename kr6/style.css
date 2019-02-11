@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #6DD5FA;
+	font-family: Arial, sans-serif;
+}
+
+.wrapper {
+	text-align: center;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.wrapper h2 {
+	margin-top: 20px;
+}
+
+.number, .sumTo, .objects, .print, .uppercase {
+	padding: 50px 50px 50px 50px;
+	background: #2EBF91;
+	border-radius: 6px;
+	border: 1px solid #2d2d2d;
+}
+
+.sumTo input:first-child {
+	margin-right: 10px;
+}
+
+.number p {
+	color: #fff;
+	font-size: 18px;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+
+.calc {
+	width: 530px;
+	margin: 20px auto;
+	border: 1px solid #1E9600;
+	padding: 20px;
+	background: #2ebf91;
+	border-radius: 6px;
+
+}
+
+.calc input[type=text], .calc2 input[type=text] {
+	width: 150px;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 6px;
+	border: none;
+	margin-right: 5px;
+}
+
+.calc input[type=text]:last-child, .calc2 input[type=text]:last-child {
+	margin-right: 0px;
+}
+
+.main-btn {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+input.btn {
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+	background: #4286f4;
+	color: #fff;
+	cursor: pointer;
+	transition: .4s;
+	border-radius: 6px;
+}
+
+input.btn:hover {
+	background: #373B44;
+	transition: .4s;
+}
+
+.uppercase {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.wrapper h2 {
+	margin-bottom: 20px;
+}
+
+.uppercase p {
+	margin-bottom: 20px;
+}
+
+.uppercase input[type=button], .objects input[type=button], .number input[type=button], .sumTo input[type=button], .print input[type=button] {
+	padding: 20px;
+	border: none;
+	font-size: 20px;
+	border-radius: 6px;
+	background: #fff;
+	color: #000;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.uppercase input[type=button]:hover, .objects input[type=button]:hover, .number input[type=button]:hover, .print input[type=button]:hover,
+ .sumTo input[type=button]:hover {
+	background: #000;
+	color: #fff;
+	transition: .4s;
+}
+
+
+@media only screen and (max-width: 415px) {
+ 	.num2, .setTimeout {
+ 		margin-top: 15px;
+ 	}
+}
+
+
+.main-btn .rad .btn {
+	margin-right: 10px;
+}
+
+.rad {
+	background: #FFE000;
+	padding: 15px;
+	border-radius: 6px;
+
+}
+
+.rad:hover {
+	background: ;
+}
+
+.calc2 {
+	border: 1px solid #1E9600;
+	padding: 20px;
+	background: #2ebf91;
+	border-radius: 6px;
+	font-size: 20px;
+}
+
+.uppercase .upper {
+	padding: 10px;
+	border-radius: 6px;
+	border: none;
+}
