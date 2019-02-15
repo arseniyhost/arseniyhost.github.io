@@ -49,7 +49,7 @@ function sliderJS(index, slider) { // slide
 
  $(ul).animate({
  marginLeft: "-" + step * index
- }, 2000);
+ }, 500);
 }
 
 $(document).on("click", ".slider .nav span", function(e) { // slider click navigate
