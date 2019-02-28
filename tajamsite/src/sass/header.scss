@@ -1,0 +1,248 @@
+@import "vars.scss";
+
+
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+header {
+	padding: 15px 0 70px 0;
+	width: 100%;
+	background: url(../images/header_bg.png);
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.slider-header {
+		text-align: center;
+		.box {
+			animation: Anim 1s;
+			text-align: center;
+			display: none;
+			h1 {
+				font-size: 31px;
+				font-family: "Playfair Display", sans-serif;
+				margin-top: 185px;
+				margin-bottom: 21px;
+			}
+
+			.line {
+				height: 1px;
+				width: 50px;
+				background: $taj_color;
+			}
+
+			p {
+				margin-top: 30px;
+				font-size: 14px;
+				font-family: Roboto Lt, sans-serif;
+				line-height: 1.5;
+			}
+
+			input[type=button] {
+				border: 1px solid $taj_color;
+				border-radius: 2px;
+				font-size: 16px;
+				font-family: Roboto, sans-serif;
+				background: none;
+				color: $taj_color;
+				padding: 13px 16px;
+				text-transform: uppercase;
+				cursor: pointer;
+				margin-top: 50px;
+				transition: .5s;
+			}
+
+			input[type=button]:hover {
+				background: $taj_color;
+				color: #fff;
+				transition: .5s;
+			}
+
+		}
+	}
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: $taj_ff-rb, sans-serif;
+	
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 30px;
+		color: $taj_color;
+		font-family: Roboto Thin, sans-serif;
+		 
+		 p {
+		 	margin-left: 11px;
+
+		 	a {
+		 		color: $taj_color;
+		 	}
+		 }
+	}
+
+	ul {
+		display: flex;
+		list-style: none;
+
+		li {
+			margin-right: 25px;
+			a {
+				text-transform: uppercase;
+				color: #fff;
+				font-size: 13px;
+				font-weight: 600;
+				transition: .5s;
+
+			}
+
+			a:hover {
+				color: $taj_color;
+				transition: .5s;
+			}
+		}
+
+		li:last-child {
+			margin-right: 0px;
+		}
+
+
+	}
+}
+
+.circle {
+	margin-top: 127px;
+}
+
+.dropmenu ul li {
+	list-style: none;
+
+}
+
+.dropmenu {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin-right:5px;
+  background-color: none;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid $taj_color;
+  transition: background-color 0.6s ease;
+}
+
+.dot:last-child {
+	 margin-right:0px;
+}
+
+.active{
+  background-color: $taj_color;
+}
+
+@keyframes Anim {
+	  from {transform:scale(0)} 
+  to {transform-origin: left}
+}
+
+.wline {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.drop-menu {
+	display: none;
+	
+}
+
+a.drop-menu {
+	font-size: 20px;
+	color: #000;
+}
+
+
+@media only screen and (max-width: 785px) {
+	.drop-menu {
+		display: block;
+	}
+
+	nav {
+		ul {
+			display: none;
+		}
+	}
+
+}
+
+#dropmenu {
+	display: none;
+}
+
+.menudrop {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	animation: gogo 1s; 
+
+	li {
+		background: #b2b2b2b2;
+		width: 100%;
+		text-align: center;
+		list-style: none;
+		padding: 5px;
+		transition: .4s;
+		a {
+			color: #fff;
+			font-family: Roboto Lt, sans-serif;
+			text-transform: uppercase;
+			font-size: 18px;
+			transition: .4s;
+		}
+
+
+	}
+	li:hover {
+			transition: .4s;
+			background: #fff;
+			a {
+				transition: .4s;
+				color: $taj_color;
+			}
+		}
+}
+
+
+@keyframes gogo {
+	0% {
+		opacity: 0.3;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
