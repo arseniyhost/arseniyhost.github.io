@@ -1,0 +1,124 @@
+.forms {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .forms form {
+    margin-right: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .forms form h3 {
+      color: #413d4b;
+      font-size: 22px;
+      font-family: Playfair Display, sans-serif;
+      margin-bottom: 33px; }
+    .forms form .first, .forms form .second, .forms form .third, .forms form .forth {
+      width: 458px;
+      margin-bottom: 23px; }
+      .forms form .first input, .forms form .second input, .forms form .third input, .forms form .forth input {
+        width: 100%;
+        font-family: Roboto Lt, sans-serif;
+        font-size: 14px;
+        color: #413d4b;
+        padding: 16px 15px;
+        border: 1px solid #E5E5E5; }
+      .forms form .first textarea, .forms form .second textarea, .forms form .third textarea, .forms form .forth textarea {
+        width: 100%;
+        font-family: Roboto Lt, sans-serif;
+        font-size: 14px;
+        color: #413d4b;
+        padding: 16px 15px;
+        border: 1px solid #E5E5E5; }
+    .forms form .forth {
+      margin-bottom: 0px; }
+    .forms form .btn-sub input[type=submit] {
+      border: 1px solid #00e0d0;
+      border-radius: 2px;
+      font-size: 16px;
+      font-family: Roboto, sans-serif;
+      background: none;
+      color: #00e0d0;
+      padding: 13px 32px;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin-top: 31px;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      font-weight: bold; }
+    .forms form .btn-sub input[type=submit]:hover {
+      background: #00e0d0;
+      color: #fff;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+  .forms .brands .h-text h3 {
+    color: #413d4b;
+    font-size: 22px;
+    font-family: Playfair Display, sans-serif;
+    margin-bottom: 47px; }
+  .forms .brands .brand-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .forms .brands .brand-container .brand-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .forms .brands .brand-container .brand-box img {
+        margin-bottom: 47px; }
+      .forms .brands .brand-container .brand-box img:last-child {
+        margin-bottom: 0px; }
+    .forms .brands .brand-container .brand-box:first-child {
+      margin-right: 80px; }
+
+@media only screen and (max-width: 962px) {
+  .forms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .forms form {
+      margin-left: -32px;
+      margin-right: 0px;
+      text-align: center;
+      margin-bottom: 20px; }
+      .forms form .first, .forms form .second, .forms form .third, .forms form .forth {
+        width: 100%; }
+      .forms form .btn-sub input[type=submit] {
+        margin-left: 32px; }
+    .forms .brands {
+      text-align: center; } }
+
+@media only screen and (max-width: 411px) {
+  .forms .brands .brand-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .forms .brands .brand-container .brand-box:first-child {
+      margin-right: 0px; } }
