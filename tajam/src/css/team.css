@@ -1,0 +1,113 @@
+.team {
+  background: url(../images/teamates.png);
+  background-size: cover;
+  padding: 71px 0 69px 0;
+  color: #fff;
+  text-align: center; }
+  .team .team-text {
+    font-size: 22px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold; }
+    .team .team-text h3 {
+      font-size: 22px;
+      font-weight: bold; }
+    .team .team-text p {
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 18px; }
+    .team .team-text .alone {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .team .team-text .alone .line {
+        height: 2px;
+        width: 50px;
+        background: #655C80; }
+  .team .teammates {
+    margin-top: 47px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .team .teammates .guy {
+      height: 307px;
+      width: 220px;
+      position: relative;
+      margin-right: 20px; }
+      .team .teammates .guy .photo {
+        position: absolute;
+        top: 0;
+        background: #fff;
+        height: 229px;
+        width: 220px;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+      .team .teammates .guy .disp {
+        position: absolute;
+        bottom: 0;
+        width: 218px;
+        height: 77px;
+        text-align: center;
+        border: 1px solid #b2b2b2; }
+        .team .teammates .guy .disp h4 {
+          font-size: 14px;
+          font-family: Roboto Bk, sans-serif;
+          margin-bottom: 12px; }
+        .team .teammates .guy .disp p {
+          font-size: 13px;
+          font-family: Roboto Lt, sans-serif;
+          color: #fafafa; }
+      .team .teammates .guy .photo:hover {
+        opacity: .4;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+    .team .teammates .guy:last-child {
+      margin-right: 0px; }
+  .team .team-below {
+    margin-top: 70px; }
+    .team .team-below p {
+      margin-bottom: 29px;
+      font-size: 14px;
+      font-family: Roboto Lt, sans-serif; }
+    .team .team-below input[type=button] {
+      border: 1px solid #00e0d0;
+      border-radius: 2px;
+      font-size: 16px;
+      font-family: Roboto, sans-serif;
+      background: none;
+      color: #00e0d0;
+      padding: 13px 16px;
+      text-transform: uppercase;
+      cursor: pointer;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+    .team .team-below input[type=button]:hover {
+      background: #00e0d0;
+      color: #fff;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
+
+@media only screen and (max-width: 956px) {
+  .team .teammates {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .team .teammates .guy {
+      margin-top: 20px;
+      margin-right: 0px; } }
