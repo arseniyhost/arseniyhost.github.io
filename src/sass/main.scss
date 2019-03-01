@@ -1,0 +1,109 @@
+@import "vars.scss";
+
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	.main-story {
+		display: flex;
+		justify-content: center;
+		padding: 70px 0;
+
+		.story-text {
+			margin-left: 100px;
+
+			h3 {
+				color: #413d4b;
+				font-family: "Playfair Display", sans-serif;
+				font-size: 22px;
+			}
+
+			p {
+				color: #413d4b;
+				font-size: 14px;
+				line-height: 1.5;
+				font-family: Roboto Lt, sans-serif;
+				margin-top: 20px;
+			}
+
+			input[type=button] {
+				border: 1px solid $taj_color;
+				border-radius: 2px;
+				font-size: 16px;
+				font-family: Roboto, sans-serif;
+				background: none;
+				color: $taj_color;
+				padding: 14px 15px;
+				text-transform: uppercase;
+				cursor: pointer;
+				margin-top: 31px;
+				transition: .5s;
+				font-weight: bold;
+			}
+
+			input[type=button]:hover {
+				background: $taj_color;
+				color: #fff;
+				transition: .5s;
+			}
+		}
+	}
+
+	.about-watch {
+		background: url(../images/div-watch_bg.png);
+		color: #fff;
+		font-family: $taj_ff-rb;
+		font-size: 16px;
+		padding: 202px 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		.btn-watch {
+			button {
+				margin-bottom: 34px;
+				cursor: pointer;
+				background: none;
+				border: none;
+			}
+		}
+	}
+}
+
+
+
+@media only screen and (max-width: 777px) {
+	main {
+		.main-story {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.story-text {
+				margin-left: 0px;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 555px) {
+	main {
+		.main-story {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.story-text {
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+

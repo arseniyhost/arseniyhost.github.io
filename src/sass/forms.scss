@@ -1,0 +1,150 @@
+@import "vars.scss";
+
+
+
+.forms {
+	padding: 70px 0;
+	display: flex;
+	justify-content: center;
+
+	form {
+		margin-right: 100px;
+		display: flex;
+		flex-direction: column;
+			
+		h3 {
+			color: #413d4b;
+			font-size: 22px;
+			font-family: Playfair Display, sans-serif;
+			margin-bottom: 33px;
+		}
+
+		.first,.second, .third, .forth {
+			width: 458px;
+			margin-bottom: 23px;
+
+			input {
+				width: 100%;
+				font-family: Roboto Lt, sans-serif;
+				font-size: 14px;
+				color: #413d4b;
+				padding: 16px 15px;
+				border: 1px solid #E5E5E5;
+			}
+
+			textarea {
+				width: 100%;
+				font-family: Roboto Lt, sans-serif;
+				font-size: 14px;
+				color: #413d4b;
+				padding: 16px 15px;
+				border: 1px solid #E5E5E5;
+			}
+		}
+
+		.forth {
+			margin-bottom: 0px;
+		}
+
+		.btn-sub {
+			input[type=submit] {
+				border: 1px solid $taj_color;
+				border-radius: 2px;
+				font-size: 16px;
+				font-family: Roboto, sans-serif;
+				background: none;
+				color: $taj_color;
+				padding: 13px 32px;
+				text-transform: uppercase;
+				cursor: pointer;
+				margin-top: 31px;
+				transition: .5s;
+				font-weight: bold;
+			}
+
+			input[type=submit]:hover {
+				background: $taj_color;
+				color: #fff;
+				transition: .5s;
+			}
+		}
+	}
+
+	.brands {
+		.h-text h3{
+			color: #413d4b;
+			font-size: 22px;
+			font-family: Playfair Display, sans-serif;
+			margin-bottom: 47px;
+		}
+
+		.brand-container {
+			display: flex;
+			
+			.brand-box {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				img {
+					margin-bottom: 47px;
+				}
+
+				img:last-child {
+					margin-bottom: 0px;
+				}
+			}
+
+			.brand-box:first-child {
+				margin-right: 80px;
+			}
+		}	
+	}
+}
+
+
+
+@media only screen and (max-width: 962px) {
+	.forms {
+
+		flex-direction: column;
+		align-items: center;
+
+		form {
+			margin-left: -32px;
+			margin-right: 0px;
+			text-align: center;
+			margin-bottom: 20px;
+
+			.first,.second, .third, .forth {
+				width: 100%;
+			}
+
+			.btn-sub {
+				input[type=submit] {
+					margin-left: 32px;
+				}
+			}
+		}
+
+		.brands {
+			text-align: center;
+		}
+	}	
+}
+
+@media only screen and (max-width: 411px) {
+	.forms {
+		.brands {
+			.brand-container {
+				flex-direction: column;
+				align-items: center;
+
+				.brand-box:first-child {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+}

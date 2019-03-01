@@ -1,0 +1,119 @@
+@import "vars.scss";
+
+
+.comments {
+	background: url(../images/comments-bg.png);
+	padding: 70px 0;
+	color: #fff;
+	font-family: "Playfair Display", sans-serif;
+	background-size: cover;
+	width: 100%;
+
+	.com-slider {
+		text-align: center;
+		position: relative;
+		display: none;
+		animation: Anima 1s;
+		h3 {
+			font-size: 100px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+
+		p {
+			margin-top: 0px;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		h4 {
+			font-size: 14px;
+			font-family: $taj_ff-rb;
+			margin-top: 53px;
+		}
+
+		.pr {
+			margin-top: 13px;
+				p {
+					font-size: 13px;
+					font-family: Roboto Lt, sans-serif;
+				}
+			}
+	}
+
+	.pusher {
+		display: flex;
+		justify-content: center;
+		margin-top: 45px;
+
+		button {
+			background: none;
+			border: none;
+		}
+
+
+		span {
+			width: 70px;
+			height: 70px;
+			transition: .4s;
+			img {
+				transition: .4s;
+				vertical-align: middle;
+				cursor: pointer;
+				width: 45px;
+				height: 45px;
+			}
+
+			img:last-child {
+				margin-right: 0px;
+			}
+
+			img:hover {
+				width: 70px;
+				height: 70px;
+			}
+
+		}
+
+
+		.activekolo  {
+				width: 70px;
+				height: 70px;
+				transition: .4s;
+				margin-right: 10px;
+			}
+
+		
+	}
+}
+
+
+.next {
+	margin-left: 0px;
+}
+
+.prev {
+	margin-right: 25px;
+}
+
+.prev, .next {
+	margin-top: 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  opacity: .4;
+  cursor: pointer;
+}
+
+
+@keyframes slide {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@keyframes Anima {
+	  from {transform:scale(0)} 
+  to {transform-origin: right}
+}
