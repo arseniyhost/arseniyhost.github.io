@@ -1,5 +1,8 @@
+.wrapper {
+  overflow: hidden; }
+
 header {
-  background: url(../images/agriculture-alternative-alternative-energy-2310064.jpg) no-repeat;
+  background: url(../images/electricity-3442835_1920.jpg) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -35,24 +38,23 @@ header {
         font-size: 40px;
         color: #fff;
         display: block; }
-    header nav ul {
+    header nav .down {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      header nav ul li {
-        margin-right: 40px; }
-        header nav ul li a {
-          color: #fff;
-          text-transform: uppercase;
-          -webkit-transition: .4s;
-          -o-transition: .4s;
-          transition: .4s; }
-        header nav ul li a:hover {
-          color: #2d2d2d;
-          -webkit-transition: .4s;
-          -o-transition: .4s;
-          transition: .4s; }
-      header nav ul li:last-child {
+      header nav .down a {
+        margin-right: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s; }
+      header nav .down a:hover {
+        color: #2d2d2d;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s; }
+      header nav .down a:last-child {
         margin-right: 0px; }
   header .text {
     width: 100%;
@@ -80,8 +82,12 @@ header {
     header .text h1 {
       font-size: 40px; }
 
+.icon {
+  font-size: 35px;
+  color: #fff;
+  display: none; }
+
 main {
-  padding: 60px 0px 0px 0px;
   font-family: Roboto, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,13 +114,14 @@ main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 40px 0px; }
     main .about h1 {
       font-size: 30px;
       text-transform: uppercase; }
     main .about .line {
-      height: 2px;
-      width: 100px;
+      height: 5px;
+      width: 60px;
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
     main .about p {
@@ -141,7 +148,6 @@ main {
       color: #fff;
       background: #F8C734; }
   main .records {
-    margin-top: 20px;
     padding: 40px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -164,8 +170,8 @@ main {
       font-size: 30px;
       text-transform: uppercase; }
     main .records .line {
-      height: 2px;
-      width: 100px;
+      height: 5px;
+      width: 60px;
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
     main .records p {
@@ -179,7 +185,9 @@ main {
           list-style-image: url(../images/physics.png);
           line-height: 1.5; }
   main .partners {
-    margin-top: 30px;
+    border-bottom: 2px solid #F8CE00;
+    width: 100%;
+    padding: 40px 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -198,8 +206,8 @@ main {
       font-size: 30px;
       text-transform: uppercase; }
     main .partners .line {
-      height: 2px;
-      width: 150px;
+      height: 5px;
+      width: 60px;
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
     main .partners p {
@@ -227,7 +235,7 @@ main {
       main .partners .images img:last-child {
         margin-right: 0px; }
   main .sert {
-    margin-top: 100px;
+    padding: 40px 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -246,8 +254,8 @@ main {
       font-size: 30px;
       text-transform: uppercase; }
     main .sert .line {
-      height: 2px;
-      width: 200px;
+      height: 5px;
+      width: 60px;
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
     main .sert p {
@@ -261,18 +269,19 @@ main {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-      main .sert .sertification img:first-child, main .sert .sertification img:last-child {
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      position: relative;
+      height: 500px; }
+      main .sert .sertification .coin img:first-child, main .sert .sertification .coin img:last-child {
         width: 300px;
         height: auto; }
-      main .sert .sertification img {
+      main .sert .sertification .coin img {
         margin-right: 10%; }
-      main .sert .sertification img:last-child {
+      main .sert .sertification .coin img:last-child {
         margin-right: 0px; }
   main .contact {
-    margin-top: 20px;
+    font-family: Roboto Medium, sans-serif;
     padding: 40px 0;
     background: #61BA61;
     color: #fff;
@@ -295,12 +304,12 @@ main {
       font-size: 30px;
       text-transform: uppercase; }
     main .contact .line {
-      height: 2px;
-      width: 160px;
+      height: 5px;
+      width: 60px;
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
     main .contact #map {
-      width: 90%;
+      width: 70%;
       height: 500px;
       border-radius: 10px;
       z-index: 1; }
@@ -361,7 +370,7 @@ main {
             background: #F8C734; }
 
 footer {
-  background: #000;
+  background: #2d2d2d;
   color: #fff;
   font-family: Roboto, sans-serif;
   padding: 40px 0px;
@@ -383,6 +392,8 @@ footer {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 100%; }
+    footer .container div img {
+      margin-bottom: 10px; }
 
 * {
   padding: 0;

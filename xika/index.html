@@ -2,22 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Xika</title>
 	<link rel="stylesheet" href="css/style.css">
+	
 </head>
 <body>
 	<div class="wrapper">
 		<header>
-			<nav id="menuNav">
+			<nav id="menuNav" class="menu">
 				<a href="#" id="logo"><h1>Xika</h1></a>
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
+				<div class="down">
+					<a href="#">Главная</a>
+					<a href="#">О нас</a>
+					<a href="#">Услуги</a>
+					<a href="#">Контакты</a>
+				</div>
+				
 			</nav>
-
+			
 			<div class="text">
 				<h2>ГОСУДАРСТВЕННОЕ ПРЕДПРИЯТИЕ</h2>
 				<h1>“ХАРЬКОВСКИЙ НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИНСТИТУТ<br> КОМПЛЕКСНОЙ АВТОМАТИЗАЦИИ”</h1>
@@ -96,9 +99,15 @@
 (РШ-П 0.24.164-18 от 10.12.18 г.). </p>
 
 			<div class="sertification">
-				<img src="images/sert-1.jpg" alt="sert">
-				<img src="images/middle-sert.jpg" alt="mid">
-				<img src="images/sert-2.jpg" alt="sert">	
+				<div class="coin fade">
+					<img src="images/sert-1.jpg" alt="sert">
+				</div>
+				<div class="coin fade">
+					<img src="images/middle-sert.jpg" alt="mid">
+				</div>
+				<div class="coin fade">
+					<img src="images/sert-2.jpg" alt="sert">
+				</div>
 			</div>
 			</div>
 
@@ -162,5 +171,6 @@
 	<script src="js/script.js"></script>
 	 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjgsC9voQ3vAZ-FTxTo6iuDf4O0hLohxY&callback=initMap"
   type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/31deac6198.js"></script>
 </body>
 </html>

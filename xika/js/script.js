@@ -22,4 +22,13 @@ var map;
           zoom: 10
           
         });
-      }
+}
+
+// function myFunction() {
+//   var x = document.getElementById("menuNav");
+//   if (x.className === "menu") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "menu";
+//   }
+// }

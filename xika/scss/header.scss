@@ -1,5 +1,9 @@
+.wrapper {
+	overflow: hidden;
+}
+
 header {
-	background: url(../images/agriculture-alternative-alternative-energy-2310064.jpg) no-repeat;
+	background: url(../images/electricity-3442835_1920.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -25,12 +29,11 @@ header {
 				display: block;			
 			}
 		}
-		ul {
+		.down {
 			display: flex;
-
-			li {
-				margin-right: 40px;
+			
 				a {
+					margin-right: 40px;
 					color: #fff;
 					text-transform: uppercase;
 					transition: .4s;
@@ -40,9 +43,8 @@ header {
 					color: #2d2d2d;
 					transition: .4s;
 				}
-			}
 
-			li:last-child {
+			a:last-child {
 				margin-right: 0px;
 			}
 		}
@@ -69,5 +71,12 @@ header {
 			font-size: 40px;
 		}
 	}
+}
+
+
+.icon {
+	font-size: 35px;
+	color: #fff;
+	display: none;
 }
 
