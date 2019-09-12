@@ -1,0 +1,395 @@
+header {
+  background: url(../images/agriculture-alternative-alternative-energy-2310064.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  header nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    padding: 40px 0px;
+    z-index: 100; }
+    header nav a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      header nav a h1 {
+        font-size: 40px;
+        color: #fff;
+        display: block; }
+    header nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      header nav ul li {
+        margin-right: 40px; }
+        header nav ul li a {
+          color: #fff;
+          text-transform: uppercase;
+          -webkit-transition: .4s;
+          -o-transition: .4s;
+          transition: .4s; }
+        header nav ul li a:hover {
+          color: #2d2d2d;
+          -webkit-transition: .4s;
+          -o-transition: .4s;
+          transition: .4s; }
+      header nav ul li:last-child {
+        margin-right: 0px; }
+  header .text {
+    width: 100%;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto, sans-serif; }
+    header .text h2 {
+      font-size: 25px;
+      color: #2d2d2d;
+      margin-bottom: 10px; }
+    header .text h1 {
+      font-size: 40px; }
+
+main {
+  padding: 60px 0px 0px 0px;
+  font-family: Roboto, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  main .about {
+    text-align: center;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    main .about h1 {
+      font-size: 30px;
+      text-transform: uppercase; }
+    main .about .line {
+      height: 2px;
+      width: 100px;
+      background: #F8CE00;
+      margin: 5px 0px 35px 0px; }
+    main .about p {
+      line-height: 1.5; }
+    main .about input[type="button"] {
+      cursor: pointer;
+      border-radius: 10px;
+      color: #000;
+      padding: 12px 32px;
+      text-align: center;
+      border: 2px solid #F8C734;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: Roboto, sans-serif;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      background: #fff;
+      margin-top: 35px; }
+    main .about input[type="button"]:hover {
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      color: #fff;
+      background: #F8C734; }
+  main .records {
+    margin-top: 20px;
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background: #61BA61;
+    color: #fff;
+    width: 100%; }
+    main .records h1 {
+      font-size: 30px;
+      text-transform: uppercase; }
+    main .records .line {
+      height: 2px;
+      width: 100px;
+      background: #F8CE00;
+      margin: 5px 0px 35px 0px; }
+    main .records p {
+      line-height: 1.5; }
+    main .records .marker {
+      width: 600px;
+      text-align: left; }
+      main .records .marker ul {
+        margin: 30px 0; }
+        main .records .marker ul li {
+          list-style-image: url(../images/physics.png);
+          line-height: 1.5; }
+  main .partners {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+    main .partners h1 {
+      font-size: 30px;
+      text-transform: uppercase; }
+    main .partners .line {
+      height: 2px;
+      width: 150px;
+      background: #F8CE00;
+      margin: 5px 0px 35px 0px; }
+    main .partners p {
+      line-height: 1.5; }
+    main .partners .marker {
+      width: 600px;
+      text-align: left; }
+      main .partners .marker ul {
+        margin: 30px 0; }
+        main .partners .marker ul li {
+          list-style-image: url(../images/partner.png);
+          line-height: 1.5; }
+    main .partners .images {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 30px 0; }
+      main .partners .images img {
+        margin-right: 40px; }
+      main .partners .images img:last-child {
+        margin-right: 0px; }
+  main .sert {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+    main .sert h1 {
+      font-size: 30px;
+      text-transform: uppercase; }
+    main .sert .line {
+      height: 2px;
+      width: 200px;
+      background: #F8CE00;
+      margin: 5px 0px 35px 0px; }
+    main .sert p {
+      width: 500px;
+      line-height: 1.5; }
+    main .sert .sertification {
+      margin-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      main .sert .sertification img:first-child, main .sert .sertification img:last-child {
+        width: 300px;
+        height: auto; }
+      main .sert .sertification img {
+        margin-right: 10%; }
+      main .sert .sertification img:last-child {
+        margin-right: 0px; }
+  main .contact {
+    margin-top: 20px;
+    padding: 40px 0;
+    background: #61BA61;
+    color: #fff;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+    main .contact h1 {
+      font-size: 30px;
+      text-transform: uppercase; }
+    main .contact .line {
+      height: 2px;
+      width: 160px;
+      background: #F8CE00;
+      margin: 5px 0px 35px 0px; }
+    main .contact #map {
+      width: 90%;
+      height: 500px;
+      border-radius: 10px;
+      z-index: 1; }
+    main .contact .information {
+      width: 90%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 30px; }
+      main .contact .information .info-text {
+        text-align: left;
+        font-size: 18px;
+        /*margin-right: 50%;*/ }
+        main .contact .information .info-text .adress {
+          margin-bottom: 20px; }
+        main .contact .information .info-text .numbers {
+          margin-bottom: 20px; }
+      main .contact .information form {
+        width: 455px; }
+        main .contact .information form textarea {
+          width: 100%;
+          height: 150px;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: none;
+          text-transform: uppercase;
+          font-family: Roboto, sans-serif; }
+        main .contact .information form .elements {
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 10px; }
+          main .contact .information form .elements input:first-child {
+            margin-right: 37px; }
+          main .contact .information form .elements input[type="text"], main .contact .information form .elements input[type="email"], main .contact .information form .elements input[type="submit"] {
+            padding: 12px 32px;
+            border: none;
+            text-transform: uppercase;
+            font-family: Roboto, sans-serif; }
+          main .contact .information form .elements input[type="submit"] {
+            background: #fff;
+            border: 2px solid #F8C734;
+            -webkit-transition: .4s;
+            -o-transition: .4s;
+            transition: .4s;
+            cursor: pointer; }
+          main .contact .information form .elements input[type="submit"]:hover {
+            -webkit-transition: .4s;
+            -o-transition: .4s;
+            transition: .4s;
+            color: #fff;
+            background: #F8C734; }
+
+footer {
+  background: #000;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  padding: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  width: 100%; }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }

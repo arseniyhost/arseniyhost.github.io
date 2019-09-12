@@ -1,0 +1,293 @@
+main {
+	padding: 60px 0px 0px 0px;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+
+
+	.about {
+		text-align: center;
+		width: 80%;
+		display: flex;
+	
+		align-items: center;
+		flex-direction: column;
+		
+		h1 {
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+		
+		.line {
+			height: 2px;
+			width: 100px;
+			background: #F8CE00;
+			margin: 5px 0px 35px 0px;
+		}
+
+		p {
+			line-height: 1.5;
+		}
+
+		input[type="button"] {
+			cursor: pointer;
+			border-radius: 10px;
+			color: #000;
+			padding: 12px 32px;
+  			text-align: center;
+  			border: 2px solid #F8C734;
+  			font-size: 16px;
+  			text-transform: uppercase;
+  			font-family: Roboto, sans-serif;
+  			transition: .4s;
+  			background: #fff;
+  			margin-top: 35px;
+		}
+
+		input[type="button"]:hover {
+			transition: .4s;
+			color: #fff;
+			background: #F8C734;
+		}
+
+	}
+
+	.records {
+		margin-top: 20px;
+		padding: 40px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		background: #61BA61;
+		color: #fff;
+		width: 100%;
+		h1 {
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+		
+		.line {
+			height: 2px;
+			width: 100px;
+			background: #F8CE00;
+			margin: 5px 0px 35px 0px;
+		}
+		p {
+			line-height: 1.5;
+		}
+		.marker {
+			width: 600px;
+			text-align: left;
+			ul {
+			
+			margin: 30px 0;
+				li {
+					list-style-image: url(../images/physics.png);
+					line-height: 1.5;
+				}
+			}
+		}
+	}
+
+	.partners {
+		margin-top: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		h1 {
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+		
+		.line {
+			height: 2px;
+			width: 150px;
+			background: #F8CE00;
+			margin: 5px 0px 35px 0px;
+		}
+		p {
+			line-height: 1.5;
+		}
+
+		.marker {
+			width: 600px;
+			text-align: left;
+			ul {
+			
+			margin: 30px 0;
+				li {
+					list-style-image: url(../images/partner.png);
+					line-height: 1.5;
+				}
+			}
+		}
+
+		.images {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			margin: 30px 0;
+
+			img {
+
+				margin-right: 40px;
+			}
+
+			img:last-child {
+				margin-right: 0px;
+			}
+
+			
+		}
+	}
+
+	.sert {
+		margin-top: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		h1 {
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+		
+		.line {
+			height: 2px;
+			width: 200px;
+			background: #F8CE00;
+			margin: 5px 0px 35px 0px;
+		}
+		p {
+			width: 500px;
+			line-height: 1.5;
+		}
+		.sertification {
+			margin-top: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img:first-child, img:last-child {
+				width: 300px;
+				height: auto;
+			}
+
+			img {
+				margin-right: 10%;
+			}
+
+			img:last-child {
+				margin-right: 0px;
+			}
+		}
+	}
+
+	.contact {
+		margin-top: 20px;
+		padding: 40px 0;
+		background: #61BA61;
+		color: #fff;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+		h1 {
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+		
+		.line {
+			height: 2px;
+			width: 160px;
+			background: #F8CE00;
+			margin: 5px 0px 35px 0px;
+		}
+		#map {
+			width: 90%;
+			height: 500px;
+			border-radius: 10px;
+			z-index: 1;
+		}
+
+		.information {
+			width: 90%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			margin-top: 30px;
+
+			.info-text {
+				text-align: left;
+				font-size: 18px;
+				/*margin-right: 50%;*/
+				.adress {
+					margin-bottom: 20px;
+				}
+
+				.numbers {
+					margin-bottom: 20px;
+				}
+
+				.email {
+
+				}
+			}
+
+			form {
+				width: 455px;
+
+
+				textarea {
+					width: 100%;
+					height: 150px;
+					padding: 10px;
+					margin-bottom: 10px;
+					border: none;
+					text-transform: uppercase;
+  					font-family: Roboto, sans-serif;
+				}
+
+				.elements {
+					width: 100%;
+					display: flex;
+					margin-bottom: 10px;
+					
+					input:first-child {
+						margin-right: 37px;
+					}
+
+					input[type="text"], input[type="email"], input[type="submit"] {
+						padding: 12px 32px;
+						border: none;
+						text-transform: uppercase;
+  						font-family: Roboto, sans-serif;
+					}
+
+					input[type="submit"] {
+						background: #fff;
+						border: 2px solid #F8C734;
+  						transition: .4s;
+  						cursor: pointer;
+					}
+
+					input[type="submit"]:hover {
+						transition: .4s;
+						color: #fff;
+						background: #F8C734;
+					}
+				}
+			}
+		}
+	}
+}
