@@ -9,16 +9,17 @@ main {
 
 	.about {
 		text-align: center;
-		width: 80%;
+		width: 100%;
 		display: flex;
-	
+		background: #F7F5F6;
 		align-items: center;
 		flex-direction: column;
 		padding: 40px 0px;
 		
-		h1 {
+		h2 {
 			font-size: 30px;
 			text-transform: uppercase;
+			color: #C6C7C7;
 		}
 		
 		.line {
@@ -65,7 +66,7 @@ main {
 		background: #61BA61;
 		color: #fff;
 		width: 100%;
-		h1 {
+		h2 {
 			font-size: 30px;
 			text-transform: uppercase;
 		}
@@ -102,9 +103,10 @@ main {
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		h1 {
+		h2 {
 			font-size: 30px;
 			text-transform: uppercase;
+			color: #C6C7C7;
 		}
 		
 		.line {
@@ -156,7 +158,8 @@ main {
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		h1 {
+		h2 {
+			color: #C6C7C7;
 			font-size: 30px;
 			text-transform: uppercase;
 		}
@@ -205,7 +208,7 @@ main {
 		justify-content: center;
 		text-align: center;
 
-		h1 {
+		h2 {
 			font-size: 30px;
 			text-transform: uppercase;
 		}

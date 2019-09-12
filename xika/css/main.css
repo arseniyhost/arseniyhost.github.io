@@ -1,92 +1,3 @@
-.wrapper {
-  overflow: hidden; }
-
-header {
-  background: url(../images/electricity-3442835_1920.jpg) no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh; }
-  header nav {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 18px;
-    font-family: Roboto, sans-serif;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-    padding: 40px 0px;
-    z-index: 100; }
-    header nav a {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      header nav a h1 {
-        font-size: 40px;
-        color: #fff;
-        display: block; }
-    header nav .down {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      header nav .down a {
-        margin-right: 40px;
-        color: #fff;
-        text-transform: uppercase;
-        -webkit-transition: .4s;
-        -o-transition: .4s;
-        transition: .4s; }
-      header nav .down a:hover {
-        color: #2d2d2d;
-        -webkit-transition: .4s;
-        -o-transition: .4s;
-        transition: .4s; }
-      header nav .down a:last-child {
-        margin-right: 0px; }
-  header .text {
-    width: 100%;
-    height: 80vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    color: #fff;
-    font-family: Roboto, sans-serif; }
-    header .text h2 {
-      font-size: 25px;
-      color: #2d2d2d;
-      margin-bottom: 10px; }
-    header .text h1 {
-      font-size: 40px; }
-
-.icon {
-  font-size: 35px;
-  color: #fff;
-  display: none; }
-
 main {
   font-family: Roboto, sans-serif;
   display: -webkit-box;
@@ -104,11 +15,10 @@ main {
   flex-direction: column; }
   main .about {
     text-align: center;
-    width: 100%;
+    width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: #F7F5F6;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -120,7 +30,7 @@ main {
     main .about h2 {
       font-size: 30px;
       text-transform: uppercase;
-      color: #C6C7C7; }
+      color: #ddd; }
     main .about .line {
       height: 5px;
       width: 60px;
@@ -204,10 +114,9 @@ main {
     -ms-flex-pack: center;
     justify-content: center;
     text-align: center; }
-    main .partners h2 {
+    main .partners h1 {
       font-size: 30px;
-      text-transform: uppercase;
-      color: #C6C7C7; }
+      text-transform: uppercase; }
     main .partners .line {
       height: 5px;
       width: 60px;
@@ -254,7 +163,6 @@ main {
     justify-content: center;
     text-align: center; }
     main .sert h2 {
-      color: #C6C7C7;
       font-size: 30px;
       text-transform: uppercase; }
     main .sert .line {
@@ -372,39 +280,3 @@ main {
             transition: .4s;
             color: #fff;
             background: #F8C734; }
-
-footer {
-  background: #2d2d2d;
-  color: #fff;
-  font-family: Roboto, sans-serif;
-  padding: 40px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-  width: 100%; }
-  footer .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    width: 100%; }
-    footer .container div img {
-      margin-bottom: 10px; }
-
-* {
-  padding: 0;
-  margin: 0; }
-
-ul li {
-  list-style: none; }
-
-a {
-  text-decoration: none; }
