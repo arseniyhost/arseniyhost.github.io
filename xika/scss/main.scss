@@ -18,19 +18,29 @@ main {
 		background: #F8F5F5;
 
 		h2 {
-				font-size: 38px;
-				text-transform: uppercase;
-				color: #777777;
-			}
+			opacity: 0;
+			font-size: 38px;
+			text-transform: uppercase;
+			color: #777777;
+			transition: 1.2s;
+				
+			margin-left: 20%;
+		}
 			
 			.line {
+				opacity: 0;
 				height: 5px;
 				width: 120px;
 				background: #F8CE00;
 				margin: 5px 0px 35px 0px;
+				transition: .6s;
+
+				margin-left: 20%;
 			}
 
 		.contant-about {
+			transition: 1.4s;
+			opacity: 0;
 
 			ul {
 				padding-left: 100px;
@@ -70,6 +80,8 @@ main {
   			transition: .4s;
   			background: #fff;
   			margin-top: 35px;
+  			opacity: 0;
+  			transition: 1.2s;
 		}
 
 		input[type="button"]:hover {
@@ -94,9 +106,15 @@ main {
 				font-size: 38px;
 				text-transform: uppercase;
 				color: #777777;
+				opacity: 0;
+				transition: 1.2s;
+
+				margin-left: 20%;
 			}
 			
 			.line {
+				opacity: 0;
+				transition: .6s;
 				height: 5px;
 				width: 120px;
 				background: #F8CE00;
@@ -104,7 +122,8 @@ main {
 			}
 
 		.marker {
-			
+			opacity: 0;
+			transition: 1.4s;
 			ul {
 				padding-left: 100px;
 				li {
@@ -145,6 +164,10 @@ main {
 				font-size: 38px;
 				text-transform: uppercase;
 				color: #777777;
+
+				opacity: 0;
+				transition: 1.2s;
+				margin-left: 20%;
 			}
 			
 			.line {
@@ -152,9 +175,15 @@ main {
 				width: 120px;
 				background: #F8CE00;
 				margin: 5px 0px 35px 0px;
+
+				opacity: 0;
+				transition: .6s;
+				margin-left: 20%;
 			}
 
 		.partof {
+			opacity: 0;
+			transition: 1.4s;
 			ul {
 				padding-left: 100px;
 				li {
@@ -183,8 +212,32 @@ main {
 			margin-top: 30px ;
 
 			.container-img img {
-
+				opacity: 0;
 				margin-right: 40px;
+			}
+
+			.container-img:first-child img:first-child {
+				transition: .4s;
+			}
+
+			.container-img:first-child img:nth-child(2) {
+				transition: 1s;
+			}
+
+			.container-img:first-child img:last-child {
+				transition: 1.6s;
+			}
+
+			.container-img:last-child img:first-child {
+				transition: 2.2s;
+			}
+
+			.container-img:last-child img:nth-child(2) {
+				transition: 2.8s;
+			}
+
+			.container-img:last-child img:last-child {
+				transition: 3.4s;
 			}
 
 			.container-img:last-child img:last-child{
