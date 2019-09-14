@@ -1,7 +1,5 @@
-@media screen and (min-width: 700px) {
-  header h2 {
-    font-size: 15px;
-    color: #2d2d2d;
-    margin-bottom: 10px; }
-  header h1 {
+@media screen and (max-width: 700px) {
+  header .text h2 {
+    font-size: 15px; }
+  header .text h1 {
     font-size: 30px; } }

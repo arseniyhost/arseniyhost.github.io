@@ -1,13 +1,471 @@
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
 	header {
-		h2 {
-			font-size: 15px;
-			color: #2d2d2d;
-			margin-bottom: 10px;
-		}
+		.text {
+			h2 {
+				font-size: 23px;
+			}
 
-		h1 {
-			font-size: 30px;
+			h1 {
+				font-size: 36px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		.text {
+			h2 {
+				font-size: 18px;
+			}
+
+			h1 {
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 370px) {
+	header {
+		.text {
+			h2 {
+				font-size: 16px;
+			}
+
+			h1 {
+				font-size: 25px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	main {
+		.about {
+			.contant-about {
+				ul {
+				padding-left: 40px;
+					li {
+						text-align: left;
+						line-height: 1.5;
+						font-size: 16px;
+						padding-top: 5px;
+					}
+				}
+				p {
+					font-size: 16px;
+					text-align: center;
+					text-indent: 0px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 782px) {
+	main {
+		.about {
+			.contant-about {
+				ul {
+					padding-left: 5%;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	main {
+		.about {
+			.contant-about {
+				ul {
+					padding-left: 20px;
+					li {
+						font-size: 14px;
+					}
+				}
+				p{
+					text-indent: 0px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	main {
+		.services {
+			.marker {
+				ul {
+				padding-left: 40px;
+					li {
+						text-align: left;
+						line-height: 1.5;
+						font-size: 16px;
+						padding-top: 5px;
+					}
+				}
+				p {
+					text-indent: 0px;
+					font-size: 16px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 782px) {
+	main {
+		.services {
+			.marker {
+				ul {
+					padding-left: 5%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	main {
+		.services {
+			.marker {
+				ul {
+					padding-left: 20px;
+					li {
+						list-style: disc;
+						font-size: 14px;
+					}
+				}
+				p {
+					text-indent: 0px;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	main {
+		.partners {
+			.partof {
+				ul {
+				padding-left: 40px;
+					li {
+						text-align: left;
+						line-height: 1.5;
+						font-size: 16px;
+						padding-top: 5px;
+					}
+				}
+				p {
+					text-indent: 0px;
+					font-size: 16px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 782px) {
+	main {
+		.partners {
+			.partof {
+				ul {
+					padding-left: 5%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	main {
+		.partners {
+			.partof {
+				ul {
+					padding-left: 20px;
+					li {
+						list-style: disc;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 1420px) {
+	main {
+		.partners {
+			.images {
+				justify-content: center;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1395px) {
+	main {
+		.partners {
+			.images {
+				.container-img:last-child {
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 799px) {
+	main {
+		.partners {
+			.images {
+				.container-img:last-child {
+					img:last-child {
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 627px) {
+	main {
+		.partners {
+			.images {
+				.container-img:last-child {
+					img:nth-child(2) {
+						margin-right: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 612px) {
+	main {
+		.partners {
+			.images {
+				.container-img:first-child {
+					img:last-child {
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 531px) {
+	main {
+		.partners {
+			.images {
+				.container-img:first-child {
+					img:nth-child(2) {
+						margin-right: 0px;
+					}
+				}
+				.container-img:last-child {
+					img:nth-child(2) {
+						margin-top: 20px;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 451px) {
+	main {
+		.partners {
+			.images {
+				.container-img{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					img {
+						margin-right: 0px;
+						margin-bottom: 20px;
+					}
+				}
+				.container-img:last-child {
+					img:last-child {
+						margin-bottom: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 634px) {
+	main {
+		.vacation {
+			.vacs {
+				p {
+					text-align: center;
+					font-size: 16px;
+					text-align: center;
+				}
+
+				ul {
+					padding-left: 20px;
+					li {
+						font-size: 16px;
+						padding-top: 5px;
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	main {
+		.vacation {
+			.vacs {
+				ul {
+					li {
+						list-style: disc;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	main {
+		.sert {
+			.sert-info{
+				p {
+					font-size: 16px;
+					text-align: center;
+					text-indent: 0px;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	main {
+		.sert {
+			.sert-info{
+				p{
+					text-indent: 0px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1202px) {
+	main {
+		.sert {
+			.sertification {
+				.coin img {
+					width: 200px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 756px) {
+	main {
+		.sert {
+			.sertification {
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+					.coin img {
+					margin-right: 0px;
+					margin-bottom: 20px;
+				}
+					.coin:last-child img {
+						margin-bottom: 0px;
+					}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	main {
+		.sert {
+			.sert-info {
+				p {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	main {
+		.contact {
+			.down-information {
+				width: 100%;
+				.information {
+					width: 100%;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+
+					.info-text {
+						text-align: center;
+						margin-bottom: 20px;
+					}
+
+					form {
+						width: 80%;
+							.name input[type="text"], .number input[type="text"], .email-in input[type="email"] {
+								width: 300px;
+						}
+
+						.text-area textarea {
+							width: 300px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 351px) {
+	main {
+		.contact {
+			.down-information {
+				.information {		
+					form {					
+						width: 100%;
+							.name input[type="text"], .number input[type="text"], .email-in input[type="email"] {
+								width: 200px;						
+						}
+
+						.text-area textarea {
+							width: 200px;
+						}
+					}
+				}
+			}
 		}
 	}
 }

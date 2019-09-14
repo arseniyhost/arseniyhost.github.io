@@ -1,0 +1,49 @@
+.vacation {
+		
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 40px 0px;
+		background: #F8F5F5;
+
+		h2 {
+			font-size: 38px;
+			text-transform: uppercase;
+			color: #777777;
+		}
+			
+		.line {
+			height: 5px;
+			width: 120px;
+			background: #F8CE00;
+			margin: 5px 0px 35px 0px;
+		}
+
+		.vacs {
+			width: 80%;
+			text-align: left;
+			ul {
+				padding-left: 100px;
+				li {
+					list-style-image: url(../images/arrows.png);
+					line-height: 1.5;
+					font-size: 18px;
+					padding-bottom: 10px; 
+				}
+			}
+
+			p {
+				margin-bottom: 10px;
+				line-height: 1.5;
+				color: #1b272b;
+				text-align: left;
+				font-size: 18px;
+				
+			}
+
+			p:last-child {
+				font-weight: normal;
+			}
+		}
+}

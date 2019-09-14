@@ -1,3 +1,5 @@
+
+
 .wrapper {
 	overflow: hidden;
 }
@@ -59,16 +61,16 @@ header {
 		flex-direction: column;
 		text-align: center;
 		color: #fff;
-		font-family: Roboto, sans-serif;
+		font-family: Roboto Regular, sans-serif;
 
 		h2 {
-			font-size: 25px;
+			font-size: 30px;
 			color: #2d2d2d;
 			margin-bottom: 10px;
 		}
 
 		h1 {
-			font-size: 40px;
+			font-size: 48px;
 		}
 	}
 }
@@ -79,4 +81,3 @@ header {
 	color: #fff;
 	display: none;
 }
-
