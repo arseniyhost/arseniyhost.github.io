@@ -5,19 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Xika</title>
 	<link rel="stylesheet" href="css/style.css">
-	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 		<header>
 			<nav id="menuNav" class="menu">
-				<a href="#" id="logo"><h1>Xika</h1></a>
+				<a href="index.html" id="logo"><h1>Xika</h1></a>
 				<div class="down">
-					<a href="#">Главная</a>
-					<a href="#">О нас</a>
-					<a href="#">Услуги</a>
-					<a href="#">Вакансии</a>
-					<a href="#">Контакты</a>
+					<a href="index.html">Главная</a>
+					<a href="#about">О нас</a>
+					<a href="#service">Услуги</a>
+					<a href="#vac">Вакансии</a>
+					<a href="#contact">Контакты</a>
 				</div>
 				
 			</nav>
@@ -26,9 +26,10 @@
 				<h2>ГОСУДАРСТВЕННОЕ ПРЕДПРИЯТИЕ</h2>
 				<h1>“ХАРЬКОВСКИЙ НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ИНСТИТУТ<br> КОМПЛЕКСНОЙ АВТОМАТИЗАЦИИ”</h1>
 			</div>
+			<div  id="about"></div>
 		</header>
 		<main>
-			<div class="about">
+			<div id="about" class="about">
 					<h2>О НАС</h2>
 					<div class="line"></div>
 				<div class="contant-about">
@@ -45,7 +46,7 @@
 				</div>
 
 				<input type="button" value="Подробнее">
-				
+				<div id="service"></div>
 			</div>
 
 			<div class="services">
@@ -111,6 +112,7 @@
 					<img src="images/sert-2.jpg" alt="sert">
 				</div>
 			</div>
+			<div id="vac"></div>
 			</div>
 
 			<div class="vacation">
@@ -128,7 +130,8 @@
 						<li>навыки работы с СУБД Interbase, Firebird;</li>
 						<li>знание технического украинского, русского языка, базовый английский.</li>
 					</ul>
-				</div>	
+				</div>
+				<div id="contact"></div>	
 			</div>
 
 			<div class="contact">
@@ -187,5 +190,14 @@
 	 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjgsC9voQ3vAZ-FTxTo6iuDf4O0hLohxY&callback=initMap"
   type="text/javascript"></script>
   <script src="https://use.fontawesome.com/31deac6198.js"></script>
+  <script>
+  	var $page = $('html, body');
+	$('a[href*="#"]').click(function() {
+	    $page.animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top
+	    }, 1000);
+	    return false;
+	});
+  </script>
 </body>
 </html>
