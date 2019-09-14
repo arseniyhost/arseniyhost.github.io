@@ -24,7 +24,7 @@ main {
 			color: #777777;
 			transition: 1.2s;
 				
-			margin-left: 20%;
+			margin-left: 40%;
 		}
 			
 			.line {
@@ -35,7 +35,7 @@ main {
 				margin: 5px 0px 35px 0px;
 				transition: .6s;
 
-				margin-left: 20%;
+				margin-left: 40%;
 			}
 
 		.contant-about {
@@ -109,16 +109,18 @@ main {
 				opacity: 0;
 				transition: 1.2s;
 
-				margin-left: 20%;
+				margin-right: 40%;
 			}
 			
 			.line {
 				opacity: 0;
-				transition: .6s;
 				height: 5px;
 				width: 120px;
 				background: #F8CE00;
 				margin: 5px 0px 35px 0px;
+				transition: .6s;
+
+				margin-right: 40%;
 			}
 
 		.marker {
@@ -167,7 +169,7 @@ main {
 
 				opacity: 0;
 				transition: 1.2s;
-				margin-left: 20%;
+				margin-left: 40%;
 			}
 			
 			.line {
@@ -178,7 +180,7 @@ main {
 
 				opacity: 0;
 				transition: .6s;
-				margin-left: 20%;
+				margin-left: 40%;
 			}
 
 		.partof {
@@ -256,18 +258,28 @@ main {
 		justify-content: center;
 		text-align: center;
 		h2 {
-			font-size: 38px;
-			text-transform: uppercase;
-			color: #777777;
-		}
+				font-size: 38px;
+				text-transform: uppercase;
+				color: #777777;
+				opacity: 0;
+				transition: 1.2s;
+
+				margin-right: 40%;
+			}
 			
-		.line {
-			height: 5px;
-			width: 120px;
-			background: #F8CE00;
-			margin: 5px 0px 35px 0px;
-		}
+			.line {
+				opacity: 0;
+				height: 5px;
+				width: 120px;
+				background: #F8CE00;
+				margin: 5px 0px 35px 0px;
+				transition: .6s;
+
+				margin-right: 40%;
+			}
 		.sert-info {
+			opacity: 0;
+			transition: .1.4s;
 			p {
 				margin-bottom: 10px;
 				line-height: 1.5;

@@ -33,16 +33,17 @@ $(window).scroll(function() {
     $(".about .line").css("opacity", "1");
     $(".about .contant-about").css("opacity", "1");
     $(".about input").css("opacity", "1");
-
   }
+
+
 });
 
 $(window).scroll(function() {
    if($(this).scrollTop() > 900) {
-    $(".services h2").css("margin-left", "0");
+    $(".services h2").css("margin-right", "0");
     $(".services h2").css("opacity", "1");
     $(".services .line").css("opacity", "1");
-    $(".services .line").css("margin-left", "0");
+    $(".services .line").css("margin-right", "0");
     $(".services .marker").css("opacity", "1");
 
   }
@@ -57,6 +58,41 @@ $(window).scroll(function() {
     $(".partners .partof").css("opacity", "1");
     $(".partners .line").css("opacity", "1");
     $(".partners .line").css("margin-left", "0");
+
+  }
+});
+
+
+$(window).scroll(function() {
+   if($(this).scrollTop() > 2000) {
+    $(".sert h2").css("margin-right", "0");
+    $(".sert h2").css("opacity", "1");
+    $(".sert .line").css("opacity", "1");
+    $(".sert .line").css("margin-right", "0");
+    $(".sert .sert-info").css("opacity", "1");
+
+  }
+});
+
+$(window).scroll(function() {
+   if($(this).scrollTop() > 2900) {
+    $(".vacation h2").css("margin-left", "0");
+    $(".vacation h2").css("opacity", "1");
+    $(".vacation .line").css("opacity", "1");
+    $(".vacation .line").css("margin-left", "0");
+    $(".vacation .vacs").css("opacity", "1");
+
+  }
+});
+
+
+$(window).scroll(function() {
+   if($(this).scrollTop() > 3400) {
+    $(".contact h2").css("margin-right", "0");
+    $(".contact h2").css("opacity", "1");
+    $(".contact .line").css("opacity", "1");
+    $(".contact .line").css("margin-right", "0");
+    $(".contact .down-information").css("opacity", "1");
 
   }
 });

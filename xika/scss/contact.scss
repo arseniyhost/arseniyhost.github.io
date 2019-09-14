@@ -9,19 +9,29 @@
 		background: #fff;
 
 		h2 {
-			font-size: 42px;
+			opacity: 0;
+			font-size: 38px;
 			text-transform: uppercase;
 			color: #777777;
+			transition: 1.2s;
+				
+			margin-right: 40%;
 		}
 			
-		.line {
-			height: 5px;
-			width: 120px;
-			background: #F8CE00;
-			margin: 5px 0px 35px 0px;
-		}
+			.line {
+				opacity: 0;
+				height: 5px;
+				width: 120px;
+				background: #F8CE00;
+				margin: 5px 0px 35px 0px;
+				transition: .6s;
+
+				margin-right: 40%;
+			}
 
 		.down-information {
+			opacity: 0;
+			transition: 1.4s;
 			width: 85%;
 
 			#map {
