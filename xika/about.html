@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Xika</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav id="menuNav" class="menu">
+				<button  href="javascript:void(0);" id="burger" onclick="myFunction()"><i class="fa fa-bars"></i></button>
+				<a href="index.html" id="logo"><h1>Xika</h1></a>
+				<div class="menu-top" id="DownMenu">
+					<div class="down">
+						<a href="index.html">Главная</a>
+						<a href="#about">О нас</a>
+						<a href="#service">Услуги</a>
+						<a href="#vac">Вакансии</a>
+						<a href="#">Финансы</a>
+						<a href="#contact">Контакты</a>
+					</div>
+				</div>			
+			</nav>
+		</header>
+		<main>
+			<div id="about" class="about">
+					<h2>О НАС</h2>
+					<div class="line"></div>
+				<div class="contant-about">
+					<p>Государственное предприятие «Харьковский научно-исследовальский институт комплексной автоматизации» (ГП «ХИКА») образован в<br> 1992 году на базе Всесоюзного Центрального НИИ комплексной автоматизации (ЦНИИКА, г. Москва) - является головным институтом<br> Министерства энергетики и угольной промышленности Украины по разработке и<br> внедрению управляющих и информационно-вычислительных систем (УВС и ИВС) верхнего уровня в составе АСУ ТП энергоблоков ТЭС и АЭС.</p>
+
+					<p>Институт располагает высококвалифицированными научно-техническими кадрами, имеющими многолетний опыт создания и<br> внедрения разработанных систем. Организационная структура ГП «ХИКА» представлена 4-мя научно-производственными отделениями:</p>
+
+					<ul>
+						<li>отделение математического и информационного обеспечения задач;</li>
+						<li>отделение программного обеспечения верхнего уровня;</li>
+						<li>отделение поддержки функционирования ПО;</li>
+						<li>отделение операционных систем и системного программирования.</li>
+					</ul>
+				</div>
+
+				<a href="about.html"><input type="button" id="btnAbout" value="Подробнее"></a>
+				<div id="service"></div>
+			</div>
+		</main>
+	</div>
+	
+
+	<script src="js/script.js"></script>
+	 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjgsC9voQ3vAZ-FTxTo6iuDf4O0hLohxY&callback=initMap"
+  type="text/javascript"></script>
+  <script src="https://use.fontawesome.com/31deac6198.js"></script>
+  <script>
+  	var $page = $('html, body');
+	$('a[href*="#"]').click(function() {
+	    $page.animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top
+	    }, 1000);
+	    return false;
+	});
+  </script>
+</body>
+</html>

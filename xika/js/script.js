@@ -39,7 +39,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 900) {
+   if($(this).scrollTop() > 1000) {
     $(".services h2").css("margin-right", "0");
     $(".services h2").css("opacity", "1");
     $(".services .line").css("opacity", "1");
@@ -50,7 +50,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 1500) {
+   if($(this).scrollTop() > 1600) {
     $(".container-img img").css("opacity", "1");
     $(".container-img img").css("opacity", "1");
     $(".partners h2").css("margin-left", "0");
@@ -64,18 +64,19 @@ $(window).scroll(function() {
 
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 2000) {
+   if($(this).scrollTop() > 2200) {
     $(".sert h2").css("margin-right", "0");
     $(".sert h2").css("opacity", "1");
     $(".sert .line").css("opacity", "1");
     $(".sert .line").css("margin-right", "0");
     $(".sert .sert-info").css("opacity", "1");
+    $(".sert .coin").css("opacity", "1");
 
   }
 });
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 2900) {
+   if($(this).scrollTop() > 3000) {
     $(".vacation h2").css("margin-left", "0");
     $(".vacation h2").css("opacity", "1");
     $(".vacation .line").css("opacity", "1");
@@ -87,7 +88,7 @@ $(window).scroll(function() {
 
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 3400) {
+   if($(this).scrollTop() > 3500) {
     $(".contact h2").css("margin-right", "0");
     $(".contact h2").css("opacity", "1");
     $(".contact .line").css("opacity", "1");
@@ -96,3 +97,12 @@ $(window).scroll(function() {
 
   }
 });
+
+function myFunction() {
+  var x = document.getElementById("DownMenu");
+  if (x.className === "menu-top") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu-top";
+  }
+}

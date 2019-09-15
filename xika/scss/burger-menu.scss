@@ -1,0 +1,40 @@
+@media screen and (max-width: 950px) {
+	header {
+		nav {
+			flex-direction: column;
+			#burger {
+				display: block;
+			}
+			.menu-top {
+				display: none;
+				.down {
+					flex-direction: column;
+
+					a {
+						margin-right: 0px;
+						margin-top: 8px;
+					}
+				}
+			}
+
+			
+		}
+	}
+
+	.none {
+		display: none;
+	}
+}
+
+.menu-top.responsive {
+	display: block;
+}
+
+#burger {
+	font-size: 30px;
+	color: #fff;
+	display: none;
+	border: none;
+	background: none;
+	cursor: pointer;
+}

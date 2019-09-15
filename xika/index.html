@@ -11,13 +11,17 @@
 	<div class="wrapper">
 		<header>
 			<nav id="menuNav" class="menu">
+				<button  href="javascript:void(0);" id="burger" onclick="myFunction()"><i class="fa fa-bars"></i></button>
 				<a href="index.html" id="logo"><h1>Xika</h1></a>
-				<div class="down">
-					<a href="index.html">Главная</a>
-					<a href="#about">О нас</a>
-					<a href="#service">Услуги</a>
-					<a href="#vac">Вакансии</a>
-					<a href="#contact">Контакты</a>
+				<div class="menu-top" id="DownMenu">
+					<div class="down">
+						<a href="index.html">Главная</a>
+						<a href="#about">О нас</a>
+						<a href="#service">Услуги</a>
+						<a href="#vac">Вакансии</a>
+						<a href="#">Финансы</a>
+						<a href="#contact">Контакты</a>
+					</div>
 				</div>
 				
 			</nav>
@@ -45,7 +49,7 @@
 					</ul>
 				</div>
 
-				<input type="button" id="btnAbout" value="Подробнее">
+				<a href="about.html"><input type="button" id="btnAbout" value="Подробнее"></a>
 				<div id="service"></div>
 			</div>
 
@@ -102,13 +106,13 @@
 				</div>
 
 			<div class="sertification">
-				<div class="coin fade">
+				<div class="coin">
 					<img src="images/sert-1.jpg" alt="sert">
 				</div>
-				<div class="coin fade">
+				<div class="coin">
 					<img src="images/middle-sert.jpg" alt="mid">
 				</div>
-				<div class="coin fade">
+				<div class="coin">
 					<img src="images/sert-2.jpg" alt="sert">
 				</div>
 			</div>
