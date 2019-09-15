@@ -6,6 +6,8 @@
     flex-direction: column; }
     header nav #burger {
       display: block; }
+    header nav #logo {
+      display: none; }
     header nav .menu-top {
       display: none; }
       header nav .menu-top .down {
@@ -403,84 +405,6 @@ main {
         transition: 6s; }
       main .partners .images .container-img:last-child img:last-child {
         margin-right: 0px; }
-  main .sert {
-    padding: 40px 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center; }
-    main .sert h2 {
-      font-size: 38px;
-      text-transform: uppercase;
-      color: #777777;
-      opacity: 0;
-      -webkit-transition: 1.2s;
-      -o-transition: 1.2s;
-      transition: 1.2s;
-      margin-right: 40%; }
-    main .sert .line {
-      opacity: 0;
-      height: 5px;
-      width: 120px;
-      background: #F8CE00;
-      margin: 5px 0px 35px 0px;
-      -webkit-transition: .6s;
-      -o-transition: .6s;
-      transition: .6s;
-      margin-right: 40%; }
-    main .sert .sert-info {
-      opacity: 0;
-      -webkit-transition: 1.4s;
-      -o-transition: 1.4s;
-      transition: 1.4s; }
-      main .sert .sert-info p {
-        margin-bottom: 10px;
-        line-height: 1.5;
-        color: #1b272b;
-        text-align: left;
-        font-size: 18px;
-        text-indent: 35px; }
-    main .sert .sertification {
-      margin-top: 30px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      position: relative; }
-      main .sert .sertification .coin img {
-        width: 350px;
-        height: auto; }
-      main .sert .sertification .coin {
-        opacity: 0; }
-      main .sert .sertification .coin img {
-        margin-right: 70px; }
-      main .sert .sertification .coin:first-child {
-        -webkit-transition: 1s;
-        -o-transition: 1s;
-        transition: 1s; }
-      main .sert .sertification .coin:nth-child(2) {
-        -webkit-transition: 2s;
-        -o-transition: 2s;
-        transition: 2s; }
-      main .sert .sertification .coin:last-child img {
-        margin-right: 0px;
-        -webkit-transition: 3s;
-        -o-transition: 3s;
-        transition: 3s; }
 
 footer {
   background: #2d2d2d;
@@ -516,7 +440,7 @@ footer {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 40px 0px;
-  background: #fff; }
+  background: #F8F5F5; }
   .contact h2 {
     opacity: 0;
     font-size: 38px;
@@ -627,7 +551,7 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   padding: 40px 0px;
-  background: #F8F5F5; }
+  background: #fff; }
   .vacation h2 {
     font-size: 38px;
     text-transform: uppercase;
@@ -828,42 +752,6 @@ footer {
   main .vacation .vacs ul li {
     list-style: disc;
     font-size: 14px; } }
-
-@media screen and (max-width: 700px) {
-  main .sert .sert-info p {
-    font-size: 16px;
-    text-align: center;
-    text-indent: 0px; } }
-
-@media screen and (max-width: 500px) {
-  main .sert .sert-info p {
-    text-indent: 0px; } }
-
-@media screen and (max-width: 1202px) {
-  main .sert .sertification .coin img {
-    width: 200px; } }
-
-@media screen and (max-width: 756px) {
-  main .sert .sertification {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    main .sert .sertification .coin img {
-      margin-right: 0px;
-      margin-bottom: 20px; }
-    main .sert .sertification .coin:last-child img {
-      margin-bottom: 0px; } }
-
-@media screen and (max-width: 400px) {
-  main .sert .sert-info p {
-    font-size: 15px; } }
 
 @media screen and (max-width: 1024px) {
   main .contact .down-information {

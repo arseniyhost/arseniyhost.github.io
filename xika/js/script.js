@@ -50,6 +50,34 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
+   if($(this).scrollTop() > 350) {
+    $(".container-poligon").css("opacity", "1");
+
+  }
+});
+
+$(window).scroll(function() {
+   if($(this).scrollTop() > 1350) {
+    $(".box-npp img").css("opacity", "1");
+
+  }
+});
+
+$(window).scroll(function() {
+   if($(this).scrollTop() > 1800) {
+    $(".text-npp").css("opacity", "1");
+
+  }
+});
+
+$(window).scroll(function() {
+   if($(this).scrollTop() > 600) {
+    $(".text-offer").css("opacity", "1");
+
+  }
+});
+
+$(window).scroll(function() {
    if($(this).scrollTop() > 1600) {
     $(".container-img img").css("opacity", "1");
     $(".container-img img").css("opacity", "1");
@@ -64,19 +92,17 @@ $(window).scroll(function() {
 
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 2200) {
+   if($(this).scrollTop() > 2600) {
     $(".sert h2").css("margin-right", "0");
-    $(".sert h2").css("opacity", "1");
-    $(".sert .line").css("opacity", "1");
+    $(".sert").css("opacity", "1");
     $(".sert .line").css("margin-right", "0");
-    $(".sert .sert-info").css("opacity", "1");
     $(".sert .coin").css("opacity", "1");
 
   }
 });
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 3000) {
+   if($(this).scrollTop() > 2100) {
     $(".vacation h2").css("margin-left", "0");
     $(".vacation h2").css("opacity", "1");
     $(".vacation .line").css("opacity", "1");
@@ -88,7 +114,7 @@ $(window).scroll(function() {
 
 
 $(window).scroll(function() {
-   if($(this).scrollTop() > 3500) {
+   if($(this).scrollTop() > 2600) {
     $(".contact h2").css("margin-right", "0");
     $(".contact h2").css("opacity", "1");
     $(".contact .line").css("opacity", "1");
