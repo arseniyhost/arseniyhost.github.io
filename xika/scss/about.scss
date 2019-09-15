@@ -1,5 +1,4 @@
 @import "burger-menu.scss";
-@import "media.scss";
 @import "media-about.scss";
 
 * {
@@ -13,6 +12,9 @@ ul li {
 
 a {
 	text-decoration: none;
+}
+.wrapper {
+	overflow: hidden;
 }
 
 .section-header {
@@ -387,7 +389,7 @@ footer {
 				width: 80%;
 				height: auto;
 			}
-			.text-poligon {
+			#poligon{
 				p {
 					font-size: 16px;
 				}

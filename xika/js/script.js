@@ -103,10 +103,10 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
    if($(this).scrollTop() > 2100) {
-    $(".vacation h2").css("margin-left", "0");
+    $(".vacation h2").css("margin-right", "0");
     $(".vacation h2").css("opacity", "1");
     $(".vacation .line").css("opacity", "1");
-    $(".vacation .line").css("margin-left", "0");
+    $(".vacation .line").css("margin-right", "0");
     $(".vacation .vacs").css("opacity", "1");
 
   }
@@ -115,10 +115,10 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
    if($(this).scrollTop() > 2600) {
-    $(".contact h2").css("margin-right", "0");
+    $(".contact h2").css("margin-left", "0");
     $(".contact h2").css("opacity", "1");
     $(".contact .line").css("opacity", "1");
-    $(".contact .line").css("margin-right", "0");
+    $(".contact .line").css("margin-left", "0");
     $(".contact .down-information").css("opacity", "1");
 
   }

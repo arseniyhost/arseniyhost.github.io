@@ -32,198 +32,6 @@
   background: none;
   cursor: pointer; }
 
-@media screen and (max-width: 700px) {
-  header .text h2 {
-    font-size: 23px; }
-  header .text h1 {
-    font-size: 36px; } }
-
-@media screen and (max-width: 480px) {
-  header .text h2 {
-    font-size: 18px; }
-  header .text h1 {
-    font-size: 30px; } }
-
-@media screen and (max-width: 370px) {
-  header .text h2 {
-    font-size: 16px; }
-  header .text h1 {
-    font-size: 25px; } }
-
-@media screen and (max-width: 700px) {
-  main .about .contant-about ul {
-    padding-left: 40px; }
-    main .about .contant-about ul li {
-      text-align: left;
-      line-height: 1.5;
-      font-size: 16px;
-      padding-top: 5px; }
-  main .about .contant-about p {
-    font-size: 16px;
-    text-align: center;
-    text-indent: 0px; } }
-
-@media screen and (max-width: 782px) {
-  main .about .contant-about ul {
-    padding-left: 5%; } }
-
-@media screen and (max-width: 500px) {
-  main .about .contant-about ul {
-    padding-left: 20px; }
-    main .about .contant-about ul li {
-      font-size: 14px; }
-  main .about .contant-about p {
-    text-indent: 0px; } }
-
-@media screen and (max-width: 700px) {
-  main .services .marker ul {
-    padding-left: 40px; }
-    main .services .marker ul li {
-      text-align: left;
-      line-height: 1.5;
-      font-size: 16px;
-      padding-top: 5px; }
-  main .services .marker p {
-    text-indent: 0px;
-    font-size: 16px;
-    text-align: center; } }
-
-@media screen and (max-width: 782px) {
-  main .services .marker ul {
-    padding-left: 5%; } }
-
-@media screen and (max-width: 500px) {
-  main .services .marker ul {
-    padding-left: 20px; }
-    main .services .marker ul li {
-      list-style: disc;
-      font-size: 14px; }
-  main .services .marker p {
-    text-indent: 0px; } }
-
-@media screen and (max-width: 700px) {
-  main .partners .partof ul {
-    padding-left: 40px; }
-    main .partners .partof ul li {
-      text-align: left;
-      line-height: 1.5;
-      font-size: 16px;
-      padding-top: 5px; }
-  main .partners .partof p {
-    text-indent: 0px;
-    font-size: 16px;
-    text-align: center; } }
-
-@media screen and (max-width: 782px) {
-  main .partners .partof ul {
-    padding-left: 5%; } }
-
-@media screen and (max-width: 500px) {
-  main .partners .partof ul {
-    padding-left: 20px; }
-    main .partners .partof ul li {
-      list-style: disc;
-      font-size: 14px; } }
-
-@media screen and (max-width: 1420px) {
-  main .partners .images {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; } }
-
-@media screen and (max-width: 1395px) {
-  main .partners .images .container-img:last-child {
-    margin-top: 20px; } }
-
-@media screen and (max-width: 799px) {
-  main .partners .images .container-img:last-child img:last-child {
-    margin-top: 20px; } }
-
-@media screen and (max-width: 627px) {
-  main .partners .images .container-img:last-child img:nth-child(2) {
-    margin-right: 0px; } }
-
-@media screen and (max-width: 612px) {
-  main .partners .images .container-img:first-child img:last-child {
-    margin-top: 20px; } }
-
-@media screen and (max-width: 531px) {
-  main .partners .images .container-img:first-child img:nth-child(2) {
-    margin-right: 0px; }
-  main .partners .images .container-img:last-child img:nth-child(2) {
-    margin-top: 20px;
-    margin-right: 5px; } }
-
-@media screen and (max-width: 451px) {
-  main .partners .images .container-img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    main .partners .images .container-img img {
-      margin-right: 0px;
-      margin-bottom: 20px; }
-  main .partners .images .container-img:last-child img:last-child {
-    margin-bottom: 0px; } }
-
-@media screen and (max-width: 634px) {
-  main .vacation .vacs p {
-    text-align: center;
-    font-size: 16px;
-    text-align: center; }
-  main .vacation .vacs ul {
-    padding-left: 20px; }
-    main .vacation .vacs ul li {
-      font-size: 16px;
-      padding-top: 5px; } }
-
-@media screen and (max-width: 500px) {
-  main .vacation .vacs ul li {
-    list-style: disc;
-    font-size: 14px; } }
-
-@media screen and (max-width: 1024px) {
-  main .contact .down-information {
-    width: 100%; }
-    main .contact .down-information .information {
-      width: 100%;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-      main .contact .down-information .information .info-text {
-        text-align: center;
-        margin-bottom: 20px; }
-      main .contact .down-information .information form {
-        width: 80%; }
-        main .contact .down-information .information form .name input[type="text"], main .contact .down-information .information form .number input[type="text"], main .contact .down-information .information form .email-in input[type="email"] {
-          width: 300px; }
-        main .contact .down-information .information form .text-area textarea {
-          width: 300px; } }
-
-@media screen and (max-width: 351px) {
-  main .contact .down-information .information form {
-    width: 100%; }
-    main .contact .down-information .information form .name input[type="text"], main .contact .down-information .information form .number input[type="text"], main .contact .down-information .information form .email-in input[type="email"] {
-      width: 200px; }
-    main .contact .down-information .information form .text-area textarea {
-      width: 200px; } }
-
 * {
   padding: 0;
   margin: 0; }
@@ -233,6 +41,9 @@ ul li {
 
 a {
   text-decoration: none; }
+
+.wrapper {
+  overflow: hidden; }
 
 .section-header {
   background: url(../images/header-bg.jpg) no-repeat;
@@ -576,7 +387,7 @@ footer {
     main .container-poligon img {
       width: 80%;
       height: auto; }
-    main .container-poligon .text-poligon p {
+    main .container-poligon #poligon p {
       font-size: 16px; } }
 
 @media screen and (max-width: 1364px) {
