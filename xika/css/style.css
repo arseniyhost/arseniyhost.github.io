@@ -40,7 +40,8 @@ header {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
   header nav {
     width: 100%;
     display: -webkit-box;
@@ -84,10 +85,12 @@ header {
         -o-transition: .4s;
         transition: .4s; }
       header nav .down a:hover {
-        color: #2d2d2d;
+        color: #ddd;
         -webkit-transition: .4s;
         -o-transition: .4s;
-        transition: .4s; }
+        transition: .4s;
+        border-bottom: 3px solid #F8CE00;
+        padding-bottom: 5px; }
       header nav .down a:last-child {
         margin-right: 0px; }
   header .text {
@@ -545,7 +548,10 @@ header {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .wrapper main {
     font-family: Roboto Medium, sans-serif;
     display: -webkit-box;
@@ -599,6 +605,7 @@ header {
         transition: .6s;
         margin-left: 40%; }
       .wrapper main .about .contant-about {
+        width: 80%;
         -webkit-transition: 1.4s;
         -o-transition: 1.4s;
         transition: 1.4s;
@@ -683,6 +690,7 @@ header {
         transition: .6s;
         margin-right: 40%; }
       .wrapper main .services .marker {
+        width: 80%;
         opacity: 0;
         -webkit-transition: 1.4s;
         -o-transition: 1.4s;
@@ -690,7 +698,7 @@ header {
         .wrapper main .services .marker ul {
           padding-left: 100px; }
           .wrapper main .services .marker ul li {
-            list-style-image: url(../images/customer.png);
+            list-style: disc;
             text-align: left;
             line-height: 1.5;
             font-size: 18px;
@@ -742,6 +750,7 @@ header {
         transition: .6s;
         margin-left: 40%; }
       .wrapper main .partners .partof {
+        width: 80%;
         opacity: 0;
         -webkit-transition: 1.4s;
         -o-transition: 1.4s;

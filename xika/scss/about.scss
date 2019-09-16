@@ -42,6 +42,13 @@ a {
 				display: block;			
 			}
 		}
+
+		.active {
+			color: #ddd;
+			transition: .4s;
+			border-bottom: 3px solid #F8CE00;
+			padding-bottom: 5px;
+		}
 		.down {
 			display: flex;
 			
@@ -53,8 +60,10 @@ a {
 				}
 
 				a:hover {
-					color: #2d2d2d;
+					color: #ddd;
 					transition: .4s;
+					border-bottom: 3px solid #F8CE00;
+					padding-bottom: 5px;
 				}
 
 			a:last-child {
@@ -106,6 +115,7 @@ main {
 			}
 
 		.contant-about {
+			width: 80%;
 			ul {
 				padding-left: 100px;
 				margin-bottom: 10px;
@@ -133,12 +143,14 @@ main {
 		}
 
 		.container-poligon {
+			width: 80%;
 			opacity: 0;
 			transition: 1.2s;
 			margin-top: 17px;
 			display: flex;
 			padding: 29px;
 			background: #fff;
+
 
 			.text-poligon {
 				margin-left: 17px;
@@ -159,7 +171,7 @@ main {
 				ul {
 				padding-left: 36px;
 				li {
-					list-style: none;
+					list-style: disc;
 				}
 			}
 
@@ -179,13 +191,13 @@ main {
 		}
 
 		.container-iac {
+			opacity: 0;
+			transition: .8s;
 			padding: 20px;
 			background: #fff;
+			margin-top: 20%;
 
 			.box-npp {
-				img {
-					opacity: 0;
-				}
 			}
 			.box-npp:first-child{
 				margin-bottom: 20px;
@@ -224,6 +236,7 @@ main {
 			transition: 1.4s;
 		}
 		.sert {
+			width: 80%;
 			transition: 1.2s;
 			opacity: 0;
 			padding: 40px 0px;
@@ -371,6 +384,12 @@ footer {
 	main {
 		.container-poligon {
 			flex-direction: column;
+			align-items: center;
+
+			img {
+				width: 50%;
+				height: auto;
+			}
 			.text-poligon {
 				margin-left: 0;
 				margin-top: 17px;

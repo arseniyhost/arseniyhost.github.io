@@ -81,6 +81,13 @@ a {
         font-size: 40px;
         color: #fff;
         display: block; }
+    .section-header nav .active {
+      color: #ddd;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      border-bottom: 3px solid #F8CE00;
+      padding-bottom: 5px; }
     .section-header nav .down {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -93,10 +100,12 @@ a {
         -o-transition: .4s;
         transition: .4s; }
       .section-header nav .down a:hover {
-        color: #2d2d2d;
+        color: #ddd;
         -webkit-transition: .4s;
         -o-transition: .4s;
-        transition: .4s; }
+        transition: .4s;
+        border-bottom: 3px solid #F8CE00;
+        padding-bottom: 5px; }
       .section-header nav .down a:last-child {
         margin-right: 0px; }
 
@@ -147,25 +156,28 @@ main {
       width: 120px;
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
-    main .about .contant-about ul {
-      padding-left: 100px;
-      margin-bottom: 10px; }
-      main .about .contant-about ul li {
-        text-align: left;
+    main .about .contant-about {
+      width: 80%; }
+      main .about .contant-about ul {
+        padding-left: 100px;
+        margin-bottom: 10px; }
+        main .about .contant-about ul li {
+          text-align: left;
+          line-height: 1.5;
+          font-size: 18px;
+          padding-top: 5px;
+          list-style: disc; }
+      main .about .contant-about p {
+        margin-bottom: 10px;
         line-height: 1.5;
+        color: #1b272b;
+        text-align: left;
         font-size: 18px;
-        padding-top: 5px;
-        list-style: disc; }
-    main .about .contant-about p {
-      margin-bottom: 10px;
-      line-height: 1.5;
-      color: #1b272b;
-      text-align: left;
-      font-size: 18px;
-      text-indent: 35px; }
-    main .about .contant-about p:last-child {
-      margin-bottom: 0px; }
+        text-indent: 35px; }
+      main .about .contant-about p:last-child {
+        margin-bottom: 0px; }
     main .about .container-poligon {
+      width: 80%;
       opacity: 0;
       -webkit-transition: 1.2s;
       -o-transition: 1.2s;
@@ -193,7 +205,7 @@ main {
         main .about .contant-about .text-offer ul {
           padding-left: 36px; }
           main .about .contant-about .text-offer ul li {
-            list-style: none; }
+            list-style: disc; }
         main .about .contant-about .text-offer p {
           font-size: 18px;
           line-height: 1.5;
@@ -202,10 +214,13 @@ main {
           main .about .contant-about .text-offer p i {
             color: #ff0000; }
     main .about .container-iac {
+      opacity: 0;
+      -webkit-transition: .8s;
+      -o-transition: .8s;
+      transition: .8s;
       padding: 20px;
-      background: #fff; }
-      main .about .container-iac .box-npp img {
-        opacity: 0; }
+      background: #fff;
+      margin-top: 20%; }
       main .about .container-iac .box-npp:first-child {
         margin-bottom: 20px; }
         main .about .container-iac .box-npp:first-child img {
@@ -242,6 +257,7 @@ main {
       -o-transition: 1.4s;
       transition: 1.4s; }
     main .about .sert {
+      width: 80%;
       -webkit-transition: 1.2s;
       -o-transition: 1.2s;
       transition: 1.2s;
@@ -370,7 +386,13 @@ footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    main .container-poligon img {
+      width: 50%;
+      height: auto; }
     main .container-poligon .text-poligon {
       margin-left: 0;
       margin-top: 17px; } }

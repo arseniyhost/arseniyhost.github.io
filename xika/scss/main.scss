@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	main {
 			font-family: Roboto Medium, sans-serif;
 			display: flex;
@@ -45,6 +46,7 @@
 				}
 
 			.contant-about {
+				width: 80%;
 				transition: 1.4s;
 				opacity: 0;
 
@@ -130,12 +132,13 @@
 				}
 
 			.marker {
+				width: 80%;
 				opacity: 0;
 				transition: 1.4s;
 				ul {
 					padding-left: 100px;
 					li {
-						list-style-image: url(../images/customer.png); 
+						list-style: disc; 
 						text-align: left;
 						line-height: 1.5;
 						font-size: 18px;
@@ -190,6 +193,7 @@
 				}
 
 			.partof {
+				width: 80%;
 				opacity: 0;
 				transition: 1.4s;
 				ul {
