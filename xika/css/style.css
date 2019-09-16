@@ -41,7 +41,8 @@ header {
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   header nav {
     width: 100%;
     display: -webkit-box;
@@ -156,6 +157,10 @@ header {
   to {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1); } }
+
+#aboutMain {
+  position: absolute;
+  bottom: 15%; }
 
 @media screen and (max-width: 700px) {
   header .text h2 {
@@ -716,6 +721,7 @@ header {
         .wrapper main .services .marker p:last-child {
           margin-top: 10px; }
     .wrapper main .partners {
+      position: relative;
       text-align: center;
       width: 100%;
       display: -webkit-box;
@@ -836,6 +842,10 @@ header {
       font-size: 14px; }
   main .about .contant-about p {
     text-indent: 0px; } }
+
+#vacs, #contact {
+  position: absolute;
+  bottom: 15%; }
 
 footer {
   background: #2d2d2d;
@@ -1003,6 +1013,7 @@ footer {
     transition: .6s;
     margin-right: 40%; }
   .vacation .vacs {
+    position: relative;
     opacity: 0;
     -webkit-transition: 1.4s;
     -o-transition: 1.4s;

@@ -162,6 +162,7 @@
 		}
 
 		.partners {
+			position: relative;
 			text-align: center;
 			width: 100%;
 			display: flex;
@@ -311,4 +312,9 @@
 			}
 		}
 	}
+}
+
+#vacs, #contact {
+	position: absolute;
+	bottom: 15%;
 }
