@@ -27,7 +27,7 @@ var map;
 
 $(window).on("scroll",function() {
   if($(this).width() >= 760) {
-    if($(this).scrollTop() > 600) {
+    if($(this).scrollTop() > 450) {
       $(".about h2").css("margin-left", "0");
       $(".about h2").css("opacity", "1");
       $(".about .line").css("margin-left", "0");
@@ -111,7 +111,7 @@ $(window).on("scroll",function() {
 
 $(window).on("scroll",function() {
   if($(this).width() >= 760) {
-    if($(this).scrollTop() > 1600) {
+    if($(this).scrollTop() > 1500) {
       $(".container-img img").css("opacity", "1");
       $(".container-img img").css("opacity", "1");
       $(".partners h2").css("margin-left", "0");
@@ -193,7 +193,7 @@ $(window).on("scroll",function() {
 
 $(window).on("scroll",function() {
   if($(this).width() >= 760) {
-    if($(this).scrollTop() > 2600) {
+    if($(this).scrollTop() > 2500) {
       $(".contact h2").css("margin-left", "0");
       $(".contact h2").css("opacity", "1");
       $(".contact .line").css("opacity", "1");
