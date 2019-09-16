@@ -73,6 +73,9 @@ header {
         font-size: 40px;
         color: #fff;
         display: block; }
+    header nav #logo img {
+      width: 200px;
+      height: auto; }
     header nav .down {
       display: -webkit-box;
       display: -ms-flexbox;

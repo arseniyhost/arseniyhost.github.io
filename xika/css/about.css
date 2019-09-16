@@ -88,6 +88,9 @@ a {
       transition: .4s;
       border-bottom: 3px solid #F8CE00;
       padding-bottom: 5px; }
+    .section-header nav #logo img {
+      width: 200px;
+      height: auto; }
     .section-header nav .down {
       display: -webkit-box;
       display: -ms-flexbox;
