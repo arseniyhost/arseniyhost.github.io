@@ -146,7 +146,7 @@ $(window).on("scroll",function() {
     }
   }
   if($(this).width() < 452 && $(this).width() > 300) {
-    if($(this).scrollTop() > 2500) {
+    if($(this).scrollTop() > 2400) {
       $(".container-img img").css("opacity", "1");
       $(".container-img img").css("opacity", "1");
       $(".partners h2").css("margin-left", "0");
@@ -262,7 +262,7 @@ $(window).on("scroll",function() {
 
 $(window).on("scroll",function() {
   if($(this).width() > 1327) {
-      if($(this).scrollTop() > 350) {
+      if($(this).scrollTop() > 270) {
         $(".container-poligon").css("opacity", "1");
 
       }
