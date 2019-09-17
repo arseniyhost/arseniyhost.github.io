@@ -89,6 +89,7 @@
 					width: 500px;
 					font-size: 18px;
 					margin-bottom: 11px;
+					outline: none;
 				}
 
 				.text-area textarea {
@@ -101,13 +102,14 @@
 					width: 500px;
 					font-size: 18px;
   					font-family: Roboto Regular, sans-serif;
+  					outline: none;
 				}
 				
 				.btn input[type="submit"] {
 					padding: 12px 32px;
 					border: 2px solid #F8CE00;
 					text-transform: uppercase;
-					border-radius: 10px;
+					border-radius: 30px;
 					background: #fff;
 					cursor: pointer;
 					float: left;
@@ -118,6 +120,7 @@
 					background: #F8CE00;
 					transition: .4s;
 					color: #fff;
+					outline: none;
 				}
 			}
 		}
