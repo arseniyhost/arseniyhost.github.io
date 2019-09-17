@@ -198,6 +198,15 @@ main {
           font-size: 18px;
           line-height: 1.5;
           color: #1b272b; }
+        main .about .container-poligon .text-poligon ul {
+          padding-left: 40px;
+          margin-bottom: 10px; }
+          main .about .container-poligon .text-poligon ul li {
+            text-align: left;
+            line-height: 1.5;
+            font-size: 18px;
+            padding-top: 5px;
+            list-style: disc; }
     main .about .contant-about {
       margin: 20px 0; }
       main .about .contant-about .text-offer {
@@ -413,7 +422,11 @@ footer {
       width: 80%;
       height: auto; }
     main .container-poligon #poligon p {
-      font-size: 16px; } }
+      font-size: 16px; }
+    main .container-poligon #poligon ul {
+      padding-left: 0px; }
+      main .container-poligon #poligon ul li {
+        font-size: 16px; } }
 
 @media screen and (max-width: 1364px) {
   main .container-iac .box-npp img:last-child {
