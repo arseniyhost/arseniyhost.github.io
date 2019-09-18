@@ -57,7 +57,7 @@ $(window).on("scroll",function() {
     }
   }
   if($(this).width() < 451 && $(this).width() > 300) {
-    if($(this).scrollTop() > 450) {
+    if($(this).scrollTop() > 370) {
       $(".about h2").css("margin-left", "0");
       $(".about h2").css("opacity", "1");
       $(".about .line").css("margin-left", "0");
@@ -98,7 +98,7 @@ $(window).on("scroll",function() {
     }
   }
   if($(this).width() < 452 && $(this).width() > 300) {
-    if($(this).scrollTop() > 1500) {
+    if($(this).scrollTop() > 1400) {
       $(".services h2").css("margin-right", "0");
       $(".services h2").css("opacity", "1");
       $(".services .line").css("opacity", "1");
@@ -161,7 +161,7 @@ $(window).on("scroll",function() {
 
 $(window).on("scroll",function() {
   if($(this).width() >= 760) {
-    if($(this).scrollTop() > 2100) {
+    if($(this).scrollTop() > 2000) {
       $(".vacation h2").css("margin-right", "0");
       $(".vacation h2").css("opacity", "1");
       $(".vacation .line").css("opacity", "1");
@@ -171,7 +171,7 @@ $(window).on("scroll",function() {
     }
   }
   if($(this).width() < 760 && $(this).width() > 452) {
-    if($(this).scrollTop() > 2800) {
+    if($(this).scrollTop() > 2700) {
       $(".vacation h2").css("margin-right", "0");
       $(".vacation h2").css("opacity", "1");
       $(".vacation .line").css("opacity", "1");
@@ -180,7 +180,7 @@ $(window).on("scroll",function() {
     }
   }
   if($(this).width() < 452 && $(this).width() > 300) {
-    if($(this).scrollTop() > 3800) {
+    if($(this).scrollTop() > 3600) {
       $(".vacation h2").css("margin-right", "0");
       $(".vacation h2").css("opacity", "1");
       $(".vacation .line").css("opacity", "1");
@@ -193,7 +193,7 @@ $(window).on("scroll",function() {
 
 $(window).on("scroll",function() {
   if($(this).width() >= 760) {
-    if($(this).scrollTop() > 2500) {
+    if($(this).scrollTop() > 2400) {
       $(".contact h2").css("margin-left", "0");
       $(".contact h2").css("opacity", "1");
       $(".contact .line").css("opacity", "1");
@@ -213,7 +213,7 @@ $(window).on("scroll",function() {
     }
   }   
   if($(this).width() <= 451 && $(this).width() >= 300) {
-    if($(this).scrollTop() > 4500) {
+    if($(this).scrollTop() > 4400) {
       $(".contact h2").css("margin-left", "0");
       $(".contact h2").css("opacity", "1");
       $(".contact .line").css("opacity", "1");
