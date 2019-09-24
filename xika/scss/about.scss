@@ -98,10 +98,25 @@ main {
 		background: #F8F5F5;
 
 		.container-documents {
+			width: 60%;
+			text-align: left;
 			padding: 20px;
-			background: #fff;
-			img:first-child {
-				margin-right: 20px;
+			ul {
+				li {
+					list-style: disc;
+					margin-bottom: 10px;
+					a {
+						color: #001;
+						transition: .3s all;
+					}
+					a:hover {
+						color: #B18700;
+					}
+
+					a:link {
+						color: #B18700;
+					}
+				}
 			}
 		}
 

@@ -146,10 +146,21 @@ main {
     padding: 49px 0px;
     background: #F8F5F5; }
     main .about .container-documents {
-      padding: 20px;
-      background: #fff; }
-      main .about .container-documents img:first-child {
-        margin-right: 20px; }
+      width: 60%;
+      text-align: left;
+      padding: 20px; }
+      main .about .container-documents ul li {
+        list-style: disc;
+        margin-bottom: 10px; }
+        main .about .container-documents ul li a {
+          color: #001;
+          -webkit-transition: .3s all;
+          -o-transition: .3s all;
+          transition: .3s all; }
+        main .about .container-documents ul li a:hover {
+          color: #B18700; }
+        main .about .container-documents ul li a:link {
+          color: #B18700; }
     main .about h2 {
       font-size: 38px;
       text-transform: uppercase;

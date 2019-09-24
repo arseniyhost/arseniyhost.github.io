@@ -1,0 +1,338 @@
+@media screen and (max-width: 950px) {
+  header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    header nav #burger {
+      display: block; }
+    header nav #logo {
+      display: none; }
+    header nav .menu-top {
+      display: none; }
+      header nav .menu-top .down {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        header nav .menu-top .down a {
+          margin-right: 0px;
+          margin-top: 8px; }
+  .none {
+    display: none; } }
+
+.menu-top.responsive {
+  display: block; }
+
+#burger {
+  font-size: 30px;
+  color: #fff;
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  overflow: hidden; }
+
+.section-header {
+  background: url(../images/header-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top top; }
+  .section-header nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    padding: 40px 0px;
+    z-index: 100; }
+    .section-header nav a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .section-header nav a h1 {
+        font-size: 40px;
+        color: #fff;
+        display: block; }
+    .section-header nav .active {
+      color: #ddd;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      border-bottom: 3px solid #F8CE00;
+      padding-bottom: 5px; }
+    .section-header nav #logo img {
+      width: 200px;
+      height: auto; }
+    .section-header nav .down {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .section-header nav .down a {
+        margin-right: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s; }
+      .section-header nav .down a:hover {
+        color: #ddd;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        border-bottom: 3px solid #F8CE00;
+        padding-bottom: 5px; }
+      .section-header nav .down a:last-child {
+        margin-right: 0px; }
+
+main {
+  font-family: Roboto Medium, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  main .services {
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 40px 0px;
+    background: #F8F5F5; }
+    main .services h2 {
+      font-size: 38px;
+      text-transform: uppercase;
+      color: #777777; }
+    main .services .line {
+      height: 5px;
+      width: 120px;
+      background: #F8CE00;
+      margin: 5px 0px 35px 0px; }
+    main .services .marker {
+      width: 80%; }
+      main .services .marker ul {
+        padding-left: 100px; }
+        main .services .marker ul li {
+          list-style: disc;
+          text-align: left;
+          line-height: 1.5;
+          font-size: 18px;
+          padding-top: 10px; }
+      main .services .marker p {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        color: #1b272b;
+        text-align: left;
+        font-size: 18px;
+        text-indent: 35px; }
+      main .services .marker p:last-child {
+        margin-top: 10px; }
+    main .services .results {
+      text-align: center;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 40px 0px; }
+      main .services .results h2 {
+        font-size: 38px;
+        text-transform: uppercase;
+        color: #777777; }
+      main .services .results .line {
+        height: 5px;
+        width: 120px;
+        background: #F8CE00;
+        margin: 5px 0px 35px 0px; }
+      main .services .results .achivements {
+        width: 80%; }
+        main .services .results .achivements ul {
+          padding-left: 50px; }
+          main .services .results .achivements ul li {
+            list-style: decimal;
+            text-align: left;
+            line-height: 1.5;
+            font-size: 18px;
+            padding-top: 10px; }
+            main .services .results .achivements ul li ul li {
+              list-style: disc;
+              font-size: 16px; }
+        main .services .results .achivements p {
+          margin-bottom: 10px;
+          line-height: 1.5;
+          color: #1b272b;
+          text-align: left;
+          font-size: 18px;
+          text-indent: 35px; }
+        main .services .results .achivements p:last-child {
+          margin-top: 10px; }
+    main .services .container-table {
+      text-align: center;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 40px 0px; }
+      main .services .container-table .table {
+        padding: 29px;
+        background: #fff; }
+    main .services .software {
+      width: 80%; }
+      main .services .software ul {
+        padding-left: 50px; }
+        main .services .software ul li {
+          list-style: none;
+          text-align: left;
+          line-height: 1.5;
+          font-size: 18px;
+          padding-top: 10px; }
+          main .services .software ul li ul li {
+            list-style: disc;
+            font-size: 16px; }
+      main .services .software p {
+        margin: 20px 0;
+        line-height: 1.5;
+        color: #1b272b;
+        text-align: left;
+        font-size: 18px;
+        text-indent: 35px; }
+
+footer {
+  background: #2d2d2d;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  padding: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  width: 100%; }
+
+@media screen and (max-width: 700px) {
+  main .services .marker ul {
+    padding-left: 40px; }
+    main .services .marker ul li {
+      text-align: left;
+      line-height: 1.5;
+      font-size: 16px;
+      padding-top: 5px; }
+  main .services .marker p {
+    font-size: 16px;
+    text-align: center;
+    text-indent: 0px; }
+  main .services .results .achivements ul {
+    padding-left: 40px; }
+    main .services .results .achivements ul li {
+      text-align: left;
+      line-height: 1.5;
+      font-size: 16px;
+      padding-top: 5px; }
+      main .services .results .achivements ul li ul li {
+        font-size: 14px; }
+  main .services .software ul {
+    padding-left: 40px; }
+    main .services .software ul ul li li {
+      text-align: left;
+      line-height: 1.5;
+      font-size: 16px;
+      padding-top: 5px; }
+  main .services .software p {
+    font-size: 16px;
+    text-align: center;
+    text-indent: 0px; } }
+
+@media screen and (max-width: 782px) {
+  main .services .marker ul {
+    padding-left: 5%; }
+  main .services .results .achivements ul {
+    padding-left: 5%; } }
+
+@media screen and (max-width: 500px) {
+  main .services .marker ul {
+    padding-left: 20px; }
+    main .services .marker ul li {
+      font-size: 14px; }
+  main .services .marker p {
+    text-indent: 0px; }
+  main .services .software ul {
+    padding-left: 20px; }
+    main .services .software ul ul li {
+      font-size: 14px; }
+      main .services .software ul ul li li {
+        font-size: 12px; } }
+
+@media screen and (max-width: 778px) {
+  main .services .container-table .table img {
+    width: 100%;
+    height: auto; } }
