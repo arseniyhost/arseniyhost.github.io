@@ -110,16 +110,17 @@
 					border: 2px solid #F8CE00;
 					text-transform: uppercase;
 					border-radius: 30px;
-					background: #fff;
+					background: #F8CE00;
 					cursor: pointer;
 					float: left;
 					font-size: 15px;
 					transition: .4s;
+					color: #fff;
 				}
 				.btn input[type="submit"]:hover {
-					background: #F8CE00;
+					background: #fff;
 					transition: .4s;
-					color: #fff;
+					color: #000;
 					outline: none;
 				}
 			}
