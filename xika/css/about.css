@@ -45,6 +45,21 @@ a {
 .wrapper {
   overflow: hidden; }
 
+.animate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 .section-header {
   background: url(../images/header-bg.jpg) no-repeat;
   -webkit-background-size: cover;
@@ -216,36 +231,24 @@ main {
             list-style: disc; }
     main .about .contant-about {
       margin: 20px 0; }
-      main .about .contant-about .text-offer {
-        opacity: 0;
-        -webkit-transition: 1.5s;
-        -o-transition: 1.5s;
-        transition: 1.5s; }
-        main .about .contant-about .text-offer ul {
-          padding-left: 36px; }
-          main .about .contant-about .text-offer ul li {
-            list-style: disc; }
-        main .about .contant-about .text-offer p {
-          font-size: 18px;
-          line-height: 1.5;
-          color: #1b272b;
-          text-indent: 0px; }
-          main .about .contant-about .text-offer p i {
-            color: #ff0000; }
+      main .about .contant-about .text-offer ul {
+        padding-left: 36px; }
+        main .about .contant-about .text-offer ul li {
+          list-style: disc; }
+      main .about .contant-about .text-offer p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #1b272b;
+        text-indent: 0px; }
+        main .about .contant-about .text-offer p i {
+          color: #ff0000; }
     main .about .container-iac {
       padding: 20px;
       background: #fff; }
       main .about .container-iac .box-npp:first-child {
         margin-bottom: 20px; }
         main .about .container-iac .box-npp:first-child img {
-          -webkit-transition: 0.5s;
-          -o-transition: 0.5s;
-          transition: 0.5s;
           margin-right: 20px; }
-        main .about .container-iac .box-npp:first-child img:nth-child(2) {
-          -webkit-transition: 1s;
-          -o-transition: 1s;
-          transition: 1s; }
         main .about .container-iac .box-npp:first-child img:last-child {
           margin-right: 0;
           -webkit-transition: 2s;
@@ -316,14 +319,6 @@ main {
           height: auto; }
         main .about .sert .sertification .coin img {
           margin-right: 50px; }
-        main .about .sert .sertification .coin:first-child {
-          -webkit-transition: 1s;
-          -o-transition: 1s;
-          transition: 1s; }
-        main .about .sert .sertification .coin:nth-child(2) {
-          -webkit-transition: 2s;
-          -o-transition: 2s;
-          transition: 2s; }
         main .about .sert .sertification .coin:last-child img {
           margin-right: 0px;
           -webkit-transition: 3s;

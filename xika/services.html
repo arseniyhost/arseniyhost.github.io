@@ -6,6 +6,8 @@
 	<title>XIKA</title>
 	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/services.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -28,8 +30,8 @@
 		</header>
 		<main>
 			<div id="services" class="services">
-					<h2>УСЛУГИ</h2>
-					<div class="line"></div>
+						<h2>УСЛУГИ</h2>
+						<div class="line"></div>
 				<div class="marker">
 					<p>Институт предлагает:</p>
 						<ul>
@@ -45,9 +47,11 @@
 						<p>Разрабатываемое ПО проходит обязательную процедуру верификации. Испытания ПО проводятся: на уникальном полигоне ГП «ХИКА», на предприятии  изготовителе технических средств, на энергоблоке при вводе в эксплуатацию. Поддержка OPC технологии. Собственная уникальная SCADA система. Среда функционирования ПО ОС UNIX и ОС Windows.</p>
 				</div>
 				<div class="results">
-				<h2>РАЗРАБОТКИ И ДОСТИЖЕНИЯ</h2>
-				<div class="line"></div>
-				<div class="achivements">
+					<div class="animate wow fadeInRight" data-wow-delay="0.3s">
+						<h2>РАЗРАБОТКИ И ДОСТИЖЕНИЯ</h2>
+						<div class="line"></div>
+					</div>
+				<div class="achivements wow fadeIn" data-wow-delay="0.7s">
 					<ul>
 						<li>Разработка методов создания интегрированных систем управления технологическими процессами энергоблоков ТЭС и АЭС, где совместно производится решение задач технологического, экономического и диагностического контроля;</li>
 						<li> Разработка методов создания интегрированных систем управления технологическими процессами энергоблоков ТЭС и АЭС, где совместно производится решение задач технологического, экономического и диагностического контроля;
@@ -75,11 +79,11 @@
 				</div>
 			</div>
 			<div class="container-table">
-				<div class="table">
+				<div class="table wow zoomIn" data-wow-delay="0.5s">
 					<img src="images/table.png" alt="table">
 				</div>
 			</div>
-			<div class="software">
+			<div class="software wow fadeIn" data-wow-delay="0.5s">
 				<ul>
 					<li>Программное обеспечение ИВС верхнего уровня состоит:
 						<ul>
@@ -110,13 +114,7 @@
   type="text/javascript"></script>
   <script src="https://use.fontawesome.com/31deac6198.js"></script>
   <script>
-  	var $page = $('html, body');
-	$('a[href*="#"]').click(function() {
-	    $page.animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top
-	    }, 1000);
-	    return false;
-	});
+ 	new WOW().init();
   </script>
 </body>
 </html>

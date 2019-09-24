@@ -17,6 +17,13 @@ a {
 	overflow: hidden;
 }
 
+.animate {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .section-header {
 	background: url(../images/header-bg.jpg) no-repeat;
 	-webkit-background-size: cover;
