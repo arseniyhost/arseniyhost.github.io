@@ -595,30 +595,19 @@ header {
       padding: 40px 0px;
       background: #F8F5F5; }
       .wrapper main .about h2 {
-        opacity: 0;
         font-size: 38px;
         text-transform: uppercase;
-        color: #777777;
-        -webkit-transition: 1.2s;
-        -o-transition: 1.2s;
-        transition: 1.2s;
-        margin-left: 40%; }
+        color: #777777; }
       .wrapper main .about .line {
-        opacity: 0;
         height: 5px;
         width: 120px;
         background: #F8CE00;
-        margin: 5px 0px 35px 0px;
-        -webkit-transition: .6s;
-        -o-transition: .6s;
-        transition: .6s;
-        margin-left: 40%; }
+        margin: 5px 0px 35px 0px; }
       .wrapper main .about .contant-about {
         width: 80%;
-        -webkit-transition: 1.4s;
-        -o-transition: 1.4s;
-        transition: 1.4s;
-        opacity: 0; }
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
         .wrapper main .about .contant-about ul {
           padding-left: 100px; }
           .wrapper main .about .contant-about ul li {
@@ -651,10 +640,6 @@ header {
         -o-transition: .3s all;
         transition: .3s all;
         margin-top: 35px;
-        opacity: 0;
-        -webkit-transition: 1.2s;
-        -o-transition: 1.2s;
-        transition: 1.2s;
         outline: none; }
       .wrapper main .about input[type="button"]:hover {
         color: #000;
@@ -680,28 +665,14 @@ header {
       .wrapper main .services h2 {
         font-size: 38px;
         text-transform: uppercase;
-        color: #777777;
-        opacity: 0;
-        -webkit-transition: 1.2s;
-        -o-transition: 1.2s;
-        transition: 1.2s;
-        margin-right: 40%; }
+        color: #777777; }
       .wrapper main .services .line {
-        opacity: 0;
         height: 5px;
         width: 120px;
         background: #F8CE00;
-        margin: 5px 0px 35px 0px;
-        -webkit-transition: .6s;
-        -o-transition: .6s;
-        transition: .6s;
-        margin-right: 40%; }
+        margin: 5px 0px 35px 0px; }
       .wrapper main .services .marker {
-        width: 80%;
-        opacity: 0;
-        -webkit-transition: 1.4s;
-        -o-transition: 1.4s;
-        transition: 1.4s; }
+        width: 80%; }
         .wrapper main .services .marker ul {
           padding-left: 100px; }
           .wrapper main .services .marker ul li {
@@ -734,9 +705,6 @@ header {
           background: #F8C734;
           margin-top: 35px;
           color: #fff;
-          -webkit-transition: 1.2s;
-          -o-transition: 1.2s;
-          transition: 1.2s;
           outline: none; }
         .wrapper main .services .marker input[type="button"]:hover {
           -webkit-transition: .4s;
@@ -766,28 +734,14 @@ header {
       .wrapper main .partners h2 {
         font-size: 38px;
         text-transform: uppercase;
-        color: #777777;
-        opacity: 0;
-        -webkit-transition: 1.2s;
-        -o-transition: 1.2s;
-        transition: 1.2s;
-        margin-left: 40%; }
+        color: #777777; }
       .wrapper main .partners .line {
         height: 5px;
         width: 120px;
         background: #F8CE00;
-        margin: 5px 0px 35px 0px;
-        opacity: 0;
-        -webkit-transition: .6s;
-        -o-transition: .6s;
-        transition: .6s;
-        margin-left: 40%; }
+        margin: 5px 0px 35px 0px; }
       .wrapper main .partners .partof {
-        width: 80%;
-        opacity: 0;
-        -webkit-transition: 1.4s;
-        -o-transition: 1.4s;
-        transition: 1.4s; }
+        width: 80%; }
         .wrapper main .partners .partof ul {
           padding-left: 100px; }
           .wrapper main .partners .partof ul li {
@@ -814,32 +768,8 @@ header {
         flex-wrap: wrap;
         margin-top: 30px; }
         .wrapper main .partners .images .container-img img {
-          opacity: 0;
           margin-right: 40px; }
-        .wrapper main .partners .images .container-img:first-child img:first-child {
-          -webkit-transition: 1s;
-          -o-transition: 1s;
-          transition: 1s; }
-        .wrapper main .partners .images .container-img:first-child img:nth-child(2) {
-          -webkit-transition: 2s;
-          -o-transition: 2s;
-          transition: 2s; }
-        .wrapper main .partners .images .container-img:first-child img:last-child {
-          -webkit-transition: 3s;
-          -o-transition: 3s;
-          transition: 3s; }
-        .wrapper main .partners .images .container-img:last-child img:first-child {
-          -webkit-transition: 4s;
-          -o-transition: 4s;
-          transition: 4s; }
-        .wrapper main .partners .images .container-img:last-child img:nth-child(2) {
-          -webkit-transition: 5s;
-          -o-transition: 5s;
-          transition: 5s; }
         .wrapper main .partners .images .container-img:last-child img:last-child {
-          -webkit-transition: 6s;
-          -o-transition: 6s;
-          transition: 6s;
           margin-right: 0px; }
 
 @media screen and (max-width: 700px) {
@@ -870,6 +800,21 @@ header {
 #vacs, #contact {
   position: absolute;
   bottom: 15%; }
+
+.animate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 footer {
   background: #2d2d2d;
@@ -907,29 +852,15 @@ footer {
   padding: 40px 0px;
   background: #F8F5F5; }
   .contact h2 {
-    opacity: 0;
     font-size: 38px;
     text-transform: uppercase;
-    color: #777777;
-    -webkit-transition: 1.2s;
-    -o-transition: 1.2s;
-    transition: 1.2s;
-    margin-left: 40%; }
+    color: #777777; }
   .contact .line {
-    opacity: 0;
     height: 5px;
     width: 120px;
     background: #F8CE00;
-    margin: 5px 0px 35px 0px;
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s;
-    margin-left: 40%; }
+    margin: 5px 0px 35px 0px; }
   .contact .down-information {
-    opacity: 0;
-    -webkit-transition: 1.4s;
-    -o-transition: 1.4s;
-    transition: 1.4s;
     width: 85%; }
     .contact .down-information #map {
       width: 100%;
@@ -1024,28 +955,14 @@ footer {
   .vacation h2 {
     font-size: 38px;
     text-transform: uppercase;
-    color: #777777;
-    opacity: 0;
-    -webkit-transition: 1.2s;
-    -o-transition: 1.2s;
-    transition: 1.2s;
-    margin-right: 40%; }
+    color: #777777; }
   .vacation .line {
-    opacity: 0;
     height: 5px;
     width: 120px;
     background: #F8CE00;
-    margin: 5px 0px 35px 0px;
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s;
-    margin-right: 40%; }
+    margin: 5px 0px 35px 0px; }
   .vacation .vacs {
     position: relative;
-    opacity: 0;
-    -webkit-transition: 1.4s;
-    -o-transition: 1.4s;
-    transition: 1.4s;
     width: 75%;
     text-align: left; }
     .vacation .vacs ul {

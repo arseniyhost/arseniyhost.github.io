@@ -25,31 +25,24 @@
 			background: #F8F5F5;
 
 			h2 {
-				opacity: 0;
 				font-size: 38px;
 				text-transform: uppercase;
 				color: #777777;
-				transition: 1.2s;
-					
-				margin-left: 40%;
+			
 			}
 				
 				.line {
-					opacity: 0;
+				
 					height: 5px;
 					width: 120px;
 					background: #F8CE00;
 					margin: 5px 0px 35px 0px;
-					transition: .6s;
-
-					margin-left: 40%;
+				
 				}
 
 			.contant-about {
 				width: 80%;
-				transition: 1.4s;
-				opacity: 0;
-
+				transition: 1s;
 				ul {
 					padding-left: 100px;
 					li {
@@ -88,8 +81,6 @@
 	  			font-family: Roboto, sans-serif;
 	  			transition: .3s all;
 	  			margin-top: 35px;
-	  			opacity: 0;
-	  			transition: 1.2s;
 	  			outline: none;
 			}
 
@@ -114,27 +105,17 @@
 					font-size: 38px;
 					text-transform: uppercase;
 					color: #777777;
-					opacity: 0;
-					transition: 1.2s;
-
-					margin-right: 40%;
 				}
 				
 				.line {
-					opacity: 0;
 					height: 5px;
 					width: 120px;
 					background: #F8CE00;
 					margin: 5px 0px 35px 0px;
-					transition: .6s;
-
-					margin-right: 40%;
 				}
 
 			.marker {
 				width: 80%;
-				opacity: 0;
-				transition: 1.4s;
 				ul {
 					padding-left: 100px;
 					li {
@@ -171,8 +152,6 @@
 	  			background: #F8C734;
 	  			margin-top: 35px;
 	  			color: #fff;
-	  	
-	  			transition: 1.2s;
 	  			outline: none;
 			}
 
@@ -199,10 +178,6 @@
 					font-size: 38px;
 					text-transform: uppercase;
 					color: #777777;
-
-					opacity: 0;
-					transition: 1.2s;
-					margin-left: 40%;
 				}
 				
 				.line {
@@ -210,16 +185,10 @@
 					width: 120px;
 					background: #F8CE00;
 					margin: 5px 0px 35px 0px;
-
-					opacity: 0;
-					transition: .6s;
-					margin-left: 40%;
 				}
 
 			.partof {
 				width: 80%;
-				opacity: 0;
-				transition: 1.4s;
 				ul {
 					padding-left: 100px;
 					li {
@@ -248,32 +217,10 @@
 				margin-top: 30px ;
 
 				.container-img img {
-					opacity: 0;
 					margin-right: 40px;
 				}
 
-				.container-img:first-child img:first-child {
-					transition: 1s;
-				}
-
-				.container-img:first-child img:nth-child(2) {
-					transition: 2s;
-				}
-
-				.container-img:first-child img:last-child {
-					transition: 3s;
-				}
-
-				.container-img:last-child img:first-child {
-					transition: 4s;
-				}
-
-				.container-img:last-child img:nth-child(2) {
-					transition: 5s;
-				}
-
 				.container-img:last-child img:last-child {
-					transition: 6s;
 					margin-right: 0px;
 				}
 				
@@ -340,4 +287,11 @@
 #vacs, #contact {
 	position: absolute;
 	bottom: 15%;
+}
+
+.animate {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }

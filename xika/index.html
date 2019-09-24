@@ -6,6 +6,8 @@
 	<title>XIKA</title>
 	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -35,9 +37,12 @@
 		</header>
 		<main>
 			<div id="about" class="about">
+				<div data-wow-delay="0.5s" class="animate wow fadeInRight">
 					<h2>О НАС</h2>
-					<div class="line"></div>
-				<div class="contant-about">
+					<div  class="line"></div>
+				</div>
+					
+				<div class="contant-about wow fadeIn" data-wow-delay="0.8s">
 					<p><strong>Государственное предприятие «Харьковский научно-исследовальский институт комплексной автоматизации» (ГП «ХИКА»)</strong> образован в 1992 году на базе Всесоюзного Центрального НИИ комплексной автоматизации (ЦНИИКА, г. Москва) - является головным институтом Министерства энергетики и угольной промышленности Украины по разработке и внедрению управляющих и информационно-вычислительных систем (УВС и ИВС) верхнего уровня в составе АСУ ТП энергоблоков ТЭС и АЭС.</p>
 
 					<p>Институт располагает высококвалифицированными научно-техническими кадрами, имеющими многолетний опыт создания и внедрения разработанных систем. Организационная структура ГП «ХИКА» представлена 4-я научно-производственными отделениями:</p>
@@ -50,14 +55,16 @@
 					</ul>
 				</div>
 				<div id="service"></div>
-				<a href="about.html"><input type="button" id="btnAbout" value="Подробнее"></a>
+				<a href="about.html" class="wow fadeIn" data-wow-delay="0.5s"><input type="button" id="btnAbout" value="Подробнее"></a>
 				
 			</div>
 
 			<div id="services" class="services">
+				<div data-wow-delay="0.5s" class="animate wow fadeInLeft">
 					<h2>УСЛУГИ</h2>
 					<div class="line"></div>
-				<div class="marker">
+				</div>
+				<div class="marker wow fadeIn" data-wow-delay="0.8s">
 					<p>Институт предлагает:</p>
 						<ul>
 							<li>разработку ИВС и УВС систем в составе АСУ ТП энергоблоков ТЭС и АЭС;</li>
@@ -70,17 +77,19 @@
 							<li>сопровождение систем в эксплуатации.</li>
 						</ul>
 						<p>Разрабатываемое ПО проходит обязательную процедуру верификации. Испытания ПО проводятся: на уникальном полигоне ГП «ХИКА», на предприятии  изготовителе технических средств, на энергоблоке при вводе в эксплуатацию. Поддержка OPC технологии. Собственная уникальная SCADA система. Среда функционирования ПО ОС UNIX и ОС Windows.</p>
-							<a href="services.html"><input type="button" id="btnServices" value="Подробнее"></a>
+					<a href="services.html" class="wow fadeIn" data-wow-delay="0.5s"><input type="button" id="btnServices" value="Подробнее"></a>
 				</div>
 				
 				
 			</div>
 
 			<div id="partners" class="partners">
-				<h2>ПАРТНЁРЫ</h2>
-				<div class="line"></div>
+				<div data-wow-delay="0.5s" class="animate wow fadeInRight">
+					<h2>ПАРТНЁРЫ</h2>
+					<div class="line"></div>
+			</div>
 
-				<div class="partof">
+				<div data-wow-delay="0.8s" class="partof wow fadeIn">
 					<p>Создание и внедрение разработанных ГП «ХИКА» систем проводится совместно с отечественными и зарубежными организациями:</p>
 					<ul>
 						<li>с разработчиком технических средств управления НПО «Импульс», НПО«Радий»;</li>
@@ -91,19 +100,19 @@
 				
 				<div class="images">
 					<div class="container-img">
-						<img src="images/logo-big.jpg" alt="big">
-						<img src="images/obj.png" alt="obj">
-						<img src="images/emb.png" alt="emb">
+						<img data-wow-delay="1.4s" class="wow fadeInLeft" src="images/logo-big.jpg" alt="big">
+						<img data-wow-delay="1.1s" class="wow fadeInLeft" src="images/obj.png" alt="obj">
+						<img data-wow-delay="0.8s" class="wow fadeInLeft" src="images/emb.png" alt="emb">
 					</div>
 					<div class="container-img">
-						<img src="images/impuls.png" alt="imp">
-						<img src="images/star.png" alt="star">
-						<img src="images/fiz.png" alt="fiz">
+						<img data-wow-delay="0.5s" class="wow fadeInLeft" src="images/impuls.png" alt="imp">
+						<img data-wow-delay="0.2s" class="wow fadeInLeft" src="images/star.png" alt="star">
+						<img class="wow fadeInLeft" src="images/fiz.png" alt="fiz">
 					</div>
 				</div>
 				<div id="vacs"></div>
 			</div>
-			<div class="vacation">
+			<div class="vacation wow fadeInLeft" data-wow-delay="0.5s">
 				<h2>Вакансии</h2>
 				<div class="line"></div>
 
@@ -124,9 +133,11 @@
 			</div>
 
 			<div class="contact">
-				<h2>КОНТАКТЫ</h2>
-				<div class="line"></div>				
-				<div class="down-information">
+				<div class="animate wow fadeInRight" data-wow-delay="0.5s">
+					<h2>КОНТАКТЫ</h2>
+					<div class="line"></div>	
+				</div>			
+				<div class="down-information wow fadeI" data-wow-delay="0.8s">
 					<div id="map"></div>
 						<div class="information">
 							<div class="info-text">
@@ -173,21 +184,13 @@
 			</div>
 		</footer>
 	</div>
-
-
-	<script src="js/script.js"></script>
 	 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArQI-3vZIoF4GNck3IlfndId3LDDmfiaE&callback=initMap">
     </script>
   <script src="https://use.fontawesome.com/31deac6198.js"></script>
   <script>
-  	var $page = $('html, body');
-	$('a[href*="#"]').click(function() {
-	    $page.animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top
-	    }, 1000);
-	    return false;
-	});
+ 	new WOW().init();
   </script>
+  <script src="js/script.js"></script>
 </body>
 </html>

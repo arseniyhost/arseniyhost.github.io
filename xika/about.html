@@ -6,6 +6,8 @@
 	<title>XIKA</title>
 	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -44,7 +46,7 @@
 					<p>Парк вычислительной техники ГП «ХИКА» включает в себя 185 современных компьютеров, серверы и сетевое оборудование. Научно-технические работы института выполняются на уникальном высокотехнологичном оборудовании (полигоне) общей площадью 385 м2, на котором проводят разработку, моделирование, наладку и опробование разрабатываемых систем перед внедрением их на объектах «под ключ».</p>
 				</div>
 
-				<div class="container-poligon">
+				<div class="container-poligon wow fadeInLeftBig">
 					<img src="images/computers.jpg" alt="computer">
 					<div id="poligon" class="text-poligon">
 						<p><strong>Полигон института это:</strong></p>
@@ -154,13 +156,7 @@
   type="text/javascript"></script>
   <script src="https://use.fontawesome.com/31deac6198.js"></script>
   <script>
-  	var $page = $('html, body');
-	$('a[href*="#"]').click(function() {
-	    $page.animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top
-	    }, 1000);
-	    return false;
-	});
+  	new WOW().init();
   </script>
 </body>
 </html>
