@@ -75,7 +75,7 @@ header {
         color: #fff;
         display: block; }
     header nav #logo img {
-      width: 200px;
+      width: 90px;
       height: auto; }
     header nav .down {
       display: -webkit-box;
@@ -1048,7 +1048,7 @@ footer {
     -webkit-transition: 1.4s;
     -o-transition: 1.4s;
     transition: 1.4s;
-    width: 80%;
+    width: 75%;
     text-align: left; }
     .vacation .vacs ul {
       padding-left: 100px; }

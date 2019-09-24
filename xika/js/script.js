@@ -14,14 +14,19 @@ function scrollFunction() {
   }
 }
 
+function initMap() {
+  var pos = {lat: 49.988000, lng: 36.240135};
+  var opt = {
+    center: pos,
+    zoom: 15,
+  };
 
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 49.987970, lng: 36.240760},
-          zoom: 10
-          
-        });
+  var map = new google.maps.Map(document.getElementById("map"), opt);
+
+  var marker = new google.maps.Marker({
+    position: pos,
+    map: map,
+  });
 }
 
 
