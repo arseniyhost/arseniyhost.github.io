@@ -1,4 +1,4 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1038px) {
 	header {
 		nav {
 			flex-direction: column;
@@ -11,16 +11,22 @@
 			.menu-top {
 				display: none;
 				.down {
+					justify-content: center;
+					align-items: center;
 					flex-direction: column;
 
 					a {
 						margin-right: 0px;
 						margin-top: 8px;
 					}
+
+					button {
+						display: block;
+						margin-top: 10px;
+						width: 100px;
+					}
 				}
 			}
-
-			
 		}
 	}
 
