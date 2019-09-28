@@ -22,7 +22,7 @@
 			}
 
 		.down-information {
-			width: 85%;
+			width: 80%;
 
 			#map {
 				width: 100%;
@@ -31,7 +31,7 @@
 			}
 
 			.information {
-				width: 90%;
+				width: 100%;
 				display: flex;
 				justify-content: space-between;
 				align-items: flex-start;
@@ -70,8 +70,6 @@
 			}
 
 			form {
-				width: 455px;
-				
 				.name input[type="text"], .number input[type="text"], .email-in input[type="email"] {
 					padding: 10px;
 					border: 2px solid #F8CE00;

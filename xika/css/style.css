@@ -81,11 +81,11 @@
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 15% auto;
   /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border-radius: 10px;
   width: 200px;
   height: 50px; }
   .modal-content #btnLngENG {
@@ -263,7 +263,7 @@ header {
       padding-top: 5px; }
   main #about .contant-about p {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     text-indent: 0px; } }
 
 @media screen and (max-width: 782px) {
@@ -313,9 +313,9 @@ header {
       font-size: 16px;
       padding-top: 5px; }
   main #partners .partof p {
-    text-indent: 0px;
+    text-indent: 20px;
     font-size: 16px;
-    text-align: center; } }
+    text-align: left; } }
 
 @media screen and (max-width: 782px) {
   main #partners .partof ul {
@@ -380,9 +380,9 @@ header {
 
 @media screen and (max-width: 634px) {
   main .vacation .vacs p {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
-    text-align: center; }
+    text-align: left; }
   main .vacation .vacs ul {
     padding-left: 20px; }
     main .vacation .vacs ul li {
@@ -455,7 +455,7 @@ header {
       padding-top: 5px; }
   main #about .contant-about p {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     text-indent: 0px; } }
 
 @media screen and (max-width: 782px) {
@@ -505,9 +505,9 @@ header {
       font-size: 16px;
       padding-top: 5px; }
   main #partners .partof p {
-    text-indent: 0px;
+    text-indent: 20px;
     font-size: 16px;
-    text-align: center; } }
+    text-align: left; } }
 
 @media screen and (max-width: 782px) {
   main #partners .partof ul {
@@ -572,9 +572,9 @@ header {
 
 @media screen and (max-width: 634px) {
   main .vacation .vacs p {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
-    text-align: center; }
+    text-align: left; }
   main .vacation .vacs ul {
     padding-left: 20px; }
     main .vacation .vacs ul li {
@@ -933,13 +933,13 @@ footer {
     background: #F8CE00;
     margin: 5px 0px 35px 0px; }
   .contact .down-information {
-    width: 85%; }
+    width: 80%; }
     .contact .down-information #map {
       width: 100%;
       height: 350px;
       z-index: 1; }
     .contact .down-information .information {
-      width: 90%;
+      width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -968,47 +968,45 @@ footer {
             font-weight: bold; }
         .contact .down-information .information .info-text .email p:first-child {
           font-weight: bold; }
-      .contact .down-information .information form {
-        width: 455px; }
-        .contact .down-information .information form .name input[type="text"], .contact .down-information .information form .number input[type="text"], .contact .down-information .information form .email-in input[type="email"] {
-          padding: 10px;
-          border: 2px solid #F8CE00;
-          border-radius: 30px;
-          width: 500px;
-          font-size: 18px;
-          margin-bottom: 11px;
-          outline: none; }
-        .contact .down-information .information form .text-area textarea {
-          width: 100%;
-          height: 150px;
-          padding: 10px;
-          margin-bottom: 10px;
-          border: 2px solid #F8CE00;
-          border-radius: 20px;
-          width: 500px;
-          font-size: 18px;
-          font-family: Roboto Regular, sans-serif;
-          outline: none; }
-        .contact .down-information .information form .btn input[type="submit"] {
-          padding: 12px 32px;
-          border: 2px solid #F8CE00;
-          text-transform: uppercase;
-          border-radius: 30px;
-          background: #F8CE00;
-          cursor: pointer;
-          float: left;
-          font-size: 15px;
-          -webkit-transition: .4s;
-          -o-transition: .4s;
-          transition: .4s;
-          color: #fff; }
-        .contact .down-information .information form .btn input[type="submit"]:hover {
-          background: #fff;
-          -webkit-transition: .4s;
-          -o-transition: .4s;
-          transition: .4s;
-          color: #000;
-          outline: none; }
+      .contact .down-information .information form .name input[type="text"], .contact .down-information .information form .number input[type="text"], .contact .down-information .information form .email-in input[type="email"] {
+        padding: 10px;
+        border: 2px solid #F8CE00;
+        border-radius: 30px;
+        width: 500px;
+        font-size: 18px;
+        margin-bottom: 11px;
+        outline: none; }
+      .contact .down-information .information form .text-area textarea {
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #F8CE00;
+        border-radius: 20px;
+        width: 500px;
+        font-size: 18px;
+        font-family: Roboto Regular, sans-serif;
+        outline: none; }
+      .contact .down-information .information form .btn input[type="submit"] {
+        padding: 12px 32px;
+        border: 2px solid #F8CE00;
+        text-transform: uppercase;
+        border-radius: 30px;
+        background: #F8CE00;
+        cursor: pointer;
+        float: left;
+        font-size: 15px;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        color: #fff; }
+      .contact .down-information .information form .btn input[type="submit"]:hover {
+        background: #fff;
+        -webkit-transition: .4s;
+        -o-transition: .4s;
+        transition: .4s;
+        color: #000;
+        outline: none; }
 
 .vacation {
   width: 100%;
