@@ -1,6 +1,8 @@
 @import "burger-menu.scss";
 @import "media-about.scss";
 @import "modalLng.scss";
+@import "vars.scss";
+@import "mixin.scss";
 
 * {
 	padding: 0;
@@ -19,10 +21,7 @@ a {
 }
 
 .animate {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	@include flexder;
 }
 
 .section-header {
@@ -54,11 +53,11 @@ a {
 		.active {
 			color: #ddd;
 			transition: .4s;
-			border-bottom: 3px solid #F8CE00;
+			border-bottom: 3px solid $clrYel;
 			padding-bottom: 5px;
 		}
 		#logo img {
-			width: 90px;
+			width: 150px;
 			height: auto;
 		}
 		.down {
@@ -74,7 +73,7 @@ a {
 				a:hover {
 					color: #ddd;
 					transition: .4s;
-					border-bottom: 3px solid #F8CE00;
+					border-bottom: 3px solid $clrYel;
 					padding-bottom: 5px;
 				}
 
@@ -88,20 +87,14 @@ a {
 
 main {
 	font-family: Roboto Medium, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	@include flexder;
 
 
 
 	.about {
 		text-align: center;
 		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
+		@include flexder;
 		padding: 49px 0px;
 		background: #F8F5F5;
 
@@ -137,7 +130,7 @@ main {
 			.line {
 				height: 5px;
 				width: 120px;
-				background: #F8CE00;
+				background: $clrYel;
 				margin: 5px 0px 35px 0px;
 			}
 
@@ -262,10 +255,7 @@ main {
 		.sert {
 			width: 80%;
 			padding: 40px 0px;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
+			@include flexder;
 			text-align: center;
 			h2 {
 					font-size: 38px;
@@ -276,7 +266,7 @@ main {
 				.line {
 					height: 5px;
 					width: 120px;
-					background: #F8CE00;
+					background: $clrYel;
 					margin: 5px 0px 35px 0px;
 
 				}
@@ -328,10 +318,7 @@ footer {
 	color: #fff;
 	font-family: Roboto, sans-serif;
 	padding: 40px 0px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+	@include flexder;
 	width: 100%;
 }
 
@@ -556,7 +543,7 @@ footer {
 				.sert-info{
 					p {
 						font-size: 16px;
-						text-align: center;
+						text-align: left;
 						text-indent: 0px;
 					}
 				}
@@ -633,10 +620,7 @@ footer {
 	main {
 		.about {
 			.container-documents {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				@include flexder;
 					img:first-child {
 						margin-bottom: 20px;
 						margin-right: 0px;

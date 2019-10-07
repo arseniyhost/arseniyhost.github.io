@@ -1,10 +1,10 @@
+@import "vars.scss";
+@import "mixin.scss";
+
 .contact {
 		text-align: center;
 		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
+		@include flexder;
 		padding: 40px 0px;
 		background: #F8F5F5;
 
@@ -17,7 +17,7 @@
 			.line {
 				height: 5px;
 				width: 120px;
-				background: #F8CE00;
+				background: $clrYel;
 				margin: 5px 0px 35px 0px;
 			}
 
@@ -72,7 +72,7 @@
 			form {
 				.name input[type="text"], .number input[type="text"], .email-in input[type="email"] {
 					padding: 10px;
-					border: 2px solid #F8CE00;
+					border: 2px solid $clrYel;
 					border-radius: 30px;
 					width: 500px;
 					font-size: 18px;
@@ -85,7 +85,7 @@
 					height: 150px;
 					padding: 10px;
 					margin-bottom: 10px;
-					border: 2px solid #F8CE00;
+					border: 2px solid $clrYel;
 					border-radius: 20px;
 					width: 500px;
 					font-size: 18px;
@@ -95,10 +95,10 @@
 				
 				.btn input[type="submit"] {
 					padding: 12px 32px;
-					border: 2px solid #F8CE00;
+					border: 2px solid $clrYel;
 					text-transform: uppercase;
 					border-radius: 30px;
-					background: #F8CE00;
+					background: $clrYel;
 					cursor: pointer;
 					float: left;
 					font-size: 15px;

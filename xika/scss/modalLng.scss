@@ -1,5 +1,7 @@
+@import "vars.scss";
+
 #btnLng, #btnLngENG, #btnLngUA {
-	background: #F8CE00;
+	background: linear-gradient(bottom, #D4145A,#FBB03B);
 	font-size: 16px;
 	color: #fff;
 	padding: 10px 20px;

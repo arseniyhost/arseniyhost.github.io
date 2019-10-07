@@ -1,26 +1,16 @@
 @import "media.scss";
+@import "vars.scss";
+@import "mixin.scss";
 
 .wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@include flexder;
 	main {
 			font-family: Roboto Medium, sans-serif;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
-
-
-
+			@include flexder;
 		.about {
 			text-align: center;
 			width: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
+			@include flexder;
 			padding: 40px 0px;
 			background: #F8F5F5;
 
@@ -28,14 +18,13 @@
 				font-size: 38px;
 				text-transform: uppercase;
 				color: #777777;
-			
 			}
 				
 				.line {
 				
 					height: 5px;
 					width: 120px;
-					background: #F8CE00;
+					background: $clrYel;
 					margin: 5px 0px 35px 0px;
 				
 				}
@@ -70,12 +59,12 @@
 
 			input[type="button"] {
 				color: #fff;
-				background: #F8C734;
+				background: $clrYel;
 				cursor: pointer;
 				border-radius: 30px;
 				padding: 12px 32px;
 	  			text-align: center;
-	  			border: 2px solid #F8C734;
+	  			border: 2px solid $clrYel;
 	  			font-size: 16px;
 	  			text-transform: uppercase;
 	  			font-family: Roboto, sans-serif;
@@ -94,10 +83,7 @@
 		.services {
 			text-align: center;
 			width: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
+			@include flexder;
 			padding: 40px 0px;
 			background: #fff;
 
@@ -110,7 +96,7 @@
 				.line {
 					height: 5px;
 					width: 120px;
-					background: #F8CE00;
+					background: $clrYel;
 					margin: 5px 0px 35px 0px;
 				}
 
@@ -144,12 +130,12 @@
 				border-radius: 30px;
 				padding: 12px 32px;
 	  			text-align: center;
-	  			border: 2px solid #F8C734;
+	  			border: 2px solid $clrYel;
 	  			font-size: 16px;
 	  			text-transform: uppercase;
 	  			font-family: Roboto, sans-serif;
 	  			transition: .4s;
-	  			background: #F8C734;
+	  			background: $clrYel;
 	  			margin-top: 35px;
 	  			color: #fff;
 	  			outline: none;
@@ -167,10 +153,7 @@
 			position: relative;
 			text-align: center;
 			width: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
+			@include flexder;
 			padding: 40px 0px;
 			background: #F8F5F5;
 
@@ -183,7 +166,7 @@
 				.line {
 					height: 5px;
 					width: 120px;
-					background: #F8CE00;
+					background: $clrYel;
 					margin: 5px 0px 35px 0px;
 				}
 
@@ -290,8 +273,5 @@
 }
 
 .animate {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	@include flexder;
 }

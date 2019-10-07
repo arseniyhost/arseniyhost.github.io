@@ -8,14 +8,15 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/animate.css">
 	<script src="../js/wow.min.js"></script>
-	<script src="../js/jquery.min.js"></script>
+	<!-- <script src="../js/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 		<header>
 			<nav id="menuNav" class="menu">
 				<button  href="javascript:void(0);" id="burger" onclick="myFunction()"><i class="fa fa-bars"></i></button>
-				<a href="index.html" id="logo"><img src="../images/logo-xika.png" alt="logo"></a>
+				<a href="index.html" id="logo"><img src="../images/logo.png" alt="logo"></a>
 				<div class="menu-top" id="DownMenu">
 					<div class="down">
 						<a href="index.html">HOME</a>
@@ -40,7 +41,7 @@
 				</div>
 			<div class="text">
 				<h2 class="smallest-text">STATE ENTERPRISE</h2>
-				<h1 class="biggest-text">“KHARKIV SCIENTIFIC RESEARCH INSTITUTE<br> OF INTEGRATED AUTOMATION”</h1>
+				<h1 class="biggest-text">“KHARKIV SCIENTIFIC RESEARCH INSTITUTE<br> OF COMPLEX AUTOMATION”</h1>
 			</div>
 			<div id="aboutMain"></div>
 		</header>
@@ -52,15 +53,15 @@
 				</div>
 					
 				<div class="contant-about wow fadeIn" data-wow-delay="0.8s">
-					<p><strong>State Enterprise "Kharkiv Scientific Research Institute of Integrated Automation" (SE "HIKA")</strong> was founded in 1992 on the basis of the All-Union Central Research Institute for Integrated Automation (Central Research Institute of Automation, Moscow) - is the lead institute of the Ministry of Energy and Coal Industry of Ukraine for the development and implementation of managers and upper-level information and computing systems (ICS and IVS) as part of automated process control systems for power units of TPPs and NPPs.</p>
+					<p><strong>State Enterprise "Kharkiv Scientific Research Institute of Complex Automation" (SE "KhICA")</strong> was founded in 1992 on the basis of the All-Union Central Research Institute for Integrated Automation (Central Research Institute of Automation, Moscow) - is the lead institute of the Ministry of Energy and Coal Industry of Ukraine for the development and implementation of managers and upper-level information and computing systems (CCS and CIS) as part of automated process control systems for power units of TPPs and NPPs.</p>
 
-					<p>The Institute has highly qualified scientific and technical personnel with many years of experience in creating and implementing the developed systems. The organizational structure of SE "HIKA" is represented by 4 research and production departments:</p>
+					<p>The institute has highly skilled scientific and technological staff with long-term experience of the creation and implementation of the developed systems. The organizational structure of SE "KhICA" is represented by 4 research and production departments:</p>
 
 					<ul>
-						<li>department №1 of mathematical and information support for the tasks of automated process control systems for power units of TPPs and NPPs;</li>
-						<li>department №2 of the top-level software of automated process control systems for power units of TPPs and NPPs;</li>
-						<li>department №3 of the functioning of the subsystems of the automated process control system of power units of TPPs and NPPs;</li>
-						<li>branch №4 of the automated process control system of TPPs and NPPs.</li>
+						<li>department No. 1 of mathematical and information support for the tasks of automated process control systems for power units of TPPs and NPPs;</li>
+						<li>department No. 2 of the top-level software of automated process control systems for power units of TPPs and NPPs;</li>
+						<li>department No. 3 of the functioning of the subsystems of the automated process control system of power units of TPPs and NPPs;</li>
+						<li>branch No. 4 of the automated process control system of TPPs and NPPs.</li>
 					</ul>
 				</div>
 				<div id="service"></div>
@@ -76,12 +77,12 @@
 				<div class="marker wow fadeIn" data-wow-delay="0.8s">
 					<p>The Institute offers:</p>
 						<ul>
-							<li>development of IVS and UVS systems as part of the automated process control system of power units of TPPs and NPPs;</li>
+							<li>development of CIS and UVS systems as part of the automated process control system of power units of TPPs and NPPs;</li>
 							<li>inspection of facilities, design and development of automated process control systems at newly constructed and modernized facilities;</li>
 							<li>implementation of design work on the reconstruction, improvement and implementation of automated process control systems by power units in operation and newly commissioned has been archived;</li>
 							<li>replication of developed systems as a whole and their individual parts;</li>
 							<li>development of operational documentation for information, software and technical support of industrial control systems with power units;</li>
-							<li>personnel training for the operation of ICS and ICS as part of the automated process control system of power units;</li>
+							<li>personnel training for the operation of CCS and CIS as part of the automated process control system of power units;</li>
 							<li>methodological and advisory assistance in the creation of industrial control systems in the energy sector;</li>
 							<li>maintenance of systems in operation.</li>
 						</ul>
@@ -98,11 +99,11 @@
 			</div>
 
 				<div data-wow-delay="0.8s" class="partof wow fadeIn">
-					<p>Creation and implementation of the systems developed by the HIKA SE is carried out jointly with domestic and foreign organizations:</p>
+					<p>The creation and implementation of the systems developed by KhICA is carried out jointly with domestic and foreign organizations:</p>
 					<ul>
-						<li>with the developer of technical controls for NPO Impuls, NPO Radiy;</li>
-						<li>design institutes (Kharkivenerenergoproekt, Kyivenergoproekt);</li>
-						<li>technological organizations (CJSC LvivORGRES, LLC EMV-ENERGO, LLC Baltic Information Systems (Lithuania), LLC Moscow Plant Fizpribor.</li>
+						<li>with the developer of technical controls of CJSC SNPO Impuls, ZAO NPO Radiy;</li>
+						<li>with the developer of technical controls of CJSC SNPO Impuls, ZAO NPO Radiy;</li>
+						<li>technological organizations (CJSC LvivORGRES, EMV-ENERGO, LLC Baltic Information Systems (Lithuania), LLC Moscow Plant Fizpribor.</li>
 					</ul>
 				</div>
 				
@@ -166,16 +167,16 @@
 							<div class="form">
 								<form>
 									<div class="name">
-										<input type="text" placeholder="Your name">
+										<input type="text" required="" name="Имя" placeholder="Your name">
 									</div>
 									<div class="number">
-										<input type="text" placeholder="Phone number">
+										<input type="text" required="" name="Телефон" placeholder="Phone number">
 									</div>
 									<div class="email-in">
-										<input type="email" placeholder="Email">
+										<input type="email" required="" name="email" placeholder="Email">
 									</div>
 									<div class="text-area">
-										<textarea placeholder="Your message"></textarea>
+										<textarea required="" name="Сообщение" placeholder="Your message"></textarea>
 									</div>
 									<div class="btn">
 										<input type="submit" value="Send">
@@ -188,7 +189,7 @@
 		</main>
 		<footer>
 			<div class="container">
-				<p>© 2019 State Enterprise “HIKA”</p>
+				<p>© 2019 State Enterprise “KhICA”</p>
 			</div>
 		</footer>
 	</div>
@@ -196,243 +197,29 @@
   type="text/javascript"></script>
   <script src="https://use.fontawesome.com/31deac6198.js"></script>
   <script>
-  	var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 49.992636, lng: 36.241165},
-          zoom: 15,
-          styles: [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#ebe3cd"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#523735"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#f5f1e6"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#c9b2a6"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#dcd2be"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "color": "#59abe1"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#ae9e90"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape.natural",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#93817c"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#a5b076"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#447530"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f5f1e6"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#fdfcf8"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f8c967"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#e9bc62"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e98d58"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#db8555"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#806b63"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#8f7d77"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#ebe3cd"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dfd2ae"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#b9d3c2"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#92998d"
-      }
-    ]
-  }
-]
-        });
-
-        var marker = new google.maps.Marker({
-        	position: {lat: 49.992636, lng: 36.241165},
-        	map: map
-        });
-      }
  	new WOW().init();
+  </script>
+  <script>
+    $(document).ready(function() {
+
+  //E-mail Ajax Send
+  $("form").submit(function() { //Change
+    var th = $(this);
+    $.ajax({
+      type: "POST",
+      url: "mail.php", //Change
+      data: th.serialize()
+    }).done(function() {
+      alert("Thank you!");
+      setTimeout(function() {
+        // Done Functions
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+
+});
   </script>
   <script src="../js/script.js"></script>
 </body>
