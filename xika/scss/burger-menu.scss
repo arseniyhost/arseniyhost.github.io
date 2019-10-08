@@ -70,6 +70,7 @@
 	#top_menu {
 		width: 100%;
 		text-align: center;
+    margin-top: 10px;
 	}
 
 	.inner_menu {
@@ -92,6 +93,8 @@
 
 
 	.inner_menu {
+    text-align: center;
+    background: none;
 		display: block;
   		position: relative;
 	}

@@ -62,7 +62,8 @@
     width: 100%; }
   #top_menu {
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    margin-top: 10px; }
   .inner_menu {
     z-index: 1000; } }
 
@@ -84,6 +85,8 @@
     #top_menu li {
       font-size: 14px; }
   .inner_menu {
+    text-align: center;
+    background: none;
     display: block;
     position: relative; } }
 
