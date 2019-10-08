@@ -317,7 +317,7 @@ main {
         main .services .results .achivements ul {
           padding-left: 50px; }
           main .services .results .achivements ul li {
-            list-style: decimal;
+            list-style: disc;
             text-align: left;
             line-height: 1.5;
             font-size: 18px;

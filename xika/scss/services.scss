@@ -134,10 +134,9 @@ main {
 			.achivements {
 				width: 80%;
 				ul {
-
 					padding-left: 50px;
 					li {
-						list-style: decimal; 
+						list-style: disc; 
 						text-align: left;
 						line-height: 1.5;
 						font-size: 18px;
@@ -209,6 +208,9 @@ main {
 		}
 }
 
+table {
+	
+}
 
 footer {
 	background: #2d2d2d;
