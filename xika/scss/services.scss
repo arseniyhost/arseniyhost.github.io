@@ -25,7 +25,7 @@ a {
 }
 
 .section-header {
-	background: url(../images/header-bg.jpg) no-repeat;
+	background: url(../images/bg-7.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: top top;
@@ -33,6 +33,8 @@ a {
 		width: 100%;
 		display: flex;
 		justify-content: space-around;
+		flex-wrap: wrap;
+
 		align-items: center;
 		font-size: 18px;
 		font-family: Roboto, sans-serif;
@@ -40,6 +42,7 @@ a {
 		padding: 40px 0px;
 		z-index: 100;
 		a {
+			
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -50,37 +53,11 @@ a {
 			}
 		}
 
-		.active {
-			color: #ddd;
-			transition: .4s;
-			border-bottom: 3px solid $clrYel;
-			padding-bottom: 5px;
-		}
 		#logo img {
-			width: 150px;
+			width: 100px;
 			height: auto;
 		}
-		.down {
-			display: flex;
-			
-				a {
-					margin-right: 40px;
-					color: #fff;
-					text-transform: uppercase;
-					transition: .4s;
-				}
-
-				a:hover {
-					color: #ddd;
-					transition: .4s;
-					border-bottom: 3px solid $clrYel;
-					padding-bottom: 5px;
-				}
-
-			a:last-child {
-				margin-right: 0px;
-			}
-		}
+		
 	}
 }
 
@@ -373,4 +350,6 @@ footer {
 		}
 	}
 }
+
+
 

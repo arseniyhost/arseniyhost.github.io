@@ -28,6 +28,7 @@ header {
 		padding: 40px 0px;
 		z-index: 100;
 		a {
+			
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -96,7 +97,6 @@ header {
     }
 }
 
-#aboutMain {
-	position: absolute;
-	bottom: 15%;
-}
+.inner_menu > li > a{
+	width: 100%;
+ }

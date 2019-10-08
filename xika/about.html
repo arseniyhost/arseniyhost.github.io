@@ -14,29 +14,27 @@
 	<div class="wrapper">
 		<header class="section-header">
 			<nav id="menuNav" class="menu">
-				<button  href="javascript:void(0);" id="burger" onclick="myFunction()"><i class="fa fa-bars"></i></button>
-				<a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
-				<div class="menu-top" id="DownMenu">
-					<div class="down">
-						<a href="index.html">Главная</a>
-						<a class="active" href="index.html#aboutMain">О нас</a>
-						<a href="index.html#service">Услуги</a>
-						<a href="index.html#vacs">Вакансии</a>
-						<a href="incomes.html">Публичная информация</a>
-						<a href="index.html#contact">Контакты</a>
-						<button id="btnLng">
-							RU
-						</button>
-					</div>
-				</div>			
-			</nav>
-				<div id="myModal" class="modal">
-				  <div class="modal-content">
-				    <span class="close">&times;</span>
-				    <a href="eu/about.html"><button id="btnLngENG">ENG</button></a>
-				    <a href="ua/about.html"><button id="btnLngUA">UA</button></a>
-				  </div>
+				<a href="index.html" id="logo"><img src="images/logo-2.png" alt="logo"></a>
+				<div class="menuNavigator">
+					<ul id=top_menu>
+				    <li><a href="#about">О нас</a></li>
+				    <li><a href="#services">Технологии</a>
+				      <ul class="inner_menu">
+				       	<li><a href="index.html#services">Услуги</a></li>
+				        <li><a href="services.html#result">Системы</a></li>
+				        <li><a href="services.html#functions">Функции <br>систем</a></li>
+				        <li><a href="services.html#software">Технологии <br>разработки</a></li>
+				      </ul>
+				    </li>
+				    <li><a href="incomes.html">Публичная информация</a></li>
+				    <li><a href="#cont">Контакты</a></li>
+				  </ul>
 				</div>
+
+				<div class="burger-menu">
+					<i class="fa fa-bars"></i>
+				</div>
+			</nav>
 		</header>
 		<main>
 			<div class="about">
@@ -65,7 +63,7 @@
 								<li>рабочие места операторов (РМОТ);</li>
 								<li>сервера архивации;</li>
 								<li>шлюзы внешних систем;</li>
-								<li>комплекс технических средств МСКУ – 4 для связи с внешним оборудованием и системами АЭС и ТЭС;</li>
+								<li>комплекс технических средств МСКУ-4 для связи с внешним оборудованием и системами энергоблока;</li>
 								<li>синхрометр системы единого времени;</li>
 							</ul>				
 					</div>

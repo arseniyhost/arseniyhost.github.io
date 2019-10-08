@@ -35,7 +35,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("menuNav").style.position = "fixed";
     document.getElementById("menuNav").style.padding = "10px 0px";
-    document.getElementById("menuNav").style.background = "#000";
+    document.getElementById("menuNav").style.background = "rgba(0,0,0,0.7)";
 
 
   } else {
@@ -59,7 +59,7 @@ const topMenu = document.querySelector('.menuNavigator');
 
 burger.addEventListener('click', () => {
     topMenu.style.display = (topMenu.style.display == 'block') ? '' : 'block';
-    document.getElementById("menuNav").style.background = "#000";
+    document.getElementById("menuNav").style.background = "rgba(0,0,0,0.7)";
 
 });
 

@@ -1,6 +1,7 @@
 @import "media.scss";
 @import "vars.scss";
 @import "mixin.scss";
+@import "burger-menu.scss";
 
 .wrapper {
 	@include flexder;
@@ -84,7 +85,7 @@
 			text-align: center;
 			width: 100%;
 			@include flexder;
-			padding: 40px 0px;
+			padding: 50px 0px;
 			background: #fff;
 
 			h2 {
@@ -101,7 +102,52 @@
 				}
 
 			.marker {
+				margin-top: 50px;
 				width: 80%;
+				display: flex;
+				justify-content: center;
+				.container-technologies {
+					margin-right: 40px;
+					display: flex;
+					.box {
+						margin-right: 40px;
+						.circle {
+							cursor: pointer;
+							transition: .4s all;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 300px;
+							height: 300px;
+							border-radius: 100%;
+							background: #F8F5F5;
+
+							img {
+
+							}
+						}
+
+						h3 {
+							text-transform: uppercase;
+							margin-top: 40px;
+							font-size: 30px;
+							color: #767676;
+							font-weight: normal;
+						}
+					}
+
+					.circle:hover {
+						background: $clrYel;
+					}
+
+					.box:last-child {
+						margin-right: 0px;
+					}
+				}
+				.container-technologies:last-child {
+					margin-right: 0px;
+				}
+
 				ul {
 					padding-left: 100px;
 					li {
@@ -274,4 +320,46 @@
 
 .animate {
 	@include flexder;
+}
+
+@media screen and (max-width: 1340px) {
+	main {
+		.services {
+			.marker {
+				flex-direction: column;
+				align-items: center;
+					.container-technologies {
+						margin-bottom: 30px;
+						margin-right: 0px;
+
+					.box {
+						margin-right: 0px;
+						@include flexder;
+					}
+					
+				}
+
+				.container-technologies:last-child {
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 720px) {
+	main {
+		.services {
+			.marker {
+					.container-technologies {
+						flex-direction: column;
+
+					.box {
+						flex-direction: column;
+					}
+					
+				}
+			}
+		}
+	}
 }
