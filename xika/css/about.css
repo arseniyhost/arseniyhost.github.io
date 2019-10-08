@@ -34,7 +34,7 @@
   padding-left: 0;
   text-align: left;
   white-space: nowrap;
-  background: rgba(0, 0, 0, 0.8); }
+  background: rgba(0, 0, 0, 0.5); }
 
 .inner_menu > li > a {
   display: inline-block;
@@ -116,7 +116,7 @@ a {
   align-items: center; }
 
 .section-header {
-  background: url(../images/bg-7.jpg) no-repeat;
+  background: url(../images/header-bg.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top top; }

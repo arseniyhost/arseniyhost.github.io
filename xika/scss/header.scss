@@ -1,6 +1,5 @@
-@import "burger-menu.scss";
-@import "modalLng.scss";
 @import "vars.scss";
+@import "burger-menu.scss";
 
 .wrapper {
 	overflow: hidden;
@@ -8,7 +7,7 @@
 }
 
 header {
-	background: url(../images/bg-7.jpg) no-repeat;
+	background: url(../images/header-bg.png) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center top;
