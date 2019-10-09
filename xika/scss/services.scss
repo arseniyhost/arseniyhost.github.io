@@ -209,7 +209,31 @@ main {
 }
 
 table {
-	
+	margin: 30px 0px 30px 0px;
+}
+
+.table-bordered {
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		li {
+
+		}
+	}
+}
+
+.table-bordered {
+	tbody {
+		tr:nth-child(4), tr:nth-child(5), tr:nth-child(6) {
+			td:nth-child(3), td:nth-child(4) {
+				padding-top: 50px;
+			}
+		}
+	}
 }
 
 footer {
@@ -217,8 +241,11 @@ footer {
 	color: #fff;
 	font-family: Roboto, sans-serif;
 	padding: 40px 0px;
-	@include flexder;
 	width: 100%;
+	@include flexder;
+	.container {
+		@include flexder;
+	}
 }
 
 @media screen and (max-width: 700px) {
