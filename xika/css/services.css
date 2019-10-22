@@ -19,34 +19,11 @@
   transition: background-color 0.25s, color 0.15s;
   text-transform: uppercase; }
 
-#top_menu > li > a:hover {
-  background: rgba(0, 0, 0, 0.5); }
-
-#top_menu > li:hover > ul {
-  display: block; }
-
-.inner_menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  list-style: none;
-  padding-left: 0;
-  text-align: left;
-  white-space: nowrap;
-  background: rgba(0, 0, 0, 0.5); }
-
-.inner_menu > li > a {
-  display: inline-block;
-  padding: 10px 20px;
-  color: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff; }
-
-.inner_menu > li > a:hover {
-  color: white;
-  background: rgba(0, 0, 0, 0.6); }
+.menuNavigator ul li a:hover {
+  border-bottom: 2px solid #F8CE00;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s; }
 
 .burger-menu {
   display: none;
@@ -183,11 +160,24 @@ a {
   -ms-flex-align: center;
   align-items: center; }
 
+#menuNav {
+  background: rgba(0, 0, 0, 0.7); }
+
+#ancharService {
+  position: absolute;
+  top: 35%; }
+
+#ancharSoft {
+  position: absolute;
+  bottom: 15%; }
+
 .section-header {
-  background: url(../images/header-bg.png) no-repeat;
+  background: url(../images/header-services.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: top top; }
+  background-position: center center;
+  height: 50vh;
+  z-index: 1000; }
   .section-header nav {
     width: 100%;
     display: -webkit-box;
@@ -222,10 +212,11 @@ a {
         color: #fff;
         display: block; }
     .section-header nav #logo img {
-      width: 100px;
+      width: 125px;
       height: auto; }
 
 main {
+  position: relative;
   font-family: Roboto Medium, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,6 +259,7 @@ main {
       background: #F8CE00;
       margin: 5px 0px 35px 0px; }
     main .services .marker {
+      position: relative;
       width: 80%; }
       main .services .marker ul {
         padding-left: 100px; }
@@ -286,6 +278,9 @@ main {
         text-indent: 35px; }
       main .services .marker p:last-child {
         margin-top: 10px; }
+      main .services .marker #ancharResult {
+        position: absolute;
+        bottom: 25%; }
     main .services .results {
       text-align: center;
       width: 100%;
@@ -313,18 +308,16 @@ main {
         background: #F8CE00;
         margin: 5px 0px 35px 0px; }
       main .services .results .achivements {
+        position: relative;
         width: 80%; }
         main .services .results .achivements ul {
           padding-left: 50px; }
           main .services .results .achivements ul li {
-            list-style: disc;
+            list-style: decimal;
             text-align: left;
             line-height: 1.5;
             font-size: 18px;
             padding-top: 10px; }
-            main .services .results .achivements ul li ul li {
-              list-style: disc;
-              font-size: 16px; }
         main .services .results .achivements p {
           margin-bottom: 10px;
           line-height: 1.5;
@@ -377,6 +370,27 @@ main {
 table {
   margin: 30px 0px 30px 0px; }
 
+@media screen and (max-width: 600px) {
+  .table-striped thead {
+    display: none; }
+  .table-striped tbody tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media screen and (max-width: 535px) {
+  table:last-child {
+    font-size: 12px; }
+  .table-marker {
+    font-size: 12px; } }
+
 .table-bordered ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -414,21 +428,13 @@ footer {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
-  footer .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+  align-items: center;
+  text-align: center; }
+  footer p {
+    margin-bottom: 0px; }
+  footer p:last-child {
+    font-size: 14px;
+    margin-top: 10px; }
 
 @media screen and (max-width: 700px) {
   main .services .marker ul {

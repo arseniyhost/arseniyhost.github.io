@@ -1,7 +1,79 @@
 @import "vars.scss";
+@import "burger-menu.scss";
 @import "mixin.scss";
+@import "vacation.scss";
+@import "footer.scss";
+@import "media.scss";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.wrapper {
+	overflow: hidden;
+}
+
+.animate {
+	@include flexder;
+}
+
+#menuNav {
+	background: rgba(0,0,0,0.7);
+}
+
+#ancharContact {
+	position: absolute;
+	bottom: 25%;
+}
+
+.section-header {
+	background: url(../images/header-contact.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	height: 50vh;
+	nav {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		align-items: center;
+		font-size: 18px;
+		font-family: Roboto, sans-serif;
+		transition: .5s;
+		padding: 40px 0px;
+		z-index: 100;
+		a {
+			
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			h1 {
+				font-size: 40px;
+				color: #fff;
+				display: block;			
+			}
+		}
+
+		#logo img {
+			width: 125px;
+			height: auto;
+		}
+		
+	}
+}
 
 .contact {
+		font-family: Roboto Medium, sans-serif;
 		text-align: center;
 		width: 100%;
 		@include flexder;
@@ -12,6 +84,7 @@
 			font-size: 38px;
 			text-transform: uppercase;
 			color: #777777;
+			font-weight: 600;
 		}
 			
 			.line {
@@ -116,3 +189,15 @@
 		}
 		
 	}
+
+
+@media screen and (max-width: 880px) {
+	#map {
+		width: 70%;
+		height: 400px;
+		img {
+			height: 100%;
+			
+		}
+	}
+}

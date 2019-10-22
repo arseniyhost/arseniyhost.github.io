@@ -15,6 +15,7 @@ header {
 	width: 100%;
 	position: relative;
 	nav {
+		z-index: 1000;
 		width: 100%;
 		display: flex;
 		justify-content: space-around;
@@ -39,7 +40,7 @@ header {
 		}
 
 		#logo img {
-			width: 100px;
+			width: 125px;
 			height: auto;
 		}
 		

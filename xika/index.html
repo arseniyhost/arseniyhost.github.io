@@ -18,17 +18,11 @@
 				<a href="index.html" id="logo"><img src="images/logo-2.png" alt="logo"></a>
 				<div class="menuNavigator">
 					<ul id=top_menu>
-					<li><a href="index.html">Главная</a></li>
-				    <li><a href="#about">О нас</a></li>
-				    <li><a href="#services">Технологии</a>
-				      <ul class="inner_menu">
-				        <li><a href="#services">Услуги</a></li>
-				        <li><a href="#services">ДОСТИГНУТЫЕ<br>РЕЗУЛЬТАТЫ</a></li>
-				        <li><a href="#services">ПО ВЕРХНЕГО<br>УРОВНЯ</a></li>
-				      </ul>
-				    </li>
-				    <li><a href="incomes.html">Публичная информация</a></li>
-				    <li><a href="#cont">Контакты</a></li>
+						<li><a href="index.html">Главная</a></li>
+					    <li><a class="click" href="#about">О нас</a></li>
+					    <li><a class="click" href="#services">Технологии</a></li>
+					    <li><a href="incomes.html">Публичная информация</a></li>
+					    <li><a href="contact.html">Контакты</a></li>
 				  </ul>
 				</div>
 
@@ -69,22 +63,21 @@
 
 			<div id="services" class="services">
 				<div data-wow-delay="0.5s" class="animate wow fadeInLeft">
-					<h2>Технологии</h2>
 					<div class="line"></div>
 				</div>
-				<div class="marker wow fadeIn" data-wow-delay="0.8s">
+				<div class="marker">
 					<div class="container-technologies">
-						<div class="box">
-							<a href="services.html"><div class="circle"><img src="images/services.png" alt="serv"></div></a>
+						<div data-wow-delay="0.5s" class="box wow fadeInRight">
+							<a href="services.html#ancharService"><div class="circle"><img src="images/services.png" alt="serv"></div></a>
 							<h3>услуги</h3>
 						</div>
-						<div class="box">
-							<a href="services.html#result"><div class="circle"><img src="images/done.png" alt=""></div></a>
+						<div data-wow-delay="0.8s" class="box wow fadeInRight">
+							<a href="services.html#ancharResult"><div class="circle"><img src="images/done.png" alt=""></div></a>
 							<h3>ДОСТИГНУТЫЕ<br>РЕЗУЛЬТАТЫ </h3>
 						</div>
-						<div class="box">
-							<a href="services.html#software"><div class="circle"><img src="images/setting.png" alt=""></div></a>
-							<h3>ПО ВЕРХНЕГО<br>УРОВНЯ</h3>
+						<div data-wow-delay="1.1s" class="box wow fadeInRight">
+							<a href="services.html#ancharSoft"><div class="circle"><img src="images/setting.png" alt=""></div></a>
+							<h3>ПО</h3>
 						</div>
 					</div>
 				</div>
@@ -121,85 +114,15 @@
 				</div>
 				<div id="vacs"></div>
 			</div>
-			<div class="vacation wow fadeInLeft" data-wow-delay="0.5s">
-				<h2>Вакансии</h2>
-				<div class="line"></div>
-
-				<div class="vacs">
-					<p><strong>Разработчик баз данных SQL (developer_SQL)</strong></p>
-					<p><strong>Разработчик программного обеспечения</strong></p>
-					<p>ТРЕБОВАНИЯ:</p>
-					<ul>
-						<li>знание операционной системы Linux;</li>
-						<li>знание операционной системы Windows (на уровне пользователя);</li>
-						<li>владение языками программирования С, С++;</li>
-						<li>навыки работы с СУБД Interbase, Firebird;</li>
-						<li>знание технического украинского, русского языка, базовый английский.</li>
-					</ul>
-				</div>
-					
-			</div>
-
-			<div id="cont" class="contact">
-				<div class="animate wow fadeInRight" data-wow-delay="0.5s">
-					<h2>КОНТАКТЫ</h2>
-					<div class="line"></div>	
-				</div>			
-				<div class="down-information wow fadeIn" data-wow-delay="0.8s">
-					<div id="map"></div>
-						<div class="information">
-							<div class="info-text">
-								<div class="adress">
-									<p>Мы находимся по адресу:</p>
-									<p>г. Харьков, пер. Кузнечный, 2</p>
-								</div>
-								<div class="numbers">
-									<p>Номер телефона:</p>
-									<p>(057) 731-61-17</p>
-									<p>(057) 732-65-66</p>
-								</div>
-								<div class="email">
-									<p>email:</p>
-									<p>xika@ukrpost.net</p>
-								</div>
-							</div>
-							<div class="form">
-								<form>
-									<!-- Hidden Required Fields -->
-									<input type="hidden" name="project_name" value="Xika">
-									<input type="hidden" name="admin_email" value="arsen.pilipenko2014@gmail.com">
-									<input type="hidden" name="form_subject" value="footer form">
-									<!-- END Hidden Required Fields -->
-
-									<div class="name">
-										<input type="text" required="" name="Имя" placeholder="Ваше Имя">
-									</div>
-									<div class="number">
-										<input type="text" name="Телефон" placeholder="Номер телефона">
-									</div>
-									<div class="email-in">
-										<input type="email" required="" name="email" placeholder="Email">
-									</div>
-									<div class="text-area">
-										<textarea name="Сообщение" required="" placeholder="Ваше сообщение"></textarea>
-									</div>
-									<div class="btn">
-										<input type="submit" value="Отправить">
-									</div>
-								</form>
-							</div>
-						</div>
-				</div>
-			</div>
 		</main>
 		<footer>
 			<div class="container">
 				<p>© 2019 ГП “ХИКА”</p>
+				<p>dev by Pilipenko.A.A</p>
 			</div>
 		</footer>
 	</div>
-	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnrkWeK5tgMmic4tiqG27axc4WaYOdQNI&callback=initMap"
-  type="text/javascript"></script>
+
   <script src="https://use.fontawesome.com/31deac6198.js"></script>
   <script>
  	new WOW().init();

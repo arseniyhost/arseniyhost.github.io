@@ -24,11 +24,27 @@ a {
 	@include flexder;
 }
 
+#menuNav {
+	background: rgba(0,0,0,0.7);
+}
+
+#ancharService {
+	position: absolute;
+	top: 35%;
+}
+
+#ancharSoft {
+	position: absolute;
+	bottom: 15%;
+}
+
 .section-header {
-	background: url(../images/header-bg.png) no-repeat;
+	background: url(../images/header-services.png) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: top top;
+	background-position: center center;
+	height: 50vh;
+	z-index: 1000;
 	nav {
 		width: 100%;
 		display: flex;
@@ -54,7 +70,7 @@ a {
 		}
 
 		#logo img {
-			width: 100px;
+			width: 125px;
 			height: auto;
 		}
 		
@@ -62,6 +78,7 @@ a {
 }
 
 main {
+	position: relative;
 		font-family: Roboto Medium, sans-serif;
 		@include flexder;
 	.services {
@@ -86,6 +103,7 @@ main {
 				}
 
 			.marker {
+				position: relative;
 				width: 80%;
 				ul {
 					padding-left: 100px;
@@ -110,6 +128,10 @@ main {
 				p:last-child {
 					margin-top: 10px;
 				}
+				#ancharResult {
+					position: absolute;
+					bottom: 25%;
+				}
 			}
 			.results {
 			text-align: center;
@@ -132,21 +154,16 @@ main {
 				}
 
 			.achivements {
+				position: relative;
 				width: 80%;
 				ul {
 					padding-left: 50px;
 					li {
-						list-style: disc; 
+						list-style: decimal; 
 						text-align: left;
 						line-height: 1.5;
 						font-size: 18px;
 						padding-top: 10px;
-						ul {
-							li {
-								list-style: disc;
-								font-size: 16px;
-							}
-						}
 					}
 				}
 
@@ -162,6 +179,7 @@ main {
 				p:last-child {
 					margin-top: 10px;
 				}
+
 			}
 		}
 		.container-table {
@@ -211,6 +229,29 @@ main {
 table {
 	margin: 30px 0px 30px 0px;
 }
+@media screen and (max-width: 600px) {
+	.table-striped {
+		thead {
+			display: none;
+		}
+		tbody {
+			tr {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	}	
+}
+@media screen and (max-width: 535px) {
+	table:last-child {
+		font-size: 12px;
+	}
+
+	.table-marker {
+			font-size: 12px;
+		}
+}
 
 .table-bordered {
 
@@ -242,9 +283,17 @@ footer {
 	font-family: Roboto, sans-serif;
 	padding: 40px 0px;
 	width: 100%;
-	@include flexder;
-	.container {
-		@include flexder;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	p{
+		margin-bottom: 0px;
+	}
+	p:last-child {
+		font-size: 14px;
+		margin-top: 10px;
 	}
 }
 
