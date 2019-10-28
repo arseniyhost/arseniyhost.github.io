@@ -11,14 +11,15 @@
   display: inline-block;  
   position: relative;
   height: 100%;
+  transition: .4s all;
 }
 #top_menu > li > a {
   display: inline-block;
   padding: 10px 20px; 
   color: #fff;
   text-decoration: none; 
-  transition: background-color 0.25s, color 0.15s;
   text-transform: uppercase;
+  transition: .4s all;
 }
 
 .menuNavigator {
@@ -27,7 +28,6 @@
 			
 			a:hover {
 				border-bottom: 2px solid $clrYel;
-				transition: .4s;
 			}
 		}
 	}

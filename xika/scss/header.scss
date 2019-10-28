@@ -6,6 +6,18 @@
 	position: relative;
 }
 
+#head {
+	position: relative;
+	#menuNav {
+		background: none;
+	}
+}
+
+#ancharAbout {
+	position: absolute;
+	bottom: 15%;
+}
+
 header {
 	background: url(../images/header-bg.png) no-repeat;
 	-webkit-background-size: cover;
@@ -99,4 +111,4 @@ header {
 
 .inner_menu > li > a{
 	width: 100%;
- }
+}

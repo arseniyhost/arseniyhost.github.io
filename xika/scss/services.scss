@@ -39,7 +39,7 @@ a {
 }
 
 .section-header {
-	background: url(../images/header-services.png) no-repeat;
+	background: url(../images/financial-2860753_1920.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -164,6 +164,11 @@ main {
 						line-height: 1.5;
 						font-size: 18px;
 						padding-top: 10px;
+						ul {
+							li {
+								list-style: disc;
+							}
+						}
 					}
 				}
 

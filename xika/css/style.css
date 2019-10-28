@@ -7,23 +7,23 @@
 #top_menu > li {
   display: inline-block;
   position: relative;
-  height: 100%; }
+  height: 100%;
+  -webkit-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all; }
 
 #top_menu > li > a {
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: background-color 0.25s, color 0.15s;
-  -o-transition: background-color 0.25s, color 0.15s;
-  transition: background-color 0.25s, color 0.15s;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all; }
 
 .menuNavigator ul li a:hover {
-  border-bottom: 2px solid #F8CE00;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
+  border-bottom: 2px solid #F8CE00; }
 
 .burger-menu {
   display: none;
@@ -70,6 +70,15 @@
 .wrapper {
   overflow: hidden;
   position: relative; }
+
+#head {
+  position: relative; }
+  #head #menuNav {
+    background: none; }
+
+#ancharAbout {
+  position: absolute;
+  bottom: 15%; }
 
 header {
   background: url(../images/header-bg.png) no-repeat;
@@ -572,23 +581,23 @@ header {
 #top_menu > li {
   display: inline-block;
   position: relative;
-  height: 100%; }
+  height: 100%;
+  -webkit-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all; }
 
 #top_menu > li > a {
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: background-color 0.25s, color 0.15s;
-  -o-transition: background-color 0.25s, color 0.15s;
-  transition: background-color 0.25s, color 0.15s;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all; }
 
 .menuNavigator ul li a:hover {
-  border-bottom: 2px solid #F8CE00;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
+  border-bottom: 2px solid #F8CE00; }
 
 .burger-menu {
   display: none;
@@ -662,6 +671,7 @@ header {
     -ms-flex-align: center;
     align-items: center; }
     .wrapper main .about {
+      position: relative;
       text-align: center;
       width: 100%;
       display: -webkit-box;
@@ -679,6 +689,9 @@ header {
       align-items: center;
       padding: 40px 0px;
       background: #F8F5F5; }
+      .wrapper main .about #ancharServices {
+        position: absolute;
+        bottom: 20%; }
       .wrapper main .about h2 {
         font-size: 38px;
         text-transform: uppercase;
@@ -953,23 +966,23 @@ footer {
 #top_menu > li {
   display: inline-block;
   position: relative;
-  height: 100%; }
+  height: 100%;
+  -webkit-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all; }
 
 #top_menu > li > a {
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: background-color 0.25s, color 0.15s;
-  -o-transition: background-color 0.25s, color 0.15s;
-  transition: background-color 0.25s, color 0.15s;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-transition: .4s all;
+  -o-transition: .4s all;
+  transition: .4s all; }
 
 .menuNavigator ul li a:hover {
-  border-bottom: 2px solid #F8CE00;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s; }
+  border-bottom: 2px solid #F8CE00; }
 
 .burger-menu {
   display: none;
